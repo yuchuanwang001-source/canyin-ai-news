@@ -1,0 +1,15 @@
+[2026/06/09 周二 17:05:30.20] Start update 
+==================================================
+  餐饮AI情报站 — 数据采集
+  运行时间: 2026-06-09 17:05:30
+==================================================
+Traceback (most recent call last):
+  File "C:\Users\HUAWEI\Desktop\餐饮AI情报站\scraper.py", line 371, in <module>
+    main()
+  File "C:\Users\HUAWEI\Desktop\餐饮AI情报站\scraper.py", line 328, in main
+    all_a.extend(scrape_hongcan())
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\HUAWEI\Desktop\餐饮AI情报站\scraper.py", line 87, in scrape_hongcan
+    print("\n\U0001f4f0 红餐网 (canyin88.com)")
+UnicodeEncodeError: 'gbk' codec can't encode character '\U0001f4f0' in position 2: illegal multibyte sequence
+[2026/06/09 周二 17:05:30.78] Done 

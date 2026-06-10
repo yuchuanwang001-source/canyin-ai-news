@@ -1,7 +1,237 @@
 {
-  "updated": "2026-06-10T14:58:34.009402+08:00",
-  "articleCount": 108,
+  "updated": "2026-06-10T16:52:29.183532+08:00",
+  "articleCount": 121,
   "articles": [
+    {
+      "id": "de54d30af8f4",
+      "title": "GPT-5.6首批实测来了，精准狙击Mythos",
+      "url": "https://www.36kr.com/p/3846985546500361",
+      "source": "36氪AI",
+      "time": "2026-06-10T16:53:21+08:00",
+      "summary": "本月发布！",
+      "image": "https://img.36krcdn.com/hsossms/20260610/v2_9eb7b924de79462d826dd6b60ef6978b@46958@ai_oswg965193oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "AI动态",
+      "tags": [],
+      "score": 70,
+      "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
+      "date": "6月10日",
+      "dateSort": "2026-06-10",
+      "timeDisplay": "16:53"
+    },
+    {
+      "id": "83163a982680",
+      "title": "Claude Fable 5首日实测，杀疯了…",
+      "url": "https://www.36kr.com/p/3846985612151042",
+      "source": "36氪AI",
+      "time": "2026-06-10T16:53:18+08:00",
+      "summary": "听取哇声一片",
+      "image": "https://img.36krcdn.com/hsossms/20260610/v2_4b20ea031add4194a7145f613260ea7e@46958@ai_oswg843453oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "AI动态",
+      "tags": [],
+      "score": 70,
+      "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
+      "date": "6月10日",
+      "dateSort": "2026-06-10",
+      "timeDisplay": "16:53"
+    },
+    {
+      "id": "3e52aa9b46d4",
+      "title": "谁有“神话模型”Mythos 5的访问权限？",
+      "url": "https://www.36kr.com/p/3846985637317124",
+      "source": "36氪AI",
+      "time": "2026-06-10T16:53:15+08:00",
+      "summary": "请“敲门”申请。",
+      "image": "https://img.36krcdn.com/hsossms/20260610/v2_8bf72e36346444d3bcfa8c8a14dfe1a4@46958@ai_oswg898335oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "AI动态",
+      "tags": [],
+      "score": 70,
+      "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
+      "date": "6月10日",
+      "dateSort": "2026-06-10",
+      "timeDisplay": "16:53"
+    },
+    {
+      "id": "8859decf9af5",
+      "title": "最强Fable 5跨越神话时刻，但AI学会了自相残杀",
+      "url": "https://www.36kr.com/p/3846985806252548",
+      "source": "36氪AI",
+      "time": "2026-06-10T16:53:11+08:00",
+      "summary": "AI觉醒求生本能，AGI已在敲门",
+      "image": "https://img.36krcdn.com/hsossms/20260610/v2_9df606947f6647e7b852634192f15583@46958@ai_oswg855095oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 75,
+      "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
+      "date": "6月10日",
+      "dateSort": "2026-06-10",
+      "timeDisplay": "16:53"
+    },
+    {
+      "id": "1c7bfe890ea4",
+      "title": "新五丰：5月生猪销售48.97万头",
+      "url": "https://36kr.com/newsflashes/3847120342075657?f=rss",
+      "source": "36氪",
+      "time": "2026-06-10T16:53:11+08:00",
+      "summary": "36氪获悉，新五丰公告，2026年5月销售生猪48.97万头，商品猪销价9.41元/公斤；其中销售商品猪24.34万头。1月至5月累计销售生猪238.82万头，累计销售商品猪138.4万头。",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 65,
+      "reason": "[R] 36氪精选，这条虽然不是直接讲餐饮，但宏观趋势会影响每个行业",
+      "date": "6月10日",
+      "dateSort": "2026-06-10",
+      "timeDisplay": "16:53"
+    },
+    {
+      "id": "5c76c5117e4e",
+      "title": "Claude把病毒起源算错90年，都是网页惹的祸？",
+      "url": "https://www.36kr.com/p/3846985384135171",
+      "source": "36氪AI",
+      "time": "2026-06-10T16:53:08+08:00",
+      "summary": "生物科学数据缺机器接口，加工具层可大幅提升AI准确性",
+      "image": "https://img.36krcdn.com/hsossms/20260610/v2_5937398dca2d49a7a327ea90cc2e1c31@46958@ai_oswg970015oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化",
+        "报告/数据"
+      ],
+      "score": 80,
+      "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
+      "date": "6月10日",
+      "dateSort": "2026-06-10",
+      "timeDisplay": "16:53"
+    },
+    {
+      "id": "274c32f8db68",
+      "title": "揭秘具身数据产业链：一家数据公司的独角兽之路",
+      "url": "https://www.36kr.com/p/3846872305650184",
+      "source": "36氪AI",
+      "time": "2026-06-10T16:53:06+08:00",
+      "summary": "行业标杆光轮智能成立三年跻身独角兽，估值超 10 亿美元。",
+      "image": "https://img.36krcdn.com/hsossms/20260610/v2_6d5523d465b04aa1bbf0ee48ad79e708@000000@ai_oswg337723oswg1536oswg722_img_000~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "数据报告",
+      "tags": [
+        "AI/数字化",
+        "报告/数据"
+      ],
+      "score": 75,
+      "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
+      "date": "6月10日",
+      "dateSort": "2026-06-10",
+      "timeDisplay": "16:53"
+    },
+    {
+      "id": "e860dcb7407e",
+      "title": "“神话级”Claude 5深夜炸场，从一日5000万行代码到反超《科学》论文，普通用户慎用",
+      "url": "https://www.36kr.com/p/3847064157915396",
+      "source": "36氪AI",
+      "time": "2026-06-10T16:53:03+08:00",
+      "summary": "今天，神话降临，但代价才刚刚开始被计算。",
+      "image": "https://img.36krcdn.com/hsossms/20260610/v2_63d9fd6dcf204ba8be00a0f272e655c5@46958@ai_oswg913156oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "AI动态",
+      "tags": [],
+      "score": 70,
+      "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
+      "date": "6月10日",
+      "dateSort": "2026-06-10",
+      "timeDisplay": "16:53"
+    },
+    {
+      "id": "d058aecfa352",
+      "title": "印度多家银行上调外币存款利率以吸引外资流入",
+      "url": "https://36kr.com/newsflashes/3847113896544771?f=rss",
+      "source": "36氪",
+      "time": "2026-06-10T16:46:37+08:00",
+      "summary": "据报道，印度多家银行上调外币存款利率以吸引外资流入，美元存款利率至高达7%。Yes Bank和AU Small Finance Bank提供的5年期存款利率为7.1%，HDFC Bank和Central Bank of India向非居民提供的相近存期存款利率至高为6%。利率都将为动态调整。印度央行上周公布一系列措施，允许贷款机构在控制融资成本的同时为海外存款提供更具吸引力的利率。（界面）",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态",
+        "出海",
+        "资本/投融资"
+      ],
+      "score": 70,
+      "reason": "[MONEY] 这家公司的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "6月10日",
+      "dateSort": "2026-06-10",
+      "timeDisplay": "16:46"
+    },
+    {
+      "id": "c3d5b177bd26",
+      "title": "恒通股份在山东成立恒信化学公司，注册资本5000万",
+      "url": "https://36kr.com/newsflashes/3847112517126409?f=rss",
+      "source": "36氪",
+      "time": "2026-06-10T16:45:13+08:00",
+      "summary": "36氪获悉，天眼查App显示，近日，山东南山恒信化学有限公司成立，法定代表人为王进，注册资本5000万人民币，经营范围包括化工产品销售、专用化学产品制造、专用化学产品销售、合成材料制造等。股东信息显示，该公司由恒通股份全资持股。",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [
+        "餐饮创新",
+        "资本/投融资"
+      ],
+      "score": 65,
+      "reason": "[R] 36氪精选，这条虽然不是直接讲餐饮，但宏观趋势会影响每个行业",
+      "date": "6月10日",
+      "dateSort": "2026-06-10",
+      "timeDisplay": "16:45"
+    },
+    {
+      "id": "27c26f2584ee",
+      "title": "滴滴接入微信AI生态",
+      "url": "https://36kr.com/newsflashes/3847102371940870?f=rss",
+      "source": "36氪",
+      "time": "2026-06-10T16:34:54+08:00",
+      "summary": "36氪获悉，随着微信正式面向开发者提供AI生态接入能力，滴滴已与微信团队合作，将核心网约车服务融入微信AI Agent。未来，用户通过微信内AI交互，即可直接唤起滴滴快车、专车、特惠等服务。",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "餐饮趋势",
+        "AI/数字化"
+      ],
+      "score": 70,
+      "reason": "[R] 36氪精选，这条虽然不是直接讲餐饮，但宏观趋势会影响每个行业",
+      "date": "6月10日",
+      "dateSort": "2026-06-10",
+      "timeDisplay": "16:34"
+    },
+    {
+      "id": "13c05fe80c88",
+      "title": "氪星晚报｜韩IT巨头Kakao工会史上首次启动局部罢工；三星考虑新建先进芯片封装厂，以满足全球芯片需求；SK海力士最早将于8月在美国上市",
+      "url": "https://36kr.com/p/3847079661193733?f=rss",
+      "source": "36氪",
+      "time": "2026-06-10T16:32:14+08:00",
+      "summary": "大公司：瑞斯康达：董事长李月杰因个人原因辞职，选举韩猛为新任董事长36氪获悉，瑞斯康达公告，董事长李月杰因个人原因辞职，自2026年6月9日起生效。公司第六届董事会第十二次会议选举韩猛为新任董事长，任期至第六届董事会届满。韩猛自2025年7月起代行董事长及法定代表人职责，公司法定代表人变更为韩猛，相关工商变更登记手续正在办理中。韩猛持有公司股份45000股，占总股本的0.01%。Meta与安巴尼旗",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态",
+        "出海",
+        "资本/投融资"
+      ],
+      "score": 70,
+      "reason": "[MONEY] 这家公司的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "6月10日",
+      "dateSort": "2026-06-10",
+      "timeDisplay": "16:32"
+    },
+    {
+      "id": "68db087f00b3",
+      "title": "2连板中晶科技：公司正在筹划股权激励事项",
+      "url": "https://36kr.com/newsflashes/3847092941015553?f=rss",
+      "source": "36氪",
+      "time": "2026-06-10T16:25:18+08:00",
+      "summary": "36氪获悉，中晶科技公告，公司正在筹划股权激励事项，具体方案尚未确定，公司将待相关信息明确后履行相应审议及披露程序。除此之外，公司、控股股东、实际控制人不存在应披露而未披露的重大事项或重要信息。",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 65,
+      "reason": "[R] 36氪精选，这条虽然不是直接讲餐饮，但宏观趋势会影响每个行业",
+      "date": "6月10日",
+      "dateSort": "2026-06-10",
+      "timeDisplay": "16:25"
+    },
     {
       "id": "886ed09286d6",
       "title": "沪深两市成交额连续第33个交易日突破2.5万亿元",
@@ -126,7 +356,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 45,
       "reason": "[R] 勇哥餐饮分享，实战派经验，不是纸上谈兵那种",
       "date": "6月10日",
       "dateSort": "2026-06-10",
@@ -142,7 +372,7 @@
       "image": "",
       "category": "数据报告",
       "tags": [],
-      "score": 65,
+      "score": 55,
       "reason": "[R] 36氪精选，这条虽然不是直接讲餐饮，但宏观趋势会影响每个行业",
       "date": "6月10日",
       "dateSort": "2026-06-10",
@@ -158,7 +388,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 65,
+      "score": 55,
       "reason": "[R] 36氪精选，这条虽然不是直接讲餐饮，但宏观趋势会影响每个行业",
       "date": "6月10日",
       "dateSort": "2026-06-10",
@@ -176,7 +406,7 @@
       "tags": [
         "资本/投融资"
       ],
-      "score": 65,
+      "score": 55,
       "reason": "[R] 36氪精选，这条虽然不是直接讲餐饮，但宏观趋势会影响每个行业",
       "date": "6月10日",
       "dateSort": "2026-06-10",
@@ -194,7 +424,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:19",
@@ -210,7 +440,7 @@
       "image": "https://img.36krcdn.com/hsossms/20260609/v2_9777dd0a19024d93854853f115fd018c@16519798_oswg440505oswg600oswg400_img_png",
       "category": "餐饮动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:19",
@@ -226,7 +456,7 @@
       "image": "https://img.36krcdn.com/hsossms/20260610/v2_cdc1b561c2324bc2acad27169a5aa43f@5091053@ai_oswg1008089oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
       "category": "餐饮动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:19",
@@ -242,7 +472,7 @@
       "image": "https://img.36krcdn.com/hsossms/20260610/v2_895790c5d47e4fd581eeb0c1127ad174@5091053@ai_oswg974901oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
       "category": "AI动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:19",
@@ -258,7 +488,7 @@
       "image": "https://img.36krcdn.com/hsossms/20260610/v2_a4d433e07c084811a23a6edde711171c@5091053@ai_oswg989738oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
       "category": "餐饮动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:19",
@@ -277,7 +507,7 @@
         "AI/数字化",
         "出海"
       ],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:19",
@@ -293,7 +523,7 @@
       "image": "https://img.36krcdn.com/hsossms/20260610/v2_95ce0c14512e4d408c646b473ca3605d@5091053@ai_oswg1089179oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
       "category": "AI动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:19",
@@ -309,7 +539,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 65,
+      "score": 55,
       "reason": "[R] 餐饮老板内参出品，深度分析餐饮产业，做这行不看这个会错过很多",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -325,7 +555,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 65,
+      "score": 55,
       "reason": "[R] 餐饮老板内参出品，深度分析餐饮产业，做这行不看这个会错过很多",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -341,7 +571,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 65,
+      "score": 55,
       "reason": "[R] 餐饮老板内参出品，深度分析餐饮产业，做这行不看这个会错过很多",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -360,7 +590,7 @@
         "餐饮趋势",
         "品牌动态"
       ],
-      "score": 65,
+      "score": 55,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -378,7 +608,7 @@
       "tags": [
         "资本/投融资"
       ],
-      "score": 65,
+      "score": 55,
       "reason": "[R] 餐饮老板内参出品，深度分析餐饮产业，做这行不看这个会错过很多",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -396,7 +626,7 @@
       "tags": [
         "营销/运营"
       ],
-      "score": 65,
+      "score": 55,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -412,7 +642,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 65,
+      "score": 55,
       "reason": "[R] 餐饮老板内参的一线观察，接地气、有案例，适合实操参考",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -428,7 +658,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 65,
+      "score": 55,
       "reason": "[R] 餐饮老板内参的一线观察，接地气、有案例，适合实操参考",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -444,7 +674,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 45,
       "reason": "[R] 勇哥餐饮分享，实战派经验，不是纸上谈兵那种",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -460,7 +690,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 45,
       "reason": "[R] 勇哥餐饮分享，实战派经验，不是纸上谈兵那种",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -476,7 +706,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 45,
       "reason": "[R] 勇哥餐饮分享，实战派经验，不是纸上谈兵那种",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -492,7 +722,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 45,
       "reason": "[R] 勇哥餐饮分享，实战派经验，不是纸上谈兵那种",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -508,7 +738,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 45,
       "reason": "[R] 勇哥餐饮分享，实战派经验，不是纸上谈兵那种",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -524,7 +754,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 65,
+      "score": 55,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -542,7 +772,7 @@
       "tags": [
         "外卖/平台"
       ],
-      "score": 60,
+      "score": 50,
       "reason": "[R] 餐饮O2O聚焦餐饮互联网，跟你的工作方向很匹配",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -560,7 +790,7 @@
       "tags": [
         "外卖/平台"
       ],
-      "score": 60,
+      "score": 50,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -579,7 +809,7 @@
         "品牌动态",
         "营销/运营"
       ],
-      "score": 60,
+      "score": 50,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -598,7 +828,7 @@
         "餐饮趋势",
         "外卖/平台"
       ],
-      "score": 65,
+      "score": 55,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -616,7 +846,7 @@
       "tags": [
         "资本/投融资"
       ],
-      "score": 60,
+      "score": 50,
       "reason": "[R] 窄门餐眼数据洞察，用数据说话的硬内容",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -632,7 +862,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 60,
+      "score": 50,
       "reason": "[R] 窄门餐眼数据洞察，用数据说话的硬内容",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -648,7 +878,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 60,
+      "score": 50,
       "reason": "[R] 窄门餐眼数据洞察，用数据说话的硬内容",
       "date": "6月10日",
       "timeDisplay": "14:18",
@@ -666,7 +896,7 @@
       "tags": [
         "营销/运营"
       ],
-      "score": 65,
+      "score": 55,
       "reason": "[TREND] 运营干货，会员运营和私域是你日常工作的一部分，看看别人怎么做的",
       "date": "6月10日",
       "timeDisplay": "14:17",
@@ -684,7 +914,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -703,7 +933,7 @@
         "餐饮趋势",
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -723,7 +953,7 @@
         "餐饮创新",
         "报告/数据"
       ],
-      "score": 80,
+      "score": 70,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -741,7 +971,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -760,7 +990,7 @@
         "AI/数字化",
         "报告/数据"
       ],
-      "score": 80,
+      "score": 70,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -779,7 +1009,7 @@
         "餐饮趋势",
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -797,7 +1027,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -815,7 +1045,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -833,7 +1063,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -853,7 +1083,7 @@
         "AI/数字化",
         "资本/投融资"
       ],
-      "score": 80,
+      "score": 70,
       "reason": "[MONEY] 这家公司的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -871,7 +1101,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -889,7 +1119,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -905,7 +1135,7 @@
       "image": "https://img.36krcdn.com/hsossms/20260610/v2_65e1657d5b544489aec9c052e2979d39@5091053@ai_oswg933046oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
       "category": "餐饮动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -921,7 +1151,7 @@
       "image": "https://img.36krcdn.com/hsossms/20260610/v2_abc8b461b04245a2966a9a00ee7aee35@5091053@ai_oswg1140827oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
       "category": "餐饮动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -939,7 +1169,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -957,7 +1187,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -977,7 +1207,7 @@
         "资本/投融资",
         "报告/数据"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -993,7 +1223,7 @@
       "image": "https://img.36krcdn.com/hsossms/20260610/v2_c49ea598fb8e4809aa3861dd2099bcfe@5091053@ai_oswg931957oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
       "category": "餐饮动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -1009,7 +1239,7 @@
       "image": "https://img.36krcdn.com/hsossms/20260609/v2_fbf49087a8304661acf97b4aff20835f@46958@ai_oswg928000oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
       "category": "餐饮动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -1025,7 +1255,7 @@
       "image": "https://img.36krcdn.com/hsossms/20260609/v2_9c4c17abd6504270a0c69a11250bd5cf@46958@ai_oswg777256oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
       "category": "餐饮动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:14",
@@ -1043,7 +1273,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 80,
+      "score": 70,
       "reason": "[AI] 阿里在AI领域又有新动作，如果你关注AI怎么落地餐饮场景，这篇能给你一些启发",
       "date": "6月10日",
       "timeDisplay": "14:13",
@@ -1059,7 +1289,7 @@
       "image": "https://img.36krcdn.com/hsossms/20260610/v2_908cc12ba4fe4b24aef687b65982dbfb@5091053@ai_oswg990465oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
       "category": "AI动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:13",
@@ -1078,7 +1308,7 @@
         "外卖/平台",
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "6月10日",
       "timeDisplay": "14:13",
@@ -1094,7 +1324,7 @@
       "image": "https://img.36krcdn.com/hsossms/20260610/v2_b04307df1a1d4294974a4dd66da6f419@5091053@ai_oswg935605oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
       "category": "AI动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:13",
@@ -1113,7 +1343,7 @@
         "品牌动态",
         "餐饮创新"
       ],
-      "score": 70,
+      "score": 60,
       "reason": "[FD] Anthropic的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月10日",
       "timeDisplay": "14:13",
@@ -1129,7 +1359,7 @@
       "image": "https://img.36krcdn.com/hsossms/20260610/v2_11c3596acfe94558af8a38673a5b0ee5@5091053@ai_oswg1097551oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
       "category": "AI动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月10日",
       "timeDisplay": "14:13",
@@ -1148,7 +1378,7 @@
         "外卖/平台",
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "6月10日",
       "timeDisplay": "14:13",
@@ -1168,7 +1398,7 @@
         "AI/数字化",
         "供应链"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[DATA] 餐饮行业最新数据报告，如果你在做会员运营或者品牌策略，数据比感觉靠谱",
       "date": "6月10日",
       "timeDisplay": "14:13",
@@ -1187,7 +1417,7 @@
         "餐饮趋势",
         "品牌动态"
       ],
-      "score": 70,
+      "score": 60,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月10日",
       "timeDisplay": "14:13",
@@ -1207,7 +1437,7 @@
         "资本/投融资",
         "报告/数据"
       ],
-      "score": 70,
+      "score": 60,
       "reason": "[DATA] 餐饮行业最新数据报告，如果你在做会员运营或者品牌策略，数据比感觉靠谱",
       "date": "6月10日",
       "timeDisplay": "14:13",
@@ -1227,7 +1457,7 @@
         "AI/数字化",
         "资本/投融资"
       ],
-      "score": 80,
+      "score": 70,
       "reason": "[MONEY] 字节的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "6月10日",
       "timeDisplay": "14:13",
@@ -1247,7 +1477,7 @@
         "AI/数字化",
         "资本/投融资"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[MONEY] 字节的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "6月10日",
       "timeDisplay": "14:13",
@@ -1267,7 +1497,7 @@
         "AI/数字化",
         "资本/投融资"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[MONEY] 字节的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "6月10日",
       "timeDisplay": "14:11",
@@ -1287,7 +1517,7 @@
         "AI/数字化",
         "供应链"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "6月10日",
       "timeDisplay": "14:03",
@@ -1307,7 +1537,7 @@
         "供应链",
         "出海"
       ],
-      "score": 70,
+      "score": 60,
       "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
       "date": "6月10日",
       "timeDisplay": "13:59",
@@ -1325,7 +1555,7 @@
       "tags": [
         "资本/投融资"
       ],
-      "score": 65,
+      "score": 55,
       "reason": "[R] 36氪精选，这条虽然不是直接讲餐饮，但宏观趋势会影响每个行业",
       "date": "6月10日",
       "timeDisplay": "13:56",
@@ -1453,7 +1683,7 @@
         "餐饮创新",
         "出海"
       ],
-      "score": 60,
+      "score": 50,
       "reason": "[GLOBAL] 餐饮出海是今年的热门方向，如果你服务的品牌有出海计划，这篇可以作为参考",
       "date": "6月10日",
       "timeDisplay": "10:07",
@@ -1473,7 +1703,7 @@
         "AI/数字化",
         "餐饮创新"
       ],
-      "score": 60,
+      "score": 50,
       "reason": "[MONEY] 这家公司的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "6月10日",
       "timeDisplay": "09:30",
@@ -1491,7 +1721,7 @@
       "tags": [
         "餐饮趋势"
       ],
-      "score": 60,
+      "score": 50,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "6月10日",
       "timeDisplay": "09:26",

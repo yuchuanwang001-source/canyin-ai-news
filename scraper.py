@@ -92,20 +92,64 @@ def calc_score(title, summary, source, time_iso):
     return min(score, 100)
 
 def classify(title, summary, src):
+    """返回 (category, should_keep) — should_keep=False表示丢弃"""
     t = (title + " " + (summary or "")).lower()
-    # 先按标题/摘要内容分类
-    if any(k in t for k in ["淘宝","闪购","美团","饿了么","平台","规则","合规","政策","监管"]):
-        return "平台政策"
-    if any(k in t for k in ["ai","人工智能","大模型","llm","gpt","agent","智能体","机器学习","chatgpt","openai","claude","数字人","模型","gemini","deepseek","kimi","智谱"]):
-        return "AI动态"
-    if any(k in t for k in ["报告","数据","白皮书","调查","研究","趋势","增长","规模","同比"]):
-        return "数据报告"
-    # 按信源分类：36氪AI等科技类信源默认归AI动态
-    ai_sources = ["36氪AI","36氪","36氪快讯","OpenAI","DeepSeek","Kimi AI","Google Gemini",
-                  "Anthropic Claude","阿里AI","腾讯AI","字节AI","百度AI","豆包","智谱AI"]
-    if src in ai_sources:
-        return "AI动态"
-    return "餐饮动态"
+
+    # ===== 信源固定分类 =====
+    # 平台类公众号 → 直接归入平台政策
+    platform_sources = ["淘宝闪购本地生活","美团餐饮观察","淘宝闪购商家课堂"]
+    if src in platform_sources:
+        return ("平台政策", True)
+
+    # AI公司 → 直接归入AI动态
+    ai_company_sources = ["OpenAI","DeepSeek","Kimi AI","Google Gemini",
+                          "Anthropic Claude","豆包","智谱AI",
+                          "阿里AI","腾讯AI","字节AI","百度AI"]
+    if src in ai_company_sources:
+        return ("AI动态", True)
+
+    # 餐饮媒体 → 直接归入餐饮动态
+    food_sources = ["红餐网","餐企老板内参","餐饮老板内参","勇哥餐饮","餐饮O2O","窄门餐眼"]
+    if src in food_sources:
+        return ("餐饮动态", True)
+
+    # ===== 关键词精准匹配（所有文章都检查） =====
+    # 长短语匹配，避免单个词误伤
+    platform_phrases = ["规则调整","规则变更","新规出台","政策变化","政策更新",
+                        "商家规则","费率调整","抽成变化","算法规则","合规要求",
+                        "平台新规","准入规则","平台补贴","商家政策"]
+    if any(p in t for p in platform_phrases):
+        return ("平台政策", True)
+
+    report_phrases = ["报告显示","报告指出","发布报告","数据显示","白皮书",
+                      "问卷调查","调研发现","研究报告","数据分析","数据报告"]
+    if any(p in t for p in report_phrases):
+        return ("数据报告", True)
+
+    ai_phrases = ["AI模型","AI技术","AI应用","AI+","大模型发布","模型更新",
+                  "GPT-4","GPT-5","Claude 4","人工智能","智能体","Agent",
+                  "机器学习","深度学习","AI Agent"]
+    if any(p in t for p in ai_phrases):
+        return ("AI动态", True)
+
+    food_phrases = ["新店开业","门店扩张","关店","餐饮品牌","连锁化",
+                    "外卖","团购","到店","新菜单","菜品","餐饮行业",
+                    "翻台率","客单价","会员运营","门店数量"]
+    if any(p in t for p in food_phrases):
+        return ("餐饮动态", True)
+
+    # ===== 兜底规则 =====
+    # 36氪等综合科技媒体的文章：不命中任何关键词 → 丢掉
+    if src in ["36氪AI","36氪","36氪快讯"]:
+        return (None, False)
+
+    # 其他来源（按来源名含有关键词兜底）
+    if "AI" in src or "智能" in src:
+        return ("AI动态", True)
+    if "餐饮" in src or "美食" in src or "外卖" in src:
+        return ("餐饮动态", True)
+
+    return (None, False)
 
 def tags(title, summary):
     tags = []
@@ -496,11 +540,21 @@ def main():
         if a["url"] not in old_urls:
             merged.append(a)
 
-    # 重新分类、计算评分和推荐理由（覆盖旧文章的错误分类）
+    # 重新分类、计算评分和推荐理由（覆盖旧文章的错误分类），并过滤无关文章
+    merged_filtered = []
     for a in merged:
-        a["category"] = classify(a["title"], a["summary"], a["source"])
+        cat_result = classify(a["title"], a["summary"], a["source"])
+        if isinstance(cat_result, tuple):
+            cat, keep = cat_result
+        else:
+            cat, keep = cat_result, True
+        if not keep:
+            continue
+        a["category"] = cat
         a["score"] = calc_score(a["title"], a["summary"], a["source"], a["time"])
         a["reason"] = gen_reason(a["title"], a["summary"], a["source"], a["score"], a.get("tags", []))
+        merged_filtered.append(a)
+    merged = merged_filtered
 
     # 按时间排序（最新的在前）
     merged.sort(key=lambda x: x.get("time", ""), reverse=True)

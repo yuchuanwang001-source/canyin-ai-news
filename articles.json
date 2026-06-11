@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-11T15:42:55.922563+08:00",
-  "articleCount": 64,
+  "updated": "2026-06-11T15:39:28.682753+08:00",
+  "articleCount": 65,
   "articles": [
     {
       "id": "d2c5adaa5b17",
@@ -22,24 +22,20 @@
       "timeDisplay": "15:25"
     },
     {
-      "id": "60e2a015319c",
-      "title": "德国机器人公司Neura Robotics完成14亿美元融资，获亚马逊、英伟达等多方支持",
-      "url": "https://36kr.com/newsflashes/3848442560599301?f=rss",
-      "source": "36氪",
-      "time": "2026-06-11T15:18:13+08:00",
-      "summary": "6月10日，德国机器人公司Neura Robotics宣布完成创纪录的C轮融资，本轮总规模最高可达14亿美元，旨在加速构建全球领先的物理人工智能平台。此轮融资获得了亚马逊、英伟达和欧洲投资银行等多方支持。（界面）",
+      "id": "efc57874107c",
+      "title": "对话绿茶王勤松： 做大众餐饮，高性价比是首选商业模式",
+      "url": "https://mp.weixin.qq.com/s/Gnlp4vJ_1bj4ErpmxbXShQ",
+      "source": "餐饮老板内参",
+      "time": "2026-06-11T14:46:15.274528+08:00",
+      "summary": "Original 晚点团队 晚点团队晚点LatePost",
       "image": "",
-      "category": "AI动态",
-      "tags": [
-        "品牌动态",
-        "AI/数字化",
-        "出海"
-      ],
-      "score": 75,
-      "reason": "[MONEY] 这家公司的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 65,
+      "reason": "[R] 餐饮老板内参的一线观察，接地气、有案例，适合实操参考",
       "date": "6月11日",
       "dateSort": "2026-06-11",
-      "timeDisplay": "15:18"
+      "timeDisplay": "14:46"
     },
     {
       "id": "1d4d16b850ac",
@@ -62,12 +58,49 @@
       "timeDisplay": "14:41"
     },
     {
+      "id": "70e30aca5455",
+      "title": "特朗普：很快将与顶尖的人工智能公司高管会面，讨论如何回馈公众",
+      "url": "https://36kr.com/newsflashes/3848387791099141?f=rss",
+      "source": "36氪",
+      "time": "2026-06-11T14:30:01+08:00",
+      "summary": "美国总统特朗普周三再次表示，希望顶尖的人工智能公司同意回馈公众，暗示美国政府可能持有这些公司的股份。特朗普称，自己很快将与行业顶尖的12或15名高管会面，讨论如何回馈公众，公众将因此变得非常富有，他认为行业高管们会同意这样做，且这一做法将非常受欢迎。上周五，特朗普首次公开表示，希望与人工智能公司会面，讨论让美国政府持有其公司股份的可能性，这些股份带来的收益未来可以分配给美国公众。（财联社）",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "餐饮趋势",
+        "AI/数字化"
+      ],
+      "score": 70,
+      "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
+      "date": "6月11日",
+      "dateSort": "2026-06-11",
+      "timeDisplay": "14:30"
+    },
+    {
+      "id": "4a4a5352939f",
+      "title": "茉莉奶白也加入！新茶饮品牌为何都扎堆卖起了零食？",
+      "url": "https://www.canyin88.com/zixun/2026/06/11/112204.html",
+      "source": "红餐网",
+      "time": "2026-06-11T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-11 14:37:06来源：红餐网0",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态"
+      ],
+      "score": 70,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "6月11日",
+      "dateSort": "2026-06-11",
+      "timeDisplay": "12:00"
+    },
+    {
       "id": "9815b836c067",
       "title": "被低估的非遗，一张证书撬动万亿餐饮市场？",
       "url": "https://www.canyin88.com/zixun/2026/06/11/112201.html",
       "source": "红餐网",
       "time": "2026-06-11T12:00:00+08:00",
-      "summary": "红餐供应链指南·2026-06-11 09:20:41来源：红餐网55",
+      "summary": "红餐供应链指南·2026-06-11 09:20:41来源：红餐网414",
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [
@@ -85,7 +118,7 @@
       "url": "https://www.canyin88.com/zixun/2026/06/11/112200.html",
       "source": "红餐网",
       "time": "2026-06-11T12:00:00+08:00",
-      "summary": "红餐编辑部·2026-06-11 09:17:21来源：红餐网66",
+      "summary": "红餐编辑部·2026-06-11 09:17:21来源：红餐网349",
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
@@ -101,7 +134,7 @@
       "url": "https://www.canyin88.com/zixun/2026/06/11/112199.html",
       "source": "红餐网",
       "time": "2026-06-11T12:00:00+08:00",
-      "summary": "红餐编辑部·2026-06-11 09:13:38来源：红餐网52",
+      "summary": "红餐编辑部·2026-06-11 09:13:38来源：红餐网384",
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [
@@ -119,25 +152,7 @@
       "url": "https://www.canyin88.com/zixun/2026/06/11/112198.html",
       "source": "红餐网",
       "time": "2026-06-11T12:00:00+08:00",
-      "summary": "红餐编辑部·2026-06-11 09:08:46来源：红餐网70",
-      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
-      "category": "餐饮动态",
-      "tags": [
-        "品牌动态"
-      ],
-      "score": 70,
-      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
-      "date": "6月11日",
-      "dateSort": "2026-06-11",
-      "timeDisplay": "12:00"
-    },
-    {
-      "id": "4a4a5352939f",
-      "title": "茉莉奶白也加入！新茶饮品牌为何都扎堆卖起了零食？",
-      "url": "https://www.canyin88.com/zixun/2026/06/11/112204.html",
-      "source": "红餐网",
-      "time": "2026-06-11T12:00:00+08:00",
-      "summary": "红餐编辑部·2026-06-11 14:37:06来源：红餐网5",
+      "summary": "红餐编辑部·2026-06-11 09:08:46来源：红餐网445",
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [
@@ -155,7 +170,7 @@
       "url": "https://www.canyin88.com/zixun/2026/06/11/112202.html",
       "source": "红餐网",
       "time": "2026-06-11T12:00:00+08:00",
-      "summary": "红餐编辑部·2026-06-11 09:41:09来源：红餐网28",
+      "summary": "红餐编辑部·2026-06-11 09:41:09来源：红餐网45",
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [

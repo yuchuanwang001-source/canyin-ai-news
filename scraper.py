@@ -93,12 +93,18 @@ def calc_score(title, summary, source, time_iso):
 
 def classify(title, summary, src):
     t = (title + " " + (summary or "")).lower()
+    # 先按标题/摘要内容分类
     if any(k in t for k in ["淘宝","闪购","美团","饿了么","平台","规则","合规","政策","监管"]):
         return "平台政策"
-    if any(k in t for k in ["ai","人工智能","大模型","llm","gpt","agent","智能体","机器学习","chatgpt","openai","claude","数字人","模型"]):
+    if any(k in t for k in ["ai","人工智能","大模型","llm","gpt","agent","智能体","机器学习","chatgpt","openai","claude","数字人","模型","gemini","deepseek","kimi","智谱"]):
         return "AI动态"
     if any(k in t for k in ["报告","数据","白皮书","调查","研究","趋势","增长","规模","同比"]):
         return "数据报告"
+    # 按信源分类：36氪AI等科技类信源默认归AI动态
+    ai_sources = ["36氪AI","36氪","36氪快讯","OpenAI","DeepSeek","Kimi AI","Google Gemini",
+                  "Anthropic Claude","阿里AI","腾讯AI","字节AI","百度AI","豆包","智谱AI"]
+    if src in ai_sources:
+        return "AI动态"
     return "餐饮动态"
 
 def tags(title, summary):
@@ -490,8 +496,9 @@ def main():
         if a["url"] not in old_urls:
             merged.append(a)
 
-    # 计算评分和推荐理由
+    # 重新分类、计算评分和推荐理由（覆盖旧文章的错误分类）
     for a in merged:
+        a["category"] = classify(a["title"], a["summary"], a["source"])
         a["score"] = calc_score(a["title"], a["summary"], a["source"], a["time"])
         a["reason"] = gen_reason(a["title"], a["summary"], a["source"], a["score"], a.get("tags", []))
 

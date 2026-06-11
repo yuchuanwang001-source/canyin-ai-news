@@ -201,6 +201,22 @@ def gen_reason(title, summary, source, score, tags):
         "勇哥餐饮": f"[R] 勇哥餐饮分享，实战派经验，不是纸上谈兵那种",
         "餐饮O2O": f"[R] 餐饮O2O聚焦餐饮互联网，跟你的工作方向很匹配",
         "窄门餐眼": f"[R] 窄门餐眼数据洞察，用数据说话的硬内容",
+        "淘宝闪购本地生活": f"[R] 淘宝闪购官方动态，跟你的日常运营工作直接相关",
+        "美团餐饮观察": f"[R] 美团官方餐饮观察，平台风向早知道",
+        "淘宝闪购商家课堂": f"[R] 淘宝闪购商家课堂，运营实操干货",
+        "OpenAI": f"[R] OpenAI最新动态，AI技术迭代影响每一个行业",
+        "Anthropic Claude": f"[R] Anthropic Claude动态，AI前沿技术跟踪",
+        "Google Gemini": f"[R] Google Gemini动态，全球AI竞赛最新进展",
+        "豆包": f"[R] 豆包AI动态，国产AI大模型进展值得关注",
+        "DeepSeek": f"[R] DeepSeek动态，国产AI新锐力量",
+        "Kimi AI": f"[R] Kimi AI动态，AI应用场景持续扩展",
+        "智谱AI": f"[R] 智谱AI动态，国产大模型重要参与者",
+        "阿里AI": f"[R] 阿里巴巴AI动态，大厂布局影响行业走向",
+        "腾讯AI": f"[R] 腾讯AI动态，大厂AI布局值得关注",
+        "字节AI": f"[R] 字节跳动AI动态，技术驱动型大厂动向",
+        "百度AI": f"[R] 百度AI动态，AI技术先行者",
+        "AI餐饮行业": f"[R] AI+餐饮交叉领域，跟你日常工作直接相关",
+        "人工智能餐饮": f"[R] AI+餐饮交叉领域，关注技术如何落地餐饮场景",
     }
     if source in source_map:
         return source_map[source]
@@ -360,8 +376,26 @@ def scrape_wechat():
         print("  [SKIP] mcporter 未找到")
         return articles
 
-    queries = [("餐企老板内参","餐企老板内参"),("餐饮老板内参","餐饮老板内参"),
-        ("勇哥餐饮","勇哥餐饮"),("餐饮O2O","餐饮O2O"),("窄门餐眼","窄门餐眼")]
+    queries = [
+        # 餐饮公众号
+        ("餐企老板内参","餐企老板内参"),("餐饮老板内参","餐饮老板内参"),
+        ("勇哥餐饮","勇哥餐饮"),("餐饮O2O","餐饮O2O"),("窄门餐眼","窄门餐眼"),
+        # 新增餐饮+平台
+        ("淘宝闪购本地生活","淘宝闪购本地生活"),
+        ("美团餐饮观察","美团餐饮观察"),
+        ("淘宝闪购商家课堂","淘宝闪购商家课堂"),
+        # 国内互联网大厂AI
+        ("阿里AI","阿里 AI"),("腾讯AI","腾讯 AI"),("字节AI","字节 AI"),
+        ("百度AI","百度 AI"),
+        # 国内AI公司
+        ("豆包","豆包"),("DeepSeek","DeepSeek"),("Kimi AI","Kimi"),
+        ("智谱AI","智谱AI"),
+        # 国际AI公司
+        ("OpenAI","OpenAI"),("Anthropic Claude","Anthropic"),
+        ("Google Gemini","Google Gemini"),
+        # AI+餐饮交叉
+        ("AI餐饮行业","AI 餐饮"),("人工智能餐饮","人工智能 餐饮"),
+    ]
     seen = set()
     for sname, sterm in queries:
         if time_module.time() - wx_start > WX_TIMEOUT:

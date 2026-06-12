@@ -1,7 +1,59 @@
 {
-  "updated": "2026-06-11T15:47:13.366178+08:00",
-  "articleCount": 65,
+  "updated": "2026-06-12T10:04:11.651325+08:00",
+  "articleCount": 70,
   "articles": [
+    {
+      "id": "5a34c01e69af",
+      "title": "排队两小时，火遍“琼东西”！这杯咸饮走向全国还差几步？",
+      "url": "https://www.canyin88.com/zixun/2026/06/12/112216.html",
+      "source": "红餐网",
+      "time": "2026-06-12T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-12 09:37:20来源：红餐网0",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 80,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "6月12日",
+      "dateSort": "2026-06-12",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "5d70e87eaed0",
+      "title": "报名通道已开启！“第八届中国餐饮红鹰奖”诚邀品牌速来报名！",
+      "url": "https://www.canyin88.com/zixun/2026/06/12/112215.html",
+      "source": "红餐网",
+      "time": "2026-06-12T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-12 09:23:11来源：红餐网0",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态"
+      ],
+      "score": 80,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "6月12日",
+      "dateSort": "2026-06-12",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "930b108b15c5",
+      "title": "茉莉奶白终止与美国多家门店合作；肯德基在全国近50家医院内部开设门店",
+      "url": "https://www.canyin88.com/zixun/2026/06/12/112214.html",
+      "source": "红餐网",
+      "time": "2026-06-12T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-12 09:05:28来源：红餐网24",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态"
+      ],
+      "score": 80,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "6月12日",
+      "dateSort": "2026-06-12",
+      "timeDisplay": "12:00"
+    },
     {
       "id": "d2c5adaa5b17",
       "title": "OpenAI正考虑大幅下调产品价格，预判将与Anthropic展开用户之争",
@@ -15,7 +67,7 @@
         "AI/数字化",
         "餐饮创新"
       ],
-      "score": 75,
+      "score": 50,
       "reason": "[AI] OpenAI在AI领域又有新动作，如果你关注AI怎么落地餐饮场景，这篇能给你一些启发",
       "date": "6月11日",
       "dateSort": "2026-06-11",
@@ -31,7 +83,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 65,
+      "score": 40,
       "reason": "[R] 餐饮老板内参的一线观察，接地气、有案例，适合实操参考",
       "date": "6月11日",
       "dateSort": "2026-06-11",
@@ -51,7 +103,7 @@
         "资本/投融资",
         "报告/数据"
       ],
-      "score": 75,
+      "score": 50,
       "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
       "date": "6月11日",
       "dateSort": "2026-06-11",
@@ -70,7 +122,7 @@
         "餐饮趋势",
         "AI/数字化"
       ],
-      "score": 70,
+      "score": 45,
       "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
       "date": "6月11日",
       "dateSort": "2026-06-11",
@@ -88,7 +140,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 70,
+      "score": 55,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月11日",
       "dateSort": "2026-06-11",
@@ -106,7 +158,7 @@
       "tags": [
         "供应链"
       ],
-      "score": 70,
+      "score": 55,
       "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
       "date": "6月11日",
       "dateSort": "2026-06-11",
@@ -122,7 +174,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 70,
+      "score": 55,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月11日",
       "dateSort": "2026-06-11",
@@ -140,7 +192,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 75,
+      "score": 60,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月11日",
       "dateSort": "2026-06-11",
@@ -158,7 +210,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 70,
+      "score": 55,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月11日",
       "dateSort": "2026-06-11",
@@ -176,8 +228,43 @@
       "tags": [
         "出海"
       ],
-      "score": 75,
+      "score": 60,
       "reason": "[GLOBAL] 餐饮出海是今年的热门方向，如果你服务的品牌有出海计划，这篇可以作为参考",
+      "date": "6月11日",
+      "dateSort": "2026-06-11",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "0e4105aac3f1",
+      "title": "新址起航，煸香万里｜贺老韩煸鸡总部乔迁之喜",
+      "url": "https://www.canyin88.com/zixun/2026/06/11/112212.html",
+      "source": "红餐网",
+      "time": "2026-06-11T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-11 17:17:19来源：红餐网1145",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "6月11日",
+      "dateSort": "2026-06-11",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "e76dfcd7936e",
+      "title": "淘宝闪购升级“新店成长体系”，扶持中小商家数字化起步",
+      "url": "https://www.canyin88.com/zixun/2026/06/11/112211.html",
+      "source": "红餐网",
+      "time": "2026-06-11T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-11 15:44:19来源：红餐网963",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "外卖/平台",
+        "AI/数字化"
+      ],
+      "score": 55,
+      "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "6月11日",
       "dateSort": "2026-06-11",
       "timeDisplay": "12:00"

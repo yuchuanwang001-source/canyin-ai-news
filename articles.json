@@ -1,7 +1,47 @@
 {
-  "updated": "2026-06-13T09:57:48.149686+08:00",
-  "articleCount": 72,
+  "updated": "2026-06-14T10:07:12.633378+08:00",
+  "articleCount": 75,
   "articles": [
+    {
+      "id": "baad8a5540f1",
+      "title": "新通教育与36氪联合发布《AI时代留学就业白皮书》，首次系统性定义AI时代留学生就业能力框架",
+      "url": "https://www.36kr.com/p/3851195290326275",
+      "source": "36氪AI",
+      "time": "2026-06-14T10:07:48+08:00",
+      "summary": "2026新通发布AI留学就业白皮书，提出能力框架与黄金赛道",
+      "image": "https://img.36krcdn.com/hsossms/20260613/v2_e70c74ed19a44d4f9d1186d19978e6d0@6062546_oswg1097078oswg1053oswg495_img_png?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+      "category": "数据报告",
+      "tags": [
+        "餐饮趋势",
+        "AI/数字化",
+        "报告/数据"
+      ],
+      "score": 75,
+      "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
+      "date": "6月14日",
+      "dateSort": "2026-06-14",
+      "timeDisplay": "10:07"
+    },
+    {
+      "id": "a9b036dd69fe",
+      "title": "36氪研究院 | AI时代留学就业白皮书：中国留学生全球就业趋势与人才价值重塑",
+      "url": "https://36kr.com/p/3846972367866119?f=rss",
+      "source": "36氪",
+      "time": "2026-06-13T14:00:00+08:00",
+      "summary": "在AI浪潮重塑全球产业逻辑的当下，传统留学路径所依赖的学历溢价与信息差正在系统性失效，大量高薪专业的基础性任务面临被AI批量化替代的风险。70/80后家长遭遇教育投资回报率骤降，05后年轻一代则陷入人机协同时代“何以确立自身不可替代价值”的身份焦虑。面对旧共识瓦解、新航线未明的历史性分水岭，36氪研究院与新通教育联合发布《AI时代留学就业白皮书：中国留学生全球就业趋势与人才价值重塑》。白皮书基于新",
+      "image": "",
+      "category": "数据报告",
+      "tags": [
+        "餐饮趋势",
+        "AI/数字化",
+        "出海"
+      ],
+      "score": 50,
+      "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
+      "date": "6月13日",
+      "dateSort": "2026-06-13",
+      "timeDisplay": "14:00"
+    },
     {
       "id": "5a34c01e69af",
       "title": "排队两小时，火遍“琼东西”！这杯咸饮走向全国还差几步？",
@@ -12,7 +52,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月12日",
       "dateSort": "2026-06-12",
@@ -30,7 +70,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月12日",
       "dateSort": "2026-06-12",
@@ -48,7 +88,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月12日",
       "dateSort": "2026-06-12",
@@ -66,7 +106,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 55,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月12日",
       "dateSort": "2026-06-12",
@@ -82,7 +122,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月12日",
       "dateSort": "2026-06-12",
@@ -1218,6 +1258,22 @@
       "date": "5月28日",
       "timeDisplay": "12:00",
       "dateSort": "2026-05-28"
+    },
+    {
+      "id": "061aa0aa4799",
+      "title": "民谣集五店齐开加速全国布局；上海发布外摆位新规",
+      "url": "https://www.canyin88.com/zixun/2026/05/25/112016.html",
+      "source": "红餐网",
+      "time": "2026-05-25T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-05-25 10:13:41来源：红餐网4991",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 50,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "5月25日",
+      "dateSort": "2026-05-25",
+      "timeDisplay": "12:00"
     },
     {
       "id": "c1be094aadee",

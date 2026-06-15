@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-14T10:07:12.633378+08:00",
-  "articleCount": 75,
+  "updated": "2026-06-15T10:11:22.286340+08:00",
+  "articleCount": 76,
   "articles": [
+    {
+      "id": "0293990f52a3",
+      "title": "华人AI工程师也搭上了SpaceX的财富火箭",
+      "url": "https://www.36kr.com/p/3852485841156997",
+      "source": "36氪AI",
+      "time": "2026-06-15T10:11:50+08:00",
+      "summary": "从多模态到代码智能体，xAI里的华人AI工程师也被装进了SpaceX上市故事。",
+      "image": "https://img.36krcdn.com/hsossms/20260614/v2_d0fe04f91faa4b719ab2a408efa7a671@000000_oswg121941oswg940oswg399_img_000?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+      "category": "AI动态",
+      "tags": [
+        "品牌动态",
+        "AI/数字化",
+        "资本/投融资"
+      ],
+      "score": 80,
+      "reason": "[MONEY] 这家公司的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "6月15日",
+      "dateSort": "2026-06-15",
+      "timeDisplay": "10:11"
+    },
     {
       "id": "baad8a5540f1",
       "title": "新通教育与36氪联合发布《AI时代留学就业白皮书》，首次系统性定义AI时代留学生就业能力框架",
@@ -16,7 +36,7 @@
         "AI/数字化",
         "报告/数据"
       ],
-      "score": 75,
+      "score": 45,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "6月14日",
       "dateSort": "2026-06-14",
@@ -36,7 +56,7 @@
         "AI/数字化",
         "出海"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "6月13日",
       "dateSort": "2026-06-13",

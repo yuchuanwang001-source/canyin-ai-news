@@ -1,7 +1,79 @@
 {
-  "updated": "2026-06-16T10:15:20.562363+08:00",
-  "articleCount": 101,
+  "updated": "2026-06-17T10:11:01.762192+08:00",
+  "articleCount": 107,
   "articles": [
+    {
+      "id": "946050978ad0",
+      "title": "从菜单小透明到门店新顶流，餐厅抢着做这个“单品”？",
+      "url": "https://www.canyin88.com/zixun/2026/06/17/112263.html",
+      "source": "红餐网",
+      "time": "2026-06-17T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-17 09:02:29来源：红餐网106",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态"
+      ],
+      "score": 80,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "6月17日",
+      "dateSort": "2026-06-17",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "b7287c503b67",
+      "title": "门店全关不到半年！网红汉堡大变样杀回长沙",
+      "url": "https://www.canyin88.com/zixun/2026/06/17/112262.html",
+      "source": "红餐网",
+      "time": "2026-06-17T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-17 08:59:34来源：红餐网92",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态"
+      ],
+      "score": 80,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "6月17日",
+      "dateSort": "2026-06-17",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "001674ebac9b",
+      "title": "华莱士首家速来得餐厅在美国洛杉矶开业；1-5月份全国餐饮收入23488亿元",
+      "url": "https://www.canyin88.com/zixun/2026/06/17/112261.html",
+      "source": "红餐网",
+      "time": "2026-06-17T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-17 08:55:54来源：红餐网90",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 80,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "6月17日",
+      "dateSort": "2026-06-17",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "e3dcdd4291e2",
+      "title": "2026年中国互联网及AI大模型内容风控行业发展研究报告",
+      "url": "https://www.36kr.com/p/3856511775462657",
+      "source": "36氪AI",
+      "time": "2026-06-17T10:11:48+08:00",
+      "summary": "中国大模型内容风控行业高速增长，网易智企易盾份额领先",
+      "image": "https://img.36krcdn.com/hsossms/20260617/v2_abc2f4fce4a44373b5deaf7c11b49696@000000@ai_oswg242583oswg1536oswg722_img_000~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "数据报告",
+      "tags": [
+        "餐饮趋势",
+        "AI/数字化",
+        "报告/数据"
+      ],
+      "score": 90,
+      "reason": "[HOT] 今日重磅消息，行业关注度最高，建议优先阅读",
+      "date": "6月17日",
+      "dateSort": "2026-06-17",
+      "timeDisplay": "10:11"
+    },
     {
       "id": "2229ffebcb1a",
       "title": "“鱼子酱第一股”，要来了？",
@@ -14,7 +86,7 @@
       "tags": [
         "供应链"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
       "date": "6月16日",
       "dateSort": "2026-06-16",
@@ -32,7 +104,7 @@
       "tags": [
         "供应链"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
       "date": "6月16日",
       "dateSort": "2026-06-16",
@@ -48,7 +120,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 80,
+      "score": 55,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月16日",
       "dateSort": "2026-06-16",
@@ -68,8 +140,8 @@
         "AI/数字化",
         "报告/数据"
       ],
-      "score": 85,
-      "reason": "[HOT] 今日重磅消息，行业关注度最高，建议优先阅读",
+      "score": 60,
+      "reason": "[DATA] 餐饮行业最新数据报告，如果你在做会员运营或者品牌策略，数据比感觉靠谱",
       "date": "6月16日",
       "dateSort": "2026-06-16",
       "timeDisplay": "12:00"
@@ -86,7 +158,23 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 80,
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "6月16日",
+      "dateSort": "2026-06-16",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "27f0e017e71f",
+      "title": "柠季×伊藤润二狂热｜富江之味，杨梅之魅",
+      "url": "https://www.canyin88.com/zixun/2026/06/16/112251.html",
+      "source": "红餐网",
+      "time": "2026-06-16T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-16 11:32:59来源：红餐网1330",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月16日",
       "dateSort": "2026-06-16",
@@ -105,7 +193,7 @@
         "餐饮趋势",
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 50,
       "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
       "date": "6月16日",
       "dateSort": "2026-06-16",
@@ -125,7 +213,7 @@
         "资本/投融资",
         "报告/数据"
       ],
-      "score": 70,
+      "score": 40,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "6月16日",
       "dateSort": "2026-06-16",
@@ -145,7 +233,7 @@
         "AI/数字化",
         "餐饮创新"
       ],
-      "score": 75,
+      "score": 45,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "6月16日",
       "dateSort": "2026-06-16",
@@ -165,7 +253,7 @@
         "AI/数字化",
         "报告/数据"
       ],
-      "score": 75,
+      "score": 45,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "6月16日",
       "dateSort": "2026-06-16",
@@ -181,7 +269,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -197,7 +285,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -213,7 +301,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -231,7 +319,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 60,
+      "score": 55,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -250,7 +338,7 @@
         "供应链",
         "资本/投融资"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -268,7 +356,7 @@
       "tags": [
         "供应链"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -287,7 +375,7 @@
         "餐饮趋势",
         "营销/运营"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[TREND] 运营干货，会员运营和私域是你日常工作的一部分，看看别人怎么做的",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -303,7 +391,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -322,7 +410,7 @@
         "AI/数字化",
         "餐饮创新"
       ],
-      "score": 40,
+      "score": 35,
       "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -342,7 +430,7 @@
         "AI/数字化",
         "报告/数据"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -362,7 +450,7 @@
         "AI/数字化",
         "资本/投融资"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[MONEY] 这家公司的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -378,7 +466,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 40,
+      "score": 35,
       "reason": "[R] 餐饮老板内参出品，深度分析餐饮产业，做这行不看这个会错过很多",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -396,7 +484,7 @@
       "tags": [
         "餐饮趋势"
       ],
-      "score": 45,
+      "score": 40,
       "reason": "[TREND] 运营干货，会员运营和私域是你日常工作的一部分，看看别人怎么做的",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -412,7 +500,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 40,
+      "score": 35,
       "reason": "[R] 餐饮老板内参出品，深度分析餐饮产业，做这行不看这个会错过很多",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -428,7 +516,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 40,
+      "score": 35,
       "reason": "[R] 餐饮老板内参出品，深度分析餐饮产业，做这行不看这个会错过很多",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -447,7 +535,7 @@
         "餐饮趋势",
         "报告/数据"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[DATA] 餐饮行业最新数据报告，如果你在做会员运营或者品牌策略，数据比感觉靠谱",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -465,7 +553,7 @@
       "tags": [
         "出海"
       ],
-      "score": 45,
+      "score": 40,
       "reason": "[GLOBAL] 餐饮出海是今年的热门方向，如果你服务的品牌有出海计划，这篇可以作为参考",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -485,7 +573,7 @@
         "品牌动态",
         "资本/投融资"
       ],
-      "score": 45,
+      "score": 40,
       "reason": "[MONEY] 这家公司的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -501,7 +589,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 40,
+      "score": 35,
       "reason": "[R] 餐饮老板内参的一线观察，接地气、有案例，适合实操参考",
       "date": "6月15日",
       "dateSort": "2026-06-15",
@@ -1743,6 +1831,22 @@
       "date": "5月28日",
       "timeDisplay": "12:00",
       "dateSort": "2026-05-28"
+    },
+    {
+      "id": "061aa0aa4799",
+      "title": "民谣集五店齐开加速全国布局；上海发布外摆位新规",
+      "url": "https://www.canyin88.com/zixun/2026/05/25/112016.html",
+      "source": "红餐网",
+      "time": "2026-05-25T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-05-25 10:13:41来源：红餐网5048",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 50,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "5月25日",
+      "dateSort": "2026-05-25",
+      "timeDisplay": "12:00"
     },
     {
       "id": "c1be094aadee",

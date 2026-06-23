@@ -318,14 +318,20 @@ def scrape_hongcan():
         soup = BeautifulSoup(r.content, 'html.parser')
         for a in soup.find_all('a', href=True):
             h = a['href']
-            m = re.search(r'/(zixun|kuaixun)/(\d{4}/\d{2}/\d{2})/\d+\.html', h)
+            # zixun: /zixun/2026/06/23/112322.html  (YYYY/MM/DD)
+            # kuaixun: /kuaixun/2026/0623/112329.html  (YYYYMMDD)
+            m = re.search(r'/(zixun|kuaixun)/\d{4}/(\d{2}/\d{2}|\d{4})/\d+\.html', h)
             if not m: continue
             url = h if h.startswith('http') else 'https://www.canyin88.com' + h
             title = txt(a)
             if not title or len(title) < 8: continue
-            # 从URL提取日期（100%准确）
-            date_from_url = m.group(2).replace('/', '-')
-            time_str = f"{date_from_url}T12:00:00+08:00"
+            # 从URL提取日期（兼容两种格式）
+            raw_part = m.group(2)
+            if '/' in raw_part:
+                date_from_url = raw_part.replace('/', '-')
+            else:
+                date_from_url = f'{raw_part[:2]}-{raw_part[2:]}'
+            time_str = f"2026-{date_from_url}T12:00:00+08:00"
             summary, img_url = "", ""
             try:
                 ar = session.get(url, timeout=TIMEOUT, headers={**HEADERS, "Referer": "https://www.canyin88.com/"})

@@ -1,7 +1,62 @@
 {
-  "updated": "2026-06-22T10:13:40.749782+08:00",
-  "articleCount": 143,
+  "updated": "2026-06-23T09:52:52.037981+08:00",
+  "articleCount": 148,
   "articles": [
+    {
+      "id": "2c8298a1aee9",
+      "title": "评奖赛事｜2026世界人工智能大会SAIL奖TOP30及青年优秀论文奖TOP20发布",
+      "url": "https://www.36kr.com/p/3864236985013511",
+      "source": "36氪AI",
+      "time": "2026-06-23T09:54:22+08:00",
+      "summary": "2026 WAIC SAIL奖TOP30、青年优秀论文TOP20入围发布",
+      "image": "https://img.36krcdn.com/hsossms/20260622/v2_7cdaad7f356a4b2db4a20606bf4f5004@6381723_oswg968774oswg1053oswg495_img_png?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 80,
+      "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
+      "date": "6月23日",
+      "dateSort": "2026-06-23",
+      "timeDisplay": "09:54"
+    },
+    {
+      "id": "f5079a255152",
+      "title": "又一大模型发布，号称比肩Fable 5和Mythos",
+      "url": "https://www.36kr.com/p/3864299699000581",
+      "source": "36氪AI",
+      "time": "2026-06-23T09:53:18+08:00",
+      "summary": "Sakana AI提出大模型训练新思路。",
+      "image": "https://img.36krcdn.com/hsossms/20260623/v2_de92fec3a05c4a41814d780e638de9fb@5091053@ai_oswg1034443oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 80,
+      "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
+      "date": "6月23日",
+      "dateSort": "2026-06-23",
+      "timeDisplay": "09:53"
+    },
+    {
+      "id": "df2f05bad398",
+      "title": "淘宝闪购上线新业务\"家宴\"，联合米其林高星餐厅｜独家",
+      "url": "https://www.36kr.com/p/3863831007941638",
+      "source": "36氪AI",
+      "time": "2026-06-23T09:53:16+08:00",
+      "summary": "通过深度服务和品类创新，为改善客单价和利润率创造条件。",
+      "image": "https://img.36krcdn.com/hsossms/20260622/v2_505c0aad5e8b49cc905ee065dd52d8e2@1934172915_oswg116187oswg1053oswg495_img_png?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+      "category": "餐饮动态",
+      "tags": [
+        "外卖/平台",
+        "餐饮创新"
+      ],
+      "score": 70,
+      "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
+      "date": "6月23日",
+      "dateSort": "2026-06-23",
+      "timeDisplay": "09:53"
+    },
     {
       "id": "f7808549c078",
       "title": "利润暴涨151%！香港老牌快餐逆风翻盘，还要在内地加速开店",
@@ -14,7 +69,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -30,7 +85,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 80,
+      "score": 55,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -48,7 +103,7 @@
       "tags": [
         "供应链"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -67,7 +122,7 @@
         "外卖/平台",
         "供应链"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -83,7 +138,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 80,
+      "score": 55,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -99,7 +154,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 80,
+      "score": 55,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -117,7 +172,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -133,7 +188,39 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 80,
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "6月22日",
+      "dateSort": "2026-06-22",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "088851d995c0",
+      "title": "聚慧餐调与涪陵榨菜强强联合，共拓调味品全域新零售市场",
+      "url": "https://www.canyin88.com/zixun/2026/06/22/112315.html",
+      "source": "红餐网",
+      "time": "2026-06-22T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-22 15:50:38来源：红餐网1097",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "6月22日",
+      "dateSort": "2026-06-22",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "cbd159c40947",
+      "title": "看球赛吃炸鸡，临榆炸鸡腿端午节假期闪现街球霸王武汉站",
+      "url": "https://www.canyin88.com/zixun/2026/06/22/112308.html",
+      "source": "红餐网",
+      "time": "2026-06-22T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-22 11:07:35来源：红餐网1057",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -153,7 +240,7 @@
         "AI/数字化",
         "报告/数据"
       ],
-      "score": 75,
+      "score": 50,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -171,7 +258,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 40,
       "reason": "[AI] Anthropic在AI领域又有新动作，如果你关注AI怎么落地餐饮场景，这篇能给你一些启发",
       "date": "6月22日",
       "dateSort": "2026-06-22",

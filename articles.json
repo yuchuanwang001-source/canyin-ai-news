@@ -1,7 +1,171 @@
 {
-  "updated": "2026-06-23T09:52:52.037981+08:00",
-  "articleCount": 148,
+  "updated": "2026-06-23T23:31:45.923562+08:00",
+  "articleCount": 171,
   "articles": [
+    {
+      "id": "8aec8be522ef",
+      "title": "当AI智能体走进伊利一线服务，导购和达人营销有了新解法",
+      "url": "https://www.36kr.com/p/3865187393934598",
+      "source": "36氪AI",
+      "time": "2026-06-23T23:32:20+08:00",
+      "summary": "面对越来越专业的消费者，伊利把AI智能体放进导购、社群、达人营销等快消一线场景，借助腾讯云智能体开发平台ADP",
+      "image": "https://img.36krcdn.com/hsossms/20260623/v2_f382d440f9b1482a92f6f7e413a7e8bb@000000_oswg51366oswg897oswg383_img_000?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化",
+        "餐饮创新",
+        "营销/运营"
+      ],
+      "score": 75,
+      "reason": "[AI] 腾讯在AI领域又有新动作，如果你关注AI怎么落地餐饮场景，这篇能给你一些启发",
+      "date": "6月23日",
+      "dateSort": "2026-06-23",
+      "timeDisplay": "23:32"
+    },
+    {
+      "id": "9a13912b16cd",
+      "title": "氪星晚报｜索尼集团计划近三十年来首次发行美元债券；甲骨文上财年裁员约2.1万；豆包发布2.1 Pro模型",
+      "url": "https://36kr.com/p/3865513055540481?f=rss",
+      "source": "36氪",
+      "time": "2026-06-23T16:47:50+08:00",
+      "summary": "大公司：甲骨文上财年裁员约2.1万甲骨文上财年裁员约2.1万，减员规模大于此前已知水平，其中包括因使用人工智能（AI）而被取消的岗位。甲骨文周一在年度财务监管申报文件中称：“我们在各项业务中采用和部署AI技术，已经导致并且未来可能继续导致员工人数减少。”英伟达宣布Vera Rubin NVL4系统Q4起供货6月22日，英伟达宣布推出Vera Rubin超级计算平台，用于支撑气候建模、计算流体力学、",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "餐饮趋势",
+        "AI/数字化"
+      ],
+      "score": 55,
+      "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
+      "date": "6月23日",
+      "dateSort": "2026-06-23",
+      "timeDisplay": "16:47"
+    },
+    {
+      "id": "857f1b5d9739",
+      "title": "有智青年挑战赛暨全国AI+场景应用大赛决赛收官！在WAVES 2026的舞台上，挖掘中国下一代AI独角",
+      "url": "https://36kr.com/p/3865480064504835?f=rss",
+      "source": "36氪",
+      "time": "2026-06-23T16:16:45+08:00",
+      "summary": "有智青年挑战赛暨全国AI+场景应用大赛决赛在WAVES新浪潮大会期间举行，汇聚多支青年团队围绕AI与数字经济前沿场景展开角逐，展现青年创业者的技术探索与落地能力。2026年，AI全面进入“行动者”时代。当大模型、智能体、具身智能从实验室的技术概念，全面走进千行百业的产业落地场景，AI工具的平民化与普及化，依托开源生态、轻量化开发工具与普惠算力，不断压低创新创业的成本，大批怀揣梦想的年轻群体获得入局",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化",
+        "餐饮创新"
+      ],
+      "score": 55,
+      "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
+      "date": "6月23日",
+      "dateSort": "2026-06-23",
+      "timeDisplay": "16:16"
+    },
+    {
+      "id": "818eafc5b19a",
+      "title": "赛事经济、民俗经济、粽子经济三重发力！端午餐饮消费迎来结构性增长",
+      "url": "https://www.canyin88.com/zixun/2026/06/23/112322.html",
+      "source": "红餐网",
+      "time": "2026-06-23T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-23 14:20:37来源：红餐网624",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "餐饮趋势"
+      ],
+      "score": 65,
+      "reason": "[TREND] 运营干货，会员运营和私域是你日常工作的一部分，看看别人怎么做的",
+      "date": "6月23日",
+      "dateSort": "2026-06-23",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "14bb599badcf",
+      "title": "门店不足6平，日均销量达百杯！武汉一“菜市场咖啡店”走红",
+      "url": "https://www.canyin88.com/zixun/2026/06/23/112321.html",
+      "source": "红餐网",
+      "time": "2026-06-23T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-23 13:58:09来源：红餐网576",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态"
+      ],
+      "score": 60,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "6月23日",
+      "dateSort": "2026-06-23",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "568fbd1b04da",
+      "title": "香水柠檬的“半生”：红了几年，还没真正长大",
+      "url": "https://www.canyin88.com/zixun/2026/06/23/112320.html",
+      "source": "红餐网",
+      "time": "2026-06-23T12:00:00+08:00",
+      "summary": "红餐供应链指南·2026-06-23 09:33:55来源：红餐网803",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "供应链"
+      ],
+      "score": 60,
+      "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
+      "date": "6月23日",
+      "dateSort": "2026-06-23",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "297d39b21f5f",
+      "title": "供应链名企| 红满坡：贵州辣椒大佬，合作卫龙、周黑鸭等企业",
+      "url": "https://www.canyin88.com/zixun/2026/06/23/112319.html",
+      "source": "红餐网",
+      "time": "2026-06-23T12:00:00+08:00",
+      "summary": "红餐供应链指南·2026-06-23 09:31:55来源：红餐网767",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "供应链"
+      ],
+      "score": 60,
+      "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
+      "date": "6月23日",
+      "dateSort": "2026-06-23",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "ab68bbd3cc0f",
+      "title": "永辉超市上线餐饮外卖业务；淘宝闪购上线新业务“家宴”",
+      "url": "https://www.canyin88.com/zixun/2026/06/23/112318.html",
+      "source": "红餐网",
+      "time": "2026-06-23T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-23 09:28:55来源：红餐网719",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "外卖/平台"
+      ],
+      "score": 60,
+      "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
+      "date": "6月23日",
+      "dateSort": "2026-06-23",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "7b24ee221719",
+      "title": "单杯售价9.9元起！瑞幸再推两款鲜果现制饮品",
+      "url": "https://www.canyin88.com/kuaixun/2026/0623/112329.html",
+      "source": "红餐网",
+      "time": "2026-06-23T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-23 17:40:29来源：红餐网448",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 60,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "6月23日",
+      "dateSort": "2026-06-23",
+      "timeDisplay": "12:00"
+    },
     {
       "id": "2c8298a1aee9",
       "title": "评奖赛事｜2026世界人工智能大会SAIL奖TOP30及青年优秀论文奖TOP20发布",
@@ -14,7 +178,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
       "date": "6月23日",
       "dateSort": "2026-06-23",
@@ -32,7 +196,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
       "date": "6月23日",
       "dateSort": "2026-06-23",
@@ -51,7 +215,7 @@
         "外卖/平台",
         "餐饮创新"
       ],
-      "score": 70,
+      "score": 45,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "6月23日",
       "dateSort": "2026-06-23",
@@ -69,7 +233,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -85,7 +249,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -103,7 +267,7 @@
       "tags": [
         "供应链"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -122,7 +286,7 @@
         "外卖/平台",
         "供应链"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -138,7 +302,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -154,7 +318,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -172,7 +336,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -188,7 +352,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -204,7 +368,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -220,8 +384,26 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "6月22日",
+      "dateSort": "2026-06-22",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "7671d5d6afb0",
+      "title": "持续加码餐饮！永辉超市推“永辉厨房”，上线餐饮外卖服务",
+      "url": "https://www.canyin88.com/kuaixun/2026/0622/112316.html",
+      "source": "红餐网",
+      "time": "2026-06-22T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-22 17:49:54来源：红餐网1405",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "外卖/平台"
+      ],
+      "score": 50,
+      "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "6月22日",
       "dateSort": "2026-06-22",
       "timeDisplay": "12:00"
@@ -240,7 +422,7 @@
         "AI/数字化",
         "报告/数据"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "6月22日",
       "dateSort": "2026-06-22",
@@ -577,6 +759,22 @@
       "timeDisplay": "12:00"
     },
     {
+      "id": "26cbd45e0d05",
+      "title": "聚慧餐调递表港交所，中信建投国际为独家保荐人",
+      "url": "https://www.canyin88.com/kuaixun/2026/0618/112287.html",
+      "source": "红餐网",
+      "time": "2026-06-18T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-18 15:12:44来源：红餐网4060",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 50,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "6月18日",
+      "dateSort": "2026-06-18",
+      "timeDisplay": "12:00"
+    },
+    {
       "id": "52027dfd0199",
       "title": "上百个Agent，该怎么管？清华团队新思路：重做Session",
       "url": "https://www.36kr.com/p/3857990388093957",
@@ -799,6 +997,24 @@
       "timeDisplay": "12:00"
     },
     {
+      "id": "95a91c663137",
+      "title": "市场监管总局就《外卖平台补贴行为规范十条》公开征求意见",
+      "url": "https://www.canyin88.com/kuaixun/2026/0617/112276.html",
+      "source": "红餐网",
+      "time": "2026-06-17T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-17 17:45:16来源：红餐网4595",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "外卖/平台"
+      ],
+      "score": 50,
+      "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
+      "date": "6月17日",
+      "dateSort": "2026-06-17",
+      "timeDisplay": "12:00"
+    },
+    {
       "id": "e3dcdd4291e2",
       "title": "2026年中国互联网及AI大模型内容风控行业发展研究报告",
       "url": "https://www.36kr.com/p/3856511775462657",
@@ -915,6 +1131,58 @@
       "source": "红餐网",
       "time": "2026-06-16T12:00:00+08:00",
       "summary": "红餐编辑部·2026-06-16 11:32:59来源：红餐网1330",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 50,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "6月16日",
+      "dateSort": "2026-06-16",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "44bfa6507a3e",
+      "title": "百胜中国宣布收购必胜客品牌在中国大陆的所有权",
+      "url": "https://www.canyin88.com/kuaixun/2026/0616/112260.html",
+      "source": "红餐网",
+      "time": "2026-06-16T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-16 23:20:44来源：红餐网2110",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态"
+      ],
+      "score": 55,
+      "reason": "[MONEY] 这家公司的资本运作动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "6月16日",
+      "dateSort": "2026-06-16",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "f0a31ed06d0d",
+      "title": "加码海外布局，农耕记要在印尼、巴拿马、澳大利亚等国家开首店",
+      "url": "https://www.canyin88.com/kuaixun/2026/0616/112253.html",
+      "source": "红餐网",
+      "time": "2026-06-16T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-16 11:52:44来源：红餐网1262",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "出海"
+      ],
+      "score": 50,
+      "reason": "[GLOBAL] 餐饮出海是今年的热门方向，如果你服务的品牌有出海计划，这篇可以作为参考",
+      "date": "6月16日",
+      "dateSort": "2026-06-16",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "27d60ddab340",
+      "title": "仅限堂食，人均70，正谈炸鸡要开始卖韩式料理了？",
+      "url": "https://www.canyin88.com/kuaixun/2026/0616/112249.html",
+      "source": "红餐网",
+      "time": "2026-06-16T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-16 09:38:25来源：红餐网1505",
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
@@ -1137,6 +1405,24 @@
       "tags": [],
       "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "6月15日",
+      "dateSort": "2026-06-15",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "08b5886d33dc",
+      "title": "﻿蜜雪冰城全国门店上新现磨咖啡，同步派发万张无门槛券",
+      "url": "https://www.canyin88.com/kuaixun/2026/0615/112240.html",
+      "source": "红餐网",
+      "time": "2026-06-15T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-15 14:55:30来源：红餐网2114",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态"
+      ],
+      "score": 50,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月15日",
       "dateSort": "2026-06-15",
       "timeDisplay": "12:00"
@@ -1446,6 +1732,41 @@
       "timeDisplay": "12:00"
     },
     {
+      "id": "1693f4a05404",
+      "title": "单杯低至4.9元！七鲜咖啡正式上线微信点单小程序",
+      "url": "https://www.canyin88.com/kuaixun/2026/0612/112227.html",
+      "source": "红餐网",
+      "time": "2026-06-12T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-12 17:12:30来源：红餐网2500",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 50,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "6月12日",
+      "dateSort": "2026-06-12",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "1066ebc2245d",
+      "title": "加码夏日冰饮赛道 书亦烧仙草全国上新四款冰淇淋系列新品",
+      "url": "https://www.canyin88.com/kuaixun/2026/0612/112226.html",
+      "source": "红餐网",
+      "time": "2026-06-12T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-12 16:25:01来源：红餐网4135",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "餐饮趋势",
+        "餐饮创新"
+      ],
+      "score": 50,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "6月12日",
+      "dateSort": "2026-06-12",
+      "timeDisplay": "12:00"
+    },
+    {
       "id": "d2c5adaa5b17",
       "title": "OpenAI正考虑大幅下调产品价格，预判将与Anthropic展开用户之争",
       "url": "https://36kr.com/newsflashes/3848443731612929?f=rss",
@@ -1656,6 +1977,24 @@
       ],
       "score": 50,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
+      "date": "6月11日",
+      "dateSort": "2026-06-11",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "13feb23b6fb2",
+      "title": "现点现做，人均40！巴黎贝甜开出全国首家创新实验店",
+      "url": "https://www.canyin88.com/kuaixun/2026/0611/112213.html",
+      "source": "红餐网",
+      "time": "2026-06-11T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-11 17:45:59来源：红餐网4293",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "餐饮创新"
+      ],
+      "score": 50,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月11日",
       "dateSort": "2026-06-11",
       "timeDisplay": "12:00"
@@ -2509,6 +2848,24 @@
       "dateSort": "2026-06-08"
     },
     {
+      "id": "1ad76069ff28",
+      "title": "喜茶茶坊海外首店纽约开业，茶特调热度延续到多个海外市场",
+      "url": "https://www.canyin88.com/kuaixun/2026/0608/112168.html",
+      "source": "红餐网",
+      "time": "2026-06-08T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-08 11:34:58来源：红餐网3232",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "出海"
+      ],
+      "score": 50,
+      "reason": "[GLOBAL] 餐饮出海是今年的热门方向，如果你服务的品牌有出海计划，这篇可以作为参考",
+      "date": "6月8日",
+      "dateSort": "2026-06-08",
+      "timeDisplay": "12:00"
+    },
+    {
       "id": "c10faa09b2fb",
       "title": "第二届餐饮行业“职教出海 美食同行”协作交流会在山东烟台举行",
       "url": "https://www.canyin88.com/zixun/2026/06/06/112159.html",
@@ -2527,6 +2884,25 @@
       "dateSort": "2026-06-06"
     },
     {
+      "id": "e8c1bf2f79ad",
+      "title": "拒绝外卖平台补贴，小菜园：平台补贴对品牌不是好事",
+      "url": "https://www.canyin88.com/kuaixun/2026/0606/112160.html",
+      "source": "红餐网",
+      "time": "2026-06-06T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-06 16:42:35来源：红餐网2973",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态",
+        "外卖/平台"
+      ],
+      "score": 50,
+      "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
+      "date": "6月6日",
+      "dateSort": "2026-06-06",
+      "timeDisplay": "12:00"
+    },
+    {
       "id": "8bbc05ce5199",
       "title": "遇见小面杭州首店落子；Five Guys北京首店围挡亮相",
       "url": "https://www.canyin88.com/zixun/2026/06/05/112157.html",
@@ -2541,6 +2917,40 @@
       "date": "6月5日",
       "timeDisplay": "12:00",
       "dateSort": "2026-06-05"
+    },
+    {
+      "id": "24bdac15a5e1",
+      "title": "通过备案！蜜雪冰城首部动画电影真的要来了",
+      "url": "https://www.canyin88.com/kuaixun/2026/0604/112138.html",
+      "source": "红餐网",
+      "time": "2026-06-04T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-04 14:30:06来源：红餐网2358",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 50,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "6月4日",
+      "dateSort": "2026-06-04",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "f379691a93bb",
+      "title": "人均41元，thank u mom时隔半年重返杭州开店",
+      "url": "https://www.canyin88.com/kuaixun/2026/0602/112118.html",
+      "source": "红餐网",
+      "time": "2026-06-02T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-02 17:38:07来源：红餐网1624",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态"
+      ],
+      "score": 50,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "6月2日",
+      "dateSort": "2026-06-02",
+      "timeDisplay": "12:00"
     },
     {
       "id": "af9568e117de",

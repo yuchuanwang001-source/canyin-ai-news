@@ -1,7 +1,67 @@
 {
-  "updated": "2026-06-25T09:54:55.540728+08:00",
-  "articleCount": 185,
+  "updated": "2026-06-26T09:56:45.725362+08:00",
+  "articleCount": 189,
   "articles": [
+    {
+      "id": "5dcb2f520263",
+      "title": "美光的好财报，黄金的坏消息",
+      "url": "https://36kr.com/p/3868523068298499?f=rss",
+      "source": "36氪",
+      "time": "2026-06-25T19:49:32+08:00",
+      "summary": "美东时间6月24日，存储巨头美光科技发布了2026 财年第三财季财报。数据显示，2026财年第三季度，公司实现收入415 亿美元，环比增长 74%，同比增长346%，连续第五个季度刷新历史纪录。同期，公司合并毛利率录得84.9%，环比提高10个百分点；经营现金流达到254亿美元，自由现金流为183亿美元，均创季度新高。在业绩远超市场预期的同时，财报及后续的电话会中，美光还披露了16份SCA的细节，",
+      "image": "",
+      "category": "数据报告",
+      "tags": [
+        "餐饮趋势",
+        "AI/数字化",
+        "报告/数据"
+      ],
+      "score": 50,
+      "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
+      "date": "6月25日",
+      "dateSort": "2026-06-25",
+      "timeDisplay": "19:49"
+    },
+    {
+      "id": "42afbbc09682",
+      "title": "RoboScience机器科学发布Visics通用具身大模型，实现跨本体、跨物体、跨任务｜最前线",
+      "url": "https://36kr.com/p/3868276479710466?f=rss",
+      "source": "36氪",
+      "time": "2026-06-25T15:42:21+08:00",
+      "summary": "作者｜黄楠编辑｜袁斯来6月24日，通用具身智能企业RoboScience机器科学通用具身大模型发布，首次完整披露自研Visics大模型的技术架构VLOA（Vision-Language-Object-Action），并展示了模型在家具拼装、灵巧抓取、动态流水线等多项真实场景的应用。大语言模型有标准的文本Token，自动驾驶有统一的视觉或点云表征，这些基础格式的确定，让数据和模型可以在不同场景之间复",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化",
+        "餐饮创新",
+        "报告/数据"
+      ],
+      "score": 50,
+      "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
+      "date": "6月25日",
+      "dateSort": "2026-06-25",
+      "timeDisplay": "15:42"
+    },
+    {
+      "id": "20676b60635b",
+      "title": "科氪 | 雷鸟创新 618 持续领跑 AR+智能眼镜品类，Q1 全球出货量再度登顶",
+      "url": "https://36kr.com/p/3868204527457287?f=rss",
+      "source": "36氪",
+      "time": "2026-06-25T14:21:18+08:00",
+      "summary": "2026 年上半年，全球智能眼镜市场迎来爆发式增长。IDC 数据显示全球 AR 市场（含 ER）同比增长 168.6%。国内市场的强劲增势同样印证了这一行业趋势，商务部大数据显示，2026 年 1 至 3 月，中国智能眼镜网络零售销售额同比增长 161.9%，AR 眼镜的受众圈层持续拓宽，正稳步渗透大众消费市场。在激烈的竞争态势下，全球领先消费级 AR 品牌雷鸟创新（RayNeo）持续巩固其头部优",
+      "image": "",
+      "category": "数据报告",
+      "tags": [
+        "餐饮趋势",
+        "品牌动态",
+        "AI/数字化"
+      ],
+      "score": 55,
+      "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
+      "date": "6月25日",
+      "dateSort": "2026-06-25",
+      "timeDisplay": "14:21"
+    },
     {
       "id": "bcb25e250d98",
       "title": "9.9元无限吃，火锅店为什么都抢着卖自助蔬菜？",
@@ -12,7 +72,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 80,
+      "score": 55,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月25日",
       "dateSort": "2026-06-25",
@@ -28,7 +88,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 80,
+      "score": 55,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月25日",
       "dateSort": "2026-06-25",
@@ -47,7 +107,7 @@
         "品牌动态",
         "餐饮创新"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月25日",
       "dateSort": "2026-06-25",
@@ -65,8 +125,24 @@
       "tags": [
         "供应链"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
+      "date": "6月25日",
+      "dateSort": "2026-06-25",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "2a768d83eb6d",
+      "title": "高德扫街榜上线《食神·百厨大战》榜单，一键直达名厨好店",
+      "url": "https://www.canyin88.com/zixun/2026/06/25/112353.html",
+      "source": "红餐网",
+      "time": "2026-06-25T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-06-25 16:29:18来源：红餐网1070",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月25日",
       "dateSort": "2026-06-25",
       "timeDisplay": "12:00"
@@ -83,7 +159,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 70,
+      "score": 40,
       "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
       "date": "6月25日",
       "dateSort": "2026-06-25",
@@ -101,7 +177,7 @@
       "tags": [
         "外卖/平台"
       ],
-      "score": 70,
+      "score": 40,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "6月25日",
       "dateSort": "2026-06-25",
@@ -117,7 +193,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月24日",
       "dateSort": "2026-06-24",
@@ -135,7 +211,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月24日",
       "dateSort": "2026-06-24",
@@ -153,7 +229,7 @@
       "tags": [
         "餐饮趋势"
       ],
-      "score": 60,
+      "score": 55,
       "reason": "[TREND] 运营干货，会员运营和私域是你日常工作的一部分，看看别人怎么做的",
       "date": "6月24日",
       "dateSort": "2026-06-24",
@@ -171,7 +247,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[FD] 抖音的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "6月24日",
       "dateSort": "2026-06-24",
@@ -187,7 +263,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月24日",
       "dateSort": "2026-06-24",
@@ -203,7 +279,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月24日",
       "dateSort": "2026-06-24",
@@ -219,7 +295,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月24日",
       "dateSort": "2026-06-24",
@@ -235,7 +311,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "6月24日",
       "dateSort": "2026-06-24",

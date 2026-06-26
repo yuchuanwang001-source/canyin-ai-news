@@ -7,7 +7,7 @@
 - 尝试抓取配图
 """
 
-import json, re, hashlib, time as t, subprocess, os
+import json, re, hashlib, time as t, os
 from datetime import datetime, timezone, timedelta
 from collections import Counter
 import requests
@@ -22,8 +22,6 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 TIMEOUT = 15
 session = requests.Session()
 session.headers.update(HEADERS)
-
-BASH_BIN = r"C:\Program Files\Git\bin\bash.exe"
 
 # ===== HELPERS =====
 def mid(url, title):
@@ -117,7 +115,8 @@ def classify(title, summary, src):
     # 长短语匹配，避免单个词误伤
     platform_phrases = ["规则调整","规则变更","新规出台","政策变化","政策更新",
                         "商家规则","费率调整","抽成变化","算法规则","合规要求",
-                        "平台新规","准入规则","平台补贴","商家政策"]
+                        "平台新规","准入规则","平台补贴","商家政策",
+                        "外卖平台","补贴行为","平台规则","补贴规范"]
     if any(p in t for p in platform_phrases):
         return ("平台政策", True)
 
@@ -331,7 +330,8 @@ def scrape_hongcan():
                 date_from_url = raw_part.replace('/', '-')
             else:
                 date_from_url = f'{raw_part[:2]}-{raw_part[2:]}'
-            time_str = f"2026-{date_from_url}T12:00:00+08:00"
+            year = NOW.year
+            time_str = f"{year}-{date_from_url}T12:00:00+08:00"
             summary, img_url = "", ""
             try:
                 ar = session.get(url, timeout=TIMEOUT, headers={**HEADERS, "Referer": "https://www.canyin88.com/"})
@@ -411,32 +411,79 @@ def scrape_rss():
     return articles
 
 
-# ===== 4. 微信公众号 (Exa) =====
+# ===== 4. 微信公众号 (Exa HTTP API) =====
+EXA_API_URL = "https://api.exa.ai"
+
+def exa_search(query, num_results=5):
+    """直接HTTP调用Exa搜索API，返回文章列表"""
+    api_key = os.environ.get("EXA_API_KEY", "")
+    if not api_key:
+        print("  [SKIP] EXA_API_KEY 未设置")
+        return []
+    
+    url = f"{EXA_API_URL}/search"
+    headers = {"accept": "application/json", "content-type": "application/json", "x-api-key": api_key}
+    payload = {"query": query, "numResults": num_results, "useAutoprompt": False}
+    
+    for _ in range(2):
+        try:
+            r = requests.post(url, json=payload, headers=headers, timeout=15)
+            if r.status_code == 429:
+                print("  [LIMIT] Exa 免费额度用尽")
+                return []
+            r.raise_for_status()
+            data = r.json()
+            return data.get("results", [])
+        except Exception as e:
+            if _: print(f"  [WARN] Exa search error: {e}")
+            t.sleep(1)
+    return []
+
+
+def exa_fetch(url):
+    """直接HTTP调用Exa获取文章内容"""
+    api_key = os.environ.get("EXA_API_KEY", "")
+    if not api_key:
+        return "", ""
+    
+    api_url = f"{EXA_API_URL}/contents"
+    headers = {"accept": "application/json", "content-type": "application/json", "x-api-key": api_key}
+    payload = {"urls": [url], "text": {"maxCharacters": 1500}}
+    
+    try:
+        r = requests.post(api_url, json=payload, headers=headers, timeout=20)
+        r.raise_for_status()
+        data = r.json()
+        results = data.get("results", [])
+        if results:
+            result = results[0]
+            text = result.get("text", "")
+            pub_date = result.get("publishedDate", "")
+            return text, pub_date
+    except Exception as e:
+        print(f"  [WARN] Exa fetch error {url[:40]}: {e}")
+    return "", ""
+
+
 def scrape_wechat():
-    print("\n[WX] 公众号 (Exa)")
+    """公众号搜索（Exa HTTP API，兼容本地和GitHub Actions）"""
+    print("\n[WX] 公众号 (Exa HTTP API)")
     articles = []
     import time as time_module
     wx_start = time_module.time()
     WX_TIMEOUT = 25  # 整个公众号搜索最多25秒
 
-    # 找 mcporter
-    mcporter_cmd = None
-    for p in ["mcporter","mcporter.cmd",os.path.expanduser("~/AppData/Roaming/npm/mcporter.cmd"),
-              r"C:\Users\HUAWEI\AppData\Roaming\npm\mcporter.cmd"]:
-        try:
-            subprocess.run([p, "--version"], capture_output=True, timeout=3, shell=True)
-            mcporter_cmd = p
-            break
-        except: continue
-    if not mcporter_cmd:
-        print("  [SKIP] mcporter 未找到")
+    # 检测Exa key是否存在，不存在则跳过
+    api_key = os.environ.get("EXA_API_KEY", "")
+    if not api_key:
+        print("  [SKIP] EXA_API_KEY 未设置，跳过公众号搜索")
         return articles
 
     queries = [
         # 餐饮公众号
         ("餐企老板内参","餐企老板内参"),("餐饮老板内参","餐饮老板内参"),
         ("勇哥餐饮","勇哥餐饮"),("餐饮O2O","餐饮O2O"),("窄门餐眼","窄门餐眼"),
-        # 新增餐饮+平台
+        # 平台类公众号
         ("淘宝闪购本地生活","淘宝闪购本地生活"),
         ("美团餐饮观察","美团餐饮观察"),
         ("淘宝闪购商家课堂","淘宝闪购商家课堂"),
@@ -457,49 +504,25 @@ def scrape_wechat():
         if time_module.time() - wx_start > WX_TIMEOUT:
             print(f"  [TIMEOUT] 公众号搜索超时，跳过剩余")
             break
-        try:
-            sq = f'site:mp.weixin.qq.com {sterm}'
-            bash_cmd = f"mcporter call 'exa.web_search_exa(query: \"{sq}\", numResults: 5)'"
-            r = subprocess.run([BASH_BIN, "-c", bash_cmd], capture_output=True, text=True, timeout=10)
-            if "429" in r.stderr or "rate limit" in r.stderr.lower():
-                print(f"  [LIMIT] Exa 免费额度用尽，无法搜索 {sname}")
-                break
-            if r.returncode != 0:
-                continue
-            titles = re.findall(r'^Title: (.*?)$', r.stdout, re.MULTILINE)
-            urls = re.findall(r'^URL: (https?://[^\n]+)', r.stdout, re.MULTILINE)
-            for i, url in enumerate(urls):
-                if url in seen: continue
-                seen.add(url)
-                title = titles[i] if i < len(titles) else ""
-                if not title or len(title) < 8: continue
-                summary, time_str, img_url = "", "", ""
-                try:
-                    read_bash = f'mcporter call \'exa.web_fetch_exa(urls: ["{url}"], maxCharacters: 1500)\''
-                    r2 = subprocess.run([BASH_BIN, "-c", read_bash], capture_output=True, text=True, timeout=20)
-                    lines = r2.stdout.strip().split('\n')
-                    for line in lines:
-                        ls = line.strip()
-                        if ls.startswith('Published:'):
-                            time_str = ls.split('Published:')[1].strip()
-                        elif ls and not ls.startswith('#') and not ls.startswith('URL:') and not ls.startswith('Author:') and len(ls) > 20 and not summary:
-                            summary = ls[:200]
-                        elif ls.startswith('!['):
-                            m2 = re.search(r'\((https?://[^)]+)\)', ls)
-                            if m2 and not img_url: img_url = m2.group(1)
-                except: pass
-                time_iso = parse_time(time_str)
-                # 公众号文章即使没有准确时间也收录（用当前时间保底）
-                if not time_iso or not is_today_or_yesterday(time_iso):
-                    time_iso = now_iso()
-                    unsure_time = True
-                else:
-                    unsure_time = False
-                articles.append({"id":mid(url,title),"title":title,"url":url,"source":sname,
-                    "time":time_iso,"summary":summary,"image":img_url,
-                    "category":classify(title,summary,sname),"tags":tags(title,summary)})
-        except Exception as e:
-            print(f"  [SKIP] {sname} — {e}")
+        sq = f'site:mp.weixin.qq.com {sterm}'
+        results = exa_search(sq, num_results=5)
+        if results is None:
+            # 额度用尽，提前退出
+            break
+        for item in results:
+            url = item.get("url", "")
+            if url in seen: continue
+            seen.add(url)
+            title = item.get("title", "")
+            if not title or len(title) < 8: continue
+            summary = item.get("text", "")[:200] if item.get("text") else ""
+            published = item.get("publishedDate", "")
+            time_iso = parse_time(published)
+            if not time_iso:
+                time_iso = now_iso()
+            articles.append({"id":mid(url,title),"title":title,"url":url,"source":sname,
+                "time":time_iso,"summary":summary,"image":"",
+                "category":classify(title,summary,sname),"tags":tags(title,summary)})
     print(f"  ✅ {len(articles)} 篇")
     return articles
 

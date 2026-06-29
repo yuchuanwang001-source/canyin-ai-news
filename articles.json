@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-28T16:06:57.328144+08:00",
-  "articleCount": 197,
+  "updated": "2026-06-29T10:01:29.332273+08:00",
+  "articleCount": 198,
   "articles": [
+    {
+      "id": "774d925577af",
+      "title": "全球杰出企业领导对数据和人工智能采用的经验分享",
+      "url": "https://www.36kr.com/p/3873017681483010",
+      "source": "36氪AI",
+      "time": "2026-06-29T10:02:05+08:00",
+      "summary": "数据最小价值单位是决策，谈做好数据决策五要点",
+      "image": "https://img.36krcdn.com/hsossms/20260628/v2_5c1986572e1443d1b10ce972e83695c5@000000@ai_oswg404060oswg1536oswg722_img_000~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化",
+        "出海",
+        "报告/数据"
+      ],
+      "score": 80,
+      "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
+      "date": "6月29日",
+      "dateSort": "2026-06-29",
+      "timeDisplay": "10:02"
+    },
     {
       "id": "4b2921348cc9",
       "title": "一折买 Miu Miu，谁在做奢侈品牌的\"拼多多\"？｜商业Friday",
@@ -14,7 +34,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 45,
+      "score": 35,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "6月28日",
       "dateSort": "2026-06-28",

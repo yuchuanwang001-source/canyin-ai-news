@@ -1,7 +1,7 @@
 name: 每日自动更新
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 5 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -17,7 +17,9 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
       - run: pip install -r requirements.txt
-      - run: python scraper.py
+      - env:
+          EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+        run: python scraper.py
       - run: |
           git config user.name "auto-bot"
           git config user.email "bot@canyin-ai-news"

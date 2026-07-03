@@ -99,9 +99,13 @@ def ai_section(aihot, articles):
     return '\n'.join(lines)
 
 def main():
-    token = os.environ.get('DINGTALK_TOKEN', '')
-    if not token:
-        print('ERROR: DINGTALK_TOKEN not set', file=sys.stderr)
+    tokens = []
+    t1 = os.environ.get('DINGTALK_TOKEN', '')
+    if t1: tokens.append(t1)
+    t2 = os.environ.get('DINGTALK_TOKEN2', '')
+    if t2: tokens.append(t2)
+    if not tokens:
+        print('ERROR: no DINGTALK_TOKEN set', file=sys.stderr)
         sys.exit(1)
 
     website = fetch(WEBSITE_URL)
@@ -148,29 +152,33 @@ def main():
         site_url = WEBSITE_URL.replace('/articles.json', '')
         report = report[:3700] + f'\n\n...内容过长，请访问 [餐饮AI情报站]({site_url}) 查看完整版'
 
-    payload = {
-        'msgtype': 'markdown',
-        'markdown': {
-            'title': f'餐饮AI情报站 · {date_str}',
-            'text': report
+    success_count = 0
+    for i, token in enumerate(tokens):
+        payload = {
+            'msgtype': 'markdown',
+            'markdown': {
+                'title': f'餐饮AI情报站 · {date_str}',
+                'text': report
+            }
         }
-    }
-    data = json.dumps(payload, ensure_ascii=False).encode('utf-8')
-    req = urllib.request.Request(
-        f'https://oapi.dingtalk.com/robot/send?access_token={token}',
-        data=data, headers={'Content-Type':'application/json'},
-        method='POST'
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=20) as r:
-            result = json.loads(r.read().decode('utf-8'))
-            if result.get('errcode') == 0:
-                print('SUCCESS: report sent')
-            else:
-                print(f'FAILED: {result}', file=sys.stderr)
-                sys.exit(1)
-    except Exception as e:
-        print(f'FAILED: {e}', file=sys.stderr)
+        data = json.dumps(payload, ensure_ascii=False).encode('utf-8')
+        req = urllib.request.Request(
+            f'https://oapi.dingtalk.com/robot/send?access_token={token}',
+            data=data, headers={'Content-Type':'application/json'},
+            method='POST'
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=20) as r:
+                result = json.loads(r.read().decode('utf-8'))
+                if result.get('errcode') == 0:
+                    print(f'SUCCESS: report sent to group {i+1}')
+                    success_count += 1
+                else:
+                    print(f'Group {i+1} FAILED: {result}', file=sys.stderr)
+        except Exception as e:
+            print(f'Group {i+1} FAILED: {e}', file=sys.stderr)
+    
+    if success_count == 0:
         sys.exit(1)
 
 if __name__ == '__main__':

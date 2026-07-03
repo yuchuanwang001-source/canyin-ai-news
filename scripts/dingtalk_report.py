@@ -147,8 +147,6 @@ def main():
     total = len(canyin)+len(waimai)
     parts.append(f'📡 *信息来源：红餐网 / 36氪 / AIHOT | 今日共{total}条*')
     report = '\n'.join(parts)
-    # 双换行，兼容不同钉钉客户端的排版
-    report = report.replace('\n', '\n\n')
 
     if len(report) > 3800:
         site_url = WEBSITE_URL.replace('/articles.json', '')

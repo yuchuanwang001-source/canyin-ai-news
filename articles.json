@@ -1,7 +1,55 @@
 {
-  "updated": "2026-07-03T16:56:21.167682+08:00",
-  "articleCount": 371,
+  "updated": "2026-07-03T18:06:00.863816+08:00",
+  "articleCount": 376,
   "articles": [
+    {
+      "id": "246f28bc1315",
+      "title": "被泼天流量砸中！刘文祥麻辣烫为何“暂停加盟”？",
+      "url": "https://mp.weixin.qq.com/s/0UECowk5NTY6Q82KXdbiSA",
+      "source": "餐企老板内参",
+      "time": "2026-07-03T18:06:00.863816+08:00",
+      "summary": "",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 65,
+      "reason": "[R] 餐饮老板内参出品，深度分析餐饮产业，做这行不看这个会错过很多",
+      "date": "7月3日",
+      "dateSort": "2026-07-03",
+      "timeDisplay": "18:06"
+    },
+    {
+      "id": "53ea5751c076",
+      "title": "麻辣烫“江湖”众生相",
+      "url": "https://mp.weixin.qq.com/s/xoshwZP7cT0jChgjJReTJQ",
+      "source": "餐企老板内参",
+      "time": "2026-07-03T18:06:00.863816+08:00",
+      "summary": "",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 65,
+      "reason": "[R] 餐饮老板内参出品，深度分析餐饮产业，做这行不看这个会错过很多",
+      "date": "7月3日",
+      "dateSort": "2026-07-03",
+      "timeDisplay": "18:06"
+    },
+    {
+      "id": "841989b43883",
+      "title": "Weixin Official Accounts Platform",
+      "url": "https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg",
+      "source": "DeepSeek",
+      "time": "2026-07-03T18:06:00.863816+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] DeepSeek动态，国产AI新锐力量",
+      "date": "7月3日",
+      "dateSort": "2026-07-03",
+      "timeDisplay": "18:06"
+    },
     {
       "id": "99a1bc36ebda",
       "title": "扎克伯格承认：Meta AI智能体研发不及预期",
@@ -71,7 +119,7 @@
         "AI/数字化",
         "餐饮创新"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -89,7 +137,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 50,
       "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -107,7 +155,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 50,
       "reason": "[R] 百度AI动态，AI技术先行者",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -123,7 +171,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 55,
+      "score": 45,
       "reason": "[R] 豆包AI动态，国产AI大模型进展值得关注",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -139,7 +187,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 55,
+      "score": 45,
       "reason": "[R] 豆包AI动态，国产AI大模型进展值得关注",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -159,8 +207,8 @@
         "AI/数字化",
         "资本/投融资"
       ],
-      "score": 85,
-      "reason": "[HOT] 今日重磅消息，行业关注度最高，建议优先阅读",
+      "score": 75,
+      "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
       "date": "7月3日",
       "dateSort": "2026-07-03",
       "timeDisplay": "15:51"
@@ -175,7 +223,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -194,7 +242,7 @@
         "餐饮趋势",
         "报告/数据"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -210,7 +258,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -228,7 +276,7 @@
       "tags": [
         "餐饮趋势"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -246,7 +294,7 @@
       "tags": [
         "外卖/平台"
       ],
-      "score": 70,
+      "score": 60,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -262,7 +310,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -278,7 +326,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -296,7 +344,7 @@
       "tags": [
         "餐饮创新"
       ],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -312,8 +360,42 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 70,
+      "score": 60,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月3日",
+      "dateSort": "2026-07-03",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "ec1a06f7c1a0",
+      "title": "﻿DQ ×《全职高手》联名：暴风集结荣耀登场",
+      "url": "https://www.canyin88.com/zixun/2026/07/03/112443.html",
+      "source": "红餐网",
+      "time": "2026-07-03T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-03 17:29:34来源：红餐网32",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 60,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月3日",
+      "dateSort": "2026-07-03",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "99466e97de25",
+      "title": "抖音生活服务餐饮火锅行业峰会：火锅品类交易同比增长超80%，下单用户数增长55%",
+      "url": "https://www.canyin88.com/zixun/2026/07/03/112442.html",
+      "source": "红餐网",
+      "time": "2026-07-03T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-03 17:24:17来源：红餐网78",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "餐饮趋势"
+      ],
+      "score": 65,
+      "reason": "[TREND] 运营干货，会员运营和私域是你日常工作的一部分，看看别人怎么做的",
       "date": "7月3日",
       "dateSort": "2026-07-03",
       "timeDisplay": "12:00"
@@ -330,7 +412,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 65,
+      "score": 55,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -350,7 +432,7 @@
         "AI/数字化",
         "餐饮创新"
       ],
-      "score": 70,
+      "score": 60,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -369,7 +451,7 @@
         "品牌动态",
         "外卖/平台"
       ],
-      "score": 50,
+      "score": 40,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -387,7 +469,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 50,
+      "score": 40,
       "reason": "[R] 阿里巴巴AI动态，大厂布局影响行业走向",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -405,7 +487,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 50,
+      "score": 40,
       "reason": "[R] 阿里巴巴AI动态，大厂布局影响行业走向",
       "date": "7月3日",
       "dateSort": "2026-07-03",
@@ -421,7 +503,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 50,
+      "score": 40,
       "reason": "[AI] 字节在AI领域又有新动作，如果你关注AI怎么落地餐饮场景，这篇能给你一些启发",
       "date": "7月3日",
       "dateSort": "2026-07-03",

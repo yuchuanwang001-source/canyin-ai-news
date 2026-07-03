@@ -1,7 +1,96 @@
 {
-  "updated": "2026-07-03T18:06:00.863816+08:00",
-  "articleCount": 376,
+  "updated": "2026-07-03T18:11:02.000884+08:00",
+  "articleCount": 382,
   "articles": [
+    {
+      "id": "bb56bcf9e3ca",
+      "title": "智谱是家什么公司？张鹏2023年这么说｜新皮层",
+      "url": "https://mp.weixin.qq.com/s/6ofQplmSrV28KurOKn_PCg",
+      "source": "智谱AI",
+      "time": "2026-07-03T18:11:02.000884+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 智谱AI动态，国产大模型重要参与者",
+      "date": "7月3日",
+      "dateSort": "2026-07-03",
+      "timeDisplay": "18:11"
+    },
+    {
+      "id": "35d0a40b6f37",
+      "title": "OpenAI十周年记：从非营利实验室到5000亿美元帝国，马斯克与奥特曼的决裂之路",
+      "url": "https://mp.weixin.qq.com/s/l5qdZ4Xcajk1hDiEYOnE6g",
+      "source": "OpenAI",
+      "time": "2026-07-03T18:11:02.000884+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] OpenAI最新动态，AI技术迭代影响每一个行业",
+      "date": "7月3日",
+      "dateSort": "2026-07-03",
+      "timeDisplay": "18:11"
+    },
+    {
+      "id": "cca3d9f986e1",
+      "title": "Google I/O 2025：从研究到现实",
+      "url": "https://mp.weixin.qq.com/s/117ryP3ZyQ3pSDtn0FLT7Q",
+      "source": "Google Gemini",
+      "time": "2026-07-03T18:11:02.000884+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] Google Gemini动态，全球AI竞赛最新进展",
+      "date": "7月3日",
+      "dateSort": "2026-07-03",
+      "timeDisplay": "18:11"
+    },
+    {
+      "id": "ee2f2b9159e0",
+      "title": "AI开店、AI接单、AI助老订餐...饿了么正在用AI重塑外卖江湖？",
+      "url": "https://mp.weixin.qq.com/s/GTVVudicFJhO5kYKuu4eTA",
+      "source": "人工智能餐饮",
+      "time": "2026-07-03T18:11:02.000884+08:00",
+      "summary": "",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态",
+        "外卖/平台",
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
+      "date": "7月3日",
+      "dateSort": "2026-07-03",
+      "timeDisplay": "18:11"
+    },
+    {
+      "id": "23d88cdc5dc4",
+      "title": "快手轻雀在深圳成立新公司，注册资本1000万",
+      "url": "https://36kr.com/newsflashes/3879752243474693?f=rss",
+      "source": "36氪",
+      "time": "2026-07-03T18:08:04+08:00",
+      "summary": "36氪获悉，天眼查App显示，近日，深圳市可灵星图科技有限公司成立，法定代表人为杨帆，注册资本1000万人民币，经营范围包括软件开发、人工智能应用软件开发、信息系统集成服务等，由北京可灵智能科技有限公司全资持股。",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化",
+        "资本/投融资"
+      ],
+      "score": 70,
+      "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
+      "date": "7月3日",
+      "dateSort": "2026-07-03",
+      "timeDisplay": "18:08"
+    },
     {
       "id": "246f28bc1315",
       "title": "被泼天流量砸中！刘文祥麻辣烫为何“暂停加盟”？",
@@ -396,6 +485,22 @@
       ],
       "score": 65,
       "reason": "[TREND] 运营干货，会员运营和私域是你日常工作的一部分，看看别人怎么做的",
+      "date": "7月3日",
+      "dateSort": "2026-07-03",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "1474c15d9413",
+      "title": "人均16元！老牌速冻工厂跨界开出了一家饺子店",
+      "url": "https://www.canyin88.com/zixun/2026/07/03/112444.html",
+      "source": "红餐网",
+      "time": "2026-07-03T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-03 17:51:11来源：红餐网1",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 60,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月3日",
       "dateSort": "2026-07-03",
       "timeDisplay": "12:00"

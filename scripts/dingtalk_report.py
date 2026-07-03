@@ -48,7 +48,8 @@ def select(articles, cat, n=5, ms=45):
         if a['title'] not in seen:
             seen.add(a['title'])
             u.append(a)
-    u.sort(key=lambda x: x.get('score',0), reverse=True)
+    # 按时间排序（最新优先），时间相同的按分数
+    u.sort(key=lambda x: (x.get('dateSort', ''), x.get('time', '')), reverse=True)
     return u[:n]
 
 def section(title, articles, fb=''):

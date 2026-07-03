@@ -16,4 +16,5 @@ jobs:
           python-version: '3.11'
       - env:
           DINGTALK_TOKEN: ${{ secrets.DINGTALK_TOKEN }}
+          DINGTALK_TOKEN2: ${{ secrets.DINGTALK_TOKEN2 }}
         run: python scripts/dingtalk_report.py

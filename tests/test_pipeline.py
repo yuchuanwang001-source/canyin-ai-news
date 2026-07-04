@@ -1,7 +1,12 @@
 from datetime import datetime, timedelta, timezone
 
 from canyin_news.models import Article, DateConfidence
-from canyin_news.pipeline import build_report, prepare_dry_run
+from canyin_news.pipeline import (
+    build_report,
+    prepare_dry_run,
+    prepare_production_bundle,
+    send_production_bundle,
+)
 
 
 BJ = timezone(timedelta(hours=8), "Asia/Shanghai")
@@ -61,3 +66,33 @@ def test_dry_run_writes_preview_without_sending(tmp_path, monkeypatch):
     assert "餐饮AI情报站" in preview_path.read_text(encoding="utf-8")
     assert send_calls == []
     assert result.new_count == 0
+
+
+def test_production_bundle_persists_lease_before_mocked_send(tmp_path, monkeypatch):
+    articles_path = tmp_path / "articles.json"
+    articles_path.write_text('{"articles":[]}', encoding="utf-8")
+    monkeypatch.setattr(
+        "canyin_news.pipeline.collect_configured_sources",
+        lambda *_: ([], []),
+    )
+    bundle = tmp_path / "bundle.json"
+    state = tmp_path / "state.json"
+    prepare_production_bundle(
+        articles_path=articles_path,
+        bundle_path=bundle,
+        state_path=state,
+        preview_path=tmp_path / "preview.md",
+        health_path=tmp_path / "health.json",
+        group_names=["group_1"],
+        now=END,
+    )
+    assert '"status": "sending"' in state.read_text(encoding="utf-8")
+
+    send_production_bundle(
+        bundle_path=bundle,
+        state_path=state,
+        groups={"group_1": "fake-token"},
+        now=END,
+        post_func=lambda *_: {"errcode": 0},
+    )
+    assert '"status": "sent"' in state.read_text(encoding="utf-8")

@@ -1,5 +1,7 @@
 import argparse
+import hashlib
 import json
+import os
 from dataclasses import asdict, dataclass
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -15,6 +17,8 @@ from canyin_news.sources.platform import keep_platform_articles
 from canyin_news.sources.food_brands import keep_ka_brand_articles
 from canyin_news.sources.rss import fetch_rss
 from canyin_news.timeutils import BJ
+from canyin_news.dingtalk import send_reserved_to_groups
+from canyin_news.state import ReportState
 
 
 SECTION_CATEGORIES = {
@@ -160,22 +164,144 @@ def prepare_dry_run(
     return result
 
 
+def _write_state(path, state):
+    Path(path).write_text(
+        json.dumps(
+            {"business_date": state.business_date, "groups": state.groups},
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+
+def _read_state(path):
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    return ReportState(data["business_date"], data["groups"])
+
+
+def prepare_production_bundle(
+    *,
+    articles_path,
+    bundle_path,
+    state_path,
+    preview_path,
+    health_path,
+    group_names,
+    now=None,
+):
+    current = now or datetime.now(BJ)
+    result = prepare_dry_run(
+        articles_path=articles_path,
+        preview_path=preview_path,
+        health_path=health_path,
+        now=current,
+    )
+    content_hash = hashlib.sha256(result.markdown.encode("utf-8")).hexdigest()[:20]
+    state = ReportState.empty(current.strftime("%Y-%m-%d"))
+    for group in group_names:
+        state.reserve(group, content_hash, current)
+    _write_state(state_path, state)
+    Path(bundle_path).write_text(
+        json.dumps(
+            {
+                "title": f"餐饮AI情报站 · {current.strftime('%Y.%m.%d')}",
+                "markdown": result.markdown,
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    return result
+
+
+def send_production_bundle(
+    *,
+    bundle_path,
+    state_path,
+    groups,
+    now=None,
+    post_func=None,
+):
+    current = now or datetime.now(BJ)
+    bundle = json.loads(Path(bundle_path).read_text(encoding="utf-8"))
+    state = _read_state(state_path)
+    kwargs = {}
+    if post_func is not None:
+        kwargs["post_func"] = post_func
+    try:
+        send_reserved_to_groups(
+            bundle["markdown"],
+            groups,
+            state,
+            current,
+            title=bundle["title"],
+            **kwargs,
+        )
+    finally:
+        _write_state(state_path, state)
+    return state
+
+
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers(dest="command", required=True)
     prepare = subparsers.add_parser("prepare")
-    prepare.add_argument("--dry-run", action="store_true", required=True)
+    mode = prepare.add_mutually_exclusive_group(required=True)
+    mode.add_argument("--dry-run", action="store_true")
+    mode.add_argument("--production", action="store_true")
     prepare.add_argument("--articles", default="articles.json")
     prepare.add_argument("--output", default="report_preview.md")
+    send = subparsers.add_parser("send")
+    send.add_argument("--bundle", default="report_bundle.json")
+    send.add_argument("--state", default="report_state.json")
     args = parser.parse_args(argv)
     if args.command == "prepare":
-        result = prepare_dry_run(
-            articles_path=args.articles,
-            preview_path=args.output,
-        )
+        if args.production:
+            group_names = [
+                name
+                for name, env_name in (
+                    ("group_1", "DINGTALK_TOKEN"),
+                    ("group_2", "DINGTALK_TOKEN2"),
+                )
+                if os.environ.get(env_name)
+            ]
+            if not group_names:
+                parser.error("production requires at least one DINGTALK_TOKEN")
+            result = prepare_production_bundle(
+                articles_path=args.articles,
+                bundle_path="report_bundle.json",
+                state_path="report_state.json",
+                preview_path=args.output,
+                health_path="source_health.json",
+                group_names=group_names,
+            )
+        else:
+            result = prepare_dry_run(
+                articles_path=args.articles,
+                preview_path=args.output,
+            )
+        label = "PRODUCTION bundle" if args.production else "DRY_RUN"
         print(
-            f"DRY_RUN ready: new={result.new_count}, "
+            f"{label} ready: new={result.new_count}, "
             f"supplement={result.supplement_count}, output={args.output}"
+        )
+    elif args.command == "send":
+        groups = {
+            name: token
+            for name, token in (
+                ("group_1", os.environ.get("DINGTALK_TOKEN")),
+                ("group_2", os.environ.get("DINGTALK_TOKEN2")),
+            )
+            if token
+        }
+        if not groups:
+            parser.error("send requires at least one DINGTALK_TOKEN")
+        send_production_bundle(
+            bundle_path=args.bundle,
+            state_path=args.state,
+            groups=groups,
         )
     return 0
 

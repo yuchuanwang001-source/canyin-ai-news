@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta, timezone
 
 from canyin_news.models import Article, DateConfidence
-from canyin_news.pipeline import build_report
+from canyin_news.pipeline import build_report, prepare_dry_run
 
 
 BJ = timezone(timedelta(hours=8), "Asia/Shanghai")
@@ -37,3 +37,27 @@ def test_build_report_uses_three_sections_and_skips_sent_articles():
     assert "头部餐饮品牌推出夏季新品" in result.markdown
     assert "餐饮品牌开出新店" not in result.markdown
     assert result.new_count == 3
+
+
+def test_dry_run_writes_preview_without_sending(tmp_path, monkeypatch):
+    articles_path = tmp_path / "articles.json"
+    articles_path.write_text('{"articles":[]}', encoding="utf-8")
+    preview_path = tmp_path / "preview.md"
+    send_calls = []
+    monkeypatch.setattr(
+        "canyin_news.pipeline.collect_configured_sources",
+        lambda *_: ([], []),
+    )
+
+    result = prepare_dry_run(
+        articles_path=articles_path,
+        preview_path=preview_path,
+        health_path=tmp_path / "health.json",
+        now=END,
+        send_func=lambda *_: send_calls.append(True),
+    )
+
+    assert preview_path.exists()
+    assert "餐饮AI情报站" in preview_path.read_text(encoding="utf-8")
+    assert send_calls == []
+    assert result.new_count == 0

@@ -5,3 +5,4 @@ __pycache__/
 .coverage
 report_preview.md
 report_bundle.json
+source_health.json

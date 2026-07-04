@@ -13,6 +13,7 @@ def item(identifier, hours, score=70):
         "id": identifier,
         "published_at": END - timedelta(hours=hours),
         "score": score,
+        "source": f"source-{identifier}",
     }
 
 
@@ -33,3 +34,38 @@ def test_zero_incremental_items_become_recent_selection():
     selected = select_section([item("recent", 30)], set(), START, END, 3)
 
     assert selected[0]["freshness_label"] == "近期精选"
+
+
+def test_three_low_scoring_qualified_items_are_still_selected():
+    selected = select_section(
+        [item(f"low-{index}", index, score=50) for index in range(1, 6)],
+        set(),
+        START,
+        END,
+    )
+
+    assert len(selected) == 3
+
+
+def test_high_scoring_items_expand_section_to_five():
+    selected = select_section(
+        [item(f"high-{index}", index, score=70) for index in range(1, 7)],
+        set(),
+        START,
+        END,
+    )
+
+    assert len(selected) == 5
+
+
+def test_same_source_is_limited_to_two_entries():
+    candidates = [item(f"same-{index}", index, score=80) for index in range(1, 6)]
+    for candidate in candidates:
+        candidate["source"] = "同一来源"
+    candidates.extend(
+        [item("other-1", 6, score=70), item("other-2", 7, score=70)]
+    )
+
+    selected = select_section(candidates, set(), START, END)
+
+    assert sum(entry["source"] == "同一来源" for entry in selected) == 2

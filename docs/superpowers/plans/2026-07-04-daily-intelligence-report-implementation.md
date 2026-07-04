@@ -20,6 +20,7 @@ canyin_news/
   models.py          # 标准文章、来源健康和发送状态数据结构
   timeutils.py       # 时区、发布时间解析和增量窗口
   classify.py        # 三板块分类及排除规则
+  scoring.py         # 质量门槛和可解释六维重要性评分
   dedupe.py          # URL、标题和事件去重
   selection.py       # 增量选稿、48/72 小时补位
   render.py          # 钉钉 Markdown 字符预算
@@ -474,7 +475,9 @@ git commit -m "feat: add stable article identity"
 ### Task 6：实现增量选稿与补位
 
 **Files:**
+- Create: `canyin_news/scoring.py`
 - Create: `canyin_news/selection.py`
+- Test: `tests/test_scoring.py`
 - Test: `tests/test_selection.py`
 
 - [ ] **Step 1: 写失败测试**
@@ -508,6 +511,22 @@ def test_incremental_items_win_and_history_is_not_repeated():
 def test_zero_incremental_items_become_recent_selection():
     selected = select_section([item("recent", 30)], set(), START, END, 3)
     assert selected[0]["freshness_label"] == "近期精选"
+
+
+def test_three_qualified_items_below_sixty_are_still_selected():
+    selected = select_section(
+        [item(f"low-{index}", index, score=50) for index in range(1, 6)],
+        set(), START, END,
+    )
+    assert len(selected) == 3
+
+
+def test_sixty_plus_items_can_expand_section_to_five():
+    selected = select_section(
+        [item(f"high-{index}", index, score=70) for index in range(1, 7)],
+        set(), START, END,
+    )
+    assert len(selected) == 5
 ```
 
 - [ ] **Step 2: 运行并确认失败**
@@ -522,17 +541,23 @@ Expected: FAIL。
 from datetime import timedelta
 
 
-def select_section(items, sent_ids, start, end, target=3):
+def select_section(items, sent_ids, start, end, target=3, max_count=5):
     usable = [x.copy() for x in items if x["id"] not in sent_ids and x.get("published_at")]
     fresh = sorted(
         (x for x in usable if start < x["published_at"] <= end),
         key=lambda x: (x["score"], x["published_at"]),
         reverse=True,
     )
-    chosen = fresh[:target]
+    eligible = [row for row in fresh if row["score"] >= 45]
+    chosen = eligible[:target]
     for row in chosen:
         row["freshness_label"] = ""
     if len(chosen) >= target:
+        chosen.extend(
+            row for row in eligible[target:]
+            if row["score"] >= 60
+        )
+        chosen = chosen[:max_count]
         return chosen
     recent = sorted(
         (x for x in usable if end - timedelta(hours=72) <= x["published_at"] <= start),
@@ -540,9 +565,7 @@ def select_section(items, sent_ids, start, end, target=3):
         reverse=True,
     )
     limit = target - len(chosen) if chosen else min(target, 3)
-    if chosen:
-        limit = min(limit, max(1, target // 2))
-    for row in recent[:limit]:
+    for row in [item for item in recent if item["score"] >= 45][:limit]:
         row["freshness_label"] = "补充阅读" if chosen else "近期精选"
         chosen.append(row)
     return chosen

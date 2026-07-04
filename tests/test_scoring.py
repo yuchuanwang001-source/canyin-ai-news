@@ -29,6 +29,12 @@ def test_quality_gate_rejects_unknown_publication_time():
     assert not passes_quality_gate(article(published_at=None))
 
 
+def test_quality_gate_rejects_mixed_news_roundups():
+    candidate = article(title="氪星晚报｜西贝退出；Meta AI投入增加")
+
+    assert not passes_quality_gate(candidate)
+
+
 def test_score_exposes_six_dimensions_and_total():
     breakdown = score_article(article(), NOW)
 

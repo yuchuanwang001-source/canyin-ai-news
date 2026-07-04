@@ -4,6 +4,7 @@ from datetime import datetime
 
 ALLOWED_CATEGORIES = {"餐饮动态", "平台动态", "AI行业资讯"}
 PROMOTIONAL_WORDS = ("招商", "加盟", "报名", "点击领取", "限时抢购")
+ROUNDUP_WORDS = ("早报", "晚报", "日报", "一周要闻", "新闻汇总")
 OFFICIAL_SOURCES = {
     "OpenAI",
     "Anthropic",
@@ -78,6 +79,7 @@ def passes_quality_gate(article: dict) -> bool:
         and str(article.get("url", "")).startswith(("http://", "https://"))
         and article.get("published_at") is not None
         and not any(word in text for word in PROMOTIONAL_WORDS)
+        and not any(word in title for word in ROUNDUP_WORDS)
     )
 
 

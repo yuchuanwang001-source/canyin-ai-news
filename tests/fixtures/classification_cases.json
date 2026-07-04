@@ -1,0 +1,8 @@
+[
+  {"title":"霸王茶姬推出夏季新品","summary":"更新产品矩阵","source":"红餐网","expected":"餐饮动态"},
+  {"title":"美团上线餐饮商家新流量产品","summary":"面向外卖商家开放","source":"36氪","expected":"平台动态"},
+  {"title":"京东外卖与海底捞达成合作","summary":"即时零售合作","source":"36氪","expected":"平台动态"},
+  {"title":"OpenAI 发布新模型","summary":"模型能力更新","source":"OpenAI","expected":"AI行业资讯"},
+  {"title":"食品公司注册资本增加","summary":"工商信息变更","source":"36氪","expected":null},
+  {"title":"火热招商加盟","summary":"点击报名","source":"未知来源","expected":null}
+]

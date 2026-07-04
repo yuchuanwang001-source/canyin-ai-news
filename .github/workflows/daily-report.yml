@@ -11,6 +11,7 @@ on:
         options:
           - dry-run
           - production
+          - watchdog
         default: dry-run
 
 concurrency:
@@ -31,6 +32,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: 采集餐饮、科技与公众号来源
+        if: inputs.mode != 'watchdog'
         env:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
         run: python scraper.py
@@ -45,12 +47,10 @@ jobs:
         run: python -m canyin_news.pipeline prepare --production
       - name: 发送前持久化租约
         if: github.event_name == 'schedule' || inputs.mode == 'production'
-        run: |
-          git config user.name "report-bot"
-          git config user.email "report-bot@users.noreply.github.com"
-          git add articles.json report_state.json
-          git commit -m "chore: reserve daily report send" || true
-          git push
+        run: >-
+          bash .github/scripts/persist-report-state.sh
+          "chore: reserve daily report send"
+          articles.json report_state.json report_bundle.json
       - name: 逐群发送
         if: github.event_name == 'schedule' || inputs.mode == 'production'
         env:
@@ -59,10 +59,13 @@ jobs:
         run: python -m canyin_news.pipeline send
       - name: 保存逐群发送结果
         if: always() && (github.event_name == 'schedule' || inputs.mode == 'production')
-        run: |
-          git add report_state.json sent_history.json
-          git commit -m "chore: record daily report result" || true
-          git push
+        run: >-
+          bash .github/scripts/persist-report-state.sh
+          "chore: record daily report result"
+          report_state.json sent_history.json
+      - name: 10:05只读状态检查
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'watchdog'
+        run: python -m canyin_news.pipeline watchdog
       - uses: actions/upload-artifact@v4
         if: always()
         with:

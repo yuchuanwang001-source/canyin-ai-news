@@ -16,6 +16,8 @@ def fetch_rss(
     url: str,
     *,
     timeout: tuple[int, int] = (3, 10),
+    forced_category: str | None = None,
+    use_entry_source: bool = False,
 ) -> tuple[list[Article], SourceHealth]:
     started = monotonic()
     try:
@@ -34,6 +36,13 @@ def fetch_rss(
             link = str(entry.get("link", "")).strip()
             if not title or not link:
                 continue
+            item_source = source
+            if use_entry_source:
+                source_data = entry.get("source") or {}
+                item_source = str(source_data.get("title") or source).strip()
+                suffix = f" - {item_source}"
+                if title.endswith(suffix):
+                    title = title[: -len(suffix)].strip()
             raw_date = entry.get("published") or entry.get("updated") or ""
             published_at, confidence = parse_published_at(raw_date)
             valid_dates += published_at is not None
@@ -44,14 +53,15 @@ def fetch_rss(
             canonical_url = canonicalize_url(link)
             articles.append(
                 Article(
-                    id=article_fingerprint(title, source),
+                    id=article_fingerprint(title, item_source),
                     title=title,
                     url=link,
-                    source=source,
+                    source=item_source,
                     discovered_at=discovered_at,
                     published_at=published_at,
                     date_confidence=confidence,
                     summary=summary[:500],
+                    category=forced_category,
                     canonical_url=canonical_url,
                 )
             )

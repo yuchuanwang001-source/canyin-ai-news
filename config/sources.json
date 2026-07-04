@@ -1,4 +1,10 @@
 {
+  "platform_rss": [
+    {
+      "name": "平台新闻搜索",
+      "url": "https://news.google.com/rss/search?q=(美团%20OR%20淘宝闪购%20OR%20饿了么%20OR%20京东外卖%20OR%20抖音生活服务)%20(餐饮%20OR%20外卖%20OR%20商家%20OR%20即时零售)&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    }
+  ],
   "ai_rss": [
     {
       "name": "OpenAI",

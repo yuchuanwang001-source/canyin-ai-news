@@ -1,10 +1,6 @@
 name: 每日自动更新
 on:
-  schedule:
-    - cron: '0 5 * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
 permissions:
   contents: write
 jobs:
@@ -16,13 +12,4 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
-      - run: pip install -r requirements.txt
-      - env:
-          EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
-        run: python scraper.py
-      - run: |
-          git config user.name "auto-bot"
-          git config user.email "bot@canyin-ai-news"
-          git add articles.json
-          git commit -m "每日更新" || echo "无变化"
-          git push
+      - run: echo "已迁移到 daily-report.yml，此工作流不再执行生产任务。"

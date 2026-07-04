@@ -1,0 +1,73 @@
+name: 每日餐饮AI日报
+
+on:
+  schedule:
+    - cron: "47 1 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 运行模式
+        type: choice
+        options:
+          - dry-run
+          - production
+        default: dry-run
+
+concurrency:
+  group: daily-report-production
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: 采集餐饮、科技与公众号来源
+        env:
+          EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+        run: python scraper.py
+      - name: 生成预览
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'dry-run'
+        run: python -m canyin_news.pipeline prepare --dry-run
+      - name: 生成生产发送包和租约
+        if: github.event_name == 'schedule' || inputs.mode == 'production'
+        env:
+          DINGTALK_TOKEN: ${{ secrets.DINGTALK_TOKEN }}
+          DINGTALK_TOKEN2: ${{ secrets.DINGTALK_TOKEN2 }}
+        run: python -m canyin_news.pipeline prepare --production
+      - name: 发送前持久化租约
+        if: github.event_name == 'schedule' || inputs.mode == 'production'
+        run: |
+          git config user.name "report-bot"
+          git config user.email "report-bot@users.noreply.github.com"
+          git add articles.json report_state.json
+          git commit -m "chore: reserve daily report send" || true
+          git push
+      - name: 逐群发送
+        if: github.event_name == 'schedule' || inputs.mode == 'production'
+        env:
+          DINGTALK_TOKEN: ${{ secrets.DINGTALK_TOKEN }}
+          DINGTALK_TOKEN2: ${{ secrets.DINGTALK_TOKEN2 }}
+        run: python -m canyin_news.pipeline send
+      - name: 保存逐群发送结果
+        if: always() && (github.event_name == 'schedule' || inputs.mode == 'production')
+        run: |
+          git add report_state.json sent_history.json
+          git commit -m "chore: record daily report result" || true
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: daily-report-preview
+          path: |
+            report_preview.md
+            source_health.json
+          if-no-files-found: ignore

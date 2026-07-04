@@ -1,0 +1,36 @@
+{
+  "platform_rss": [
+    {
+      "name": "平台新闻搜索",
+      "url": "https://news.google.com/rss/search?q=(美团%20OR%20淘宝闪购%20OR%20饿了么%20OR%20京东外卖%20OR%20抖音生活服务)%20(餐饮%20OR%20外卖%20OR%20商家%20OR%20即时零售)&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    }
+  ],
+  "food_ka_rss": [
+    {
+      "name": "餐饮KA品牌新闻搜索",
+      "url": "https://news.google.com/rss/search?q=(肯德基%20OR%20麦当劳%20OR%20小谷姐姐%20OR%20瑞幸%20OR%20库迪%20OR%20蜜雪冰城%20OR%20星巴克%20OR%20喜茶%20OR%20奈雪%20OR%20霸王茶姬%20OR%20海底捞%20OR%20塔斯汀)%20(新品%20OR%20联名%20OR%20开店%20OR%20营销%20OR%20出海%20OR%20会员)&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    }
+  ],
+  "ai_rss": [
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml"
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "name": "NVIDIA",
+      "url": "https://blogs.nvidia.com/feed/"
+    },
+    {
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/feed/"
+    }
+  ]
+}

@@ -1,8 +1,5 @@
 name: 钉钉日报
 on:
-  schedule:
-    # 北京时间 08:05（UTC 00:05）
-    - cron: '5 0 * * *'
   workflow_dispatch:
 permissions:
   contents: read
@@ -11,10 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - env:
-          DINGTALK_TOKEN: ${{ secrets.DINGTALK_TOKEN }}
-          DINGTALK_TOKEN2: ${{ secrets.DINGTALK_TOKEN2 }}
-        run: python scripts/dingtalk_report.py
+      - run: echo "已迁移到 daily-report.yml，此工作流不再发送钉钉消息。"

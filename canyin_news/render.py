@@ -1,7 +1,7 @@
 SECTION_EMPTY_TEXT = "今日暂无符合标准的新资讯"
 
 
-def _entry(item: dict, summary_limit: int) -> str:
+def _entry(item: dict, summary_limit: int, index: int) -> str:
     summary = item.get("summary", "").strip()
     if len(summary) > summary_limit:
         summary = summary[: max(0, summary_limit - 1)].rstrip() + "…"
@@ -10,7 +10,8 @@ def _entry(item: dict, summary_limit: int) -> str:
         if item.get("freshness_label")
         else ""
     )
-    body = f'**[{item["title"]}]({item["url"]})**{label}\n'
+    number = f"{index}\N{VARIATION SELECTOR-16}\N{COMBINING ENCLOSING KEYCAP}"
+    body = f'**{number} [{item["title"]}]({item["url"]})**{label}\n'
     if summary:
         body += f"{summary}\n"
     return body + f'来源：{item["source"]}\n\n'
@@ -33,10 +34,10 @@ def render_report(
         section = f"### {name}\n\n"
         if not items:
             section += f"> {SECTION_EMPTY_TEXT}\n\n"
-        for item in items:
-            candidate = _entry(item, 90)
+        for index, item in enumerate(items, 1):
+            candidate = _entry(item, 90, index)
             if len(output + section + candidate + footer) > budget:
-                candidate = _entry(item, 40)
+                candidate = _entry(item, 40, index)
             if len(output + section + candidate + footer) > budget:
                 break
             section += candidate

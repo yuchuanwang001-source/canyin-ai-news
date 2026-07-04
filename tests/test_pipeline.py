@@ -91,8 +91,36 @@ def test_production_bundle_persists_lease_before_mocked_send(tmp_path, monkeypat
     send_production_bundle(
         bundle_path=bundle,
         state_path=state,
+        history_path=tmp_path / "history.json",
         groups={"group_1": "fake-token"},
         now=END,
         post_func=lambda *_: {"errcode": 0},
     )
     assert '"status": "sent"' in state.read_text(encoding="utf-8")
+
+
+def test_successful_send_records_selected_articles_in_history(tmp_path):
+    bundle = tmp_path / "bundle.json"
+    bundle.write_text(
+        '{"title":"日报","markdown":"正文","selected_ids":["article-1"]}',
+        encoding="utf-8",
+    )
+    state = tmp_path / "state.json"
+    state.write_text(
+        '{"business_date":"2026-07-05","groups":{"group_1":'
+        '{"status":"sending","content_hash":"x","lease_expires_at":'
+        '"2026-07-05T02:00:00+00:00"}}}',
+        encoding="utf-8",
+    )
+    history = tmp_path / "history.json"
+
+    send_production_bundle(
+        bundle_path=bundle,
+        state_path=state,
+        history_path=history,
+        groups={"group_1": "fake-token"},
+        now=END,
+        post_func=lambda *_: {"errcode": 0},
+    )
+
+    assert "article-1" in history.read_text(encoding="utf-8")

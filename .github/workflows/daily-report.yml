@@ -60,7 +60,7 @@ jobs:
       - name: 保存逐群发送结果
         if: always() && (github.event_name == 'schedule' || inputs.mode == 'production')
         run: |
-          git add report_state.json
+          git add report_state.json sent_history.json
           git commit -m "chore: record daily report result" || true
           git push
       - uses: actions/upload-artifact@v4

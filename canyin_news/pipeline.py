@@ -35,6 +35,7 @@ class ReportBuildResult:
     score_details: dict[str, dict]
     new_count: int
     supplement_count: int
+    selected_ids: list[str]
 
 
 WEEKDAYS = ("星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日")
@@ -99,6 +100,7 @@ def build_report(
         score_details=score_details,
         new_count=new_count,
         supplement_count=len(selected) - new_count,
+        selected_ids=[item["id"] for item in selected],
     )
 
 
@@ -141,6 +143,7 @@ def prepare_dry_run(
     preview_path: str | Path = "report_preview.md",
     config_path: str | Path = "config/sources.json",
     health_path: str | Path = "source_health.json",
+    history_path: str | Path = "sent_history.json",
     now: datetime | None = None,
     send_func=None,
 ) -> ReportBuildResult:
@@ -148,9 +151,14 @@ def prepare_dry_run(
     current = now or datetime.now(BJ)
     legacy = load_legacy_articles(articles_path)
     external, health = collect_configured_sources(config_path)
+    history_file = Path(history_path)
+    sent_ids = set()
+    if history_file.exists():
+        history = json.loads(history_file.read_text(encoding="utf-8"))
+        sent_ids = set(history.get("articles", {}))
     result = build_report(
         legacy + external,
-        sent_ids=set(),
+        sent_ids=sent_ids,
         start=current - timedelta(hours=24),
         end=current,
         date_text=current.strftime("%Y.%m.%d"),
@@ -207,6 +215,7 @@ def prepare_production_bundle(
             {
                 "title": f"餐饮AI情报站 · {current.strftime('%Y.%m.%d')}",
                 "markdown": result.markdown,
+                "selected_ids": result.selected_ids,
             },
             ensure_ascii=False,
             indent=2,
@@ -220,6 +229,7 @@ def send_production_bundle(
     *,
     bundle_path,
     state_path,
+    history_path="sent_history.json",
     groups,
     now=None,
     post_func=None,
@@ -238,6 +248,20 @@ def send_production_bundle(
             current,
             title=bundle["title"],
             **kwargs,
+        )
+        history_file = Path(history_path)
+        if history_file.exists():
+            history = json.loads(history_file.read_text(encoding="utf-8"))
+        else:
+            history = {"version": 1, "articles": {}}
+        for article_id in bundle.get("selected_ids", []):
+            history.setdefault("articles", {})[article_id] = {
+                "sent_at": current.isoformat(),
+                "business_date": state.business_date,
+            }
+        history_file.write_text(
+            json.dumps(history, ensure_ascii=False, indent=2),
+            encoding="utf-8",
         )
     finally:
         _write_state(state_path, state)

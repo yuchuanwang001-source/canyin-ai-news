@@ -3,6 +3,7 @@ import responses
 from canyin_news.models import DateConfidence
 from canyin_news.sources.rss import fetch_rss
 from canyin_news.sources.platform import keep_platform_articles
+from canyin_news.sources.food_brands import keep_ka_brand_articles
 
 
 @responses.activate
@@ -76,3 +77,16 @@ def test_platform_filter_requires_both_platform_entity_and_event():
     })()
 
     assert keep_platform_articles([matching, unrelated]) == [matching]
+
+
+def test_ka_filter_requires_brand_and_business_action():
+    matching = type("Item", (), {
+        "title": "瑞幸推出夏季新品菜单", "summary": "", "source": "红餐网",
+        "category": None,
+    })()
+    unrelated = type("Item", (), {
+        "title": "瑞幸创始人的个人故事", "summary": "", "source": "自媒体",
+        "category": None,
+    })()
+
+    assert keep_ka_brand_articles([matching, unrelated]) == [matching]

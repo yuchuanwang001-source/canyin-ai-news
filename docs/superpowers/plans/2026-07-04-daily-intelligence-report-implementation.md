@@ -21,6 +21,7 @@ canyin_news/
   timeutils.py       # 时区、发布时间解析和增量窗口
   classify.py        # 三板块分类及排除规则
   scoring.py         # 质量门槛和可解释六维重要性评分
+  annotations.py     # 英文官方标题的中文主题注释
   dedupe.py          # URL、标题和事件去重
   selection.py       # 增量选稿、48/72 小时补位
   render.py          # 钉钉 Markdown 字符预算
@@ -32,6 +33,7 @@ canyin_news/
     rss.py           # 通用 RSS 适配器
     legacy.py        # 现有红餐、36氪和 Exa 采集适配
     aihot.py         # AIHOT 可选适配器
+    food_brands.py   # KA 餐饮品牌专项过滤
   pipeline.py        # prepare/send/watchdog 命令入口
 config/
   sources.json       # 生产来源配置

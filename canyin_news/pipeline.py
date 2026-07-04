@@ -5,12 +5,14 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 from canyin_news.classify import classify_article
+from canyin_news.annotations import chinese_note_for_english_title
 from canyin_news.models import Article
 from canyin_news.render import render_report
 from canyin_news.scoring import passes_quality_gate, score_article
 from canyin_news.selection import select_section
 from canyin_news.sources.legacy import load_legacy_articles
 from canyin_news.sources.platform import keep_platform_articles
+from canyin_news.sources.food_brands import keep_ka_brand_articles
 from canyin_news.sources.rss import fetch_rss
 from canyin_news.timeutils import BJ
 
@@ -40,6 +42,9 @@ def _candidate(article: Article, now: datetime) -> tuple[dict, dict] | None:
     )
     raw = asdict(article)
     raw["category"] = category
+    raw["zh_note"] = chinese_note_for_english_title(
+        article.title, article.source
+    )
     if not passes_quality_gate(raw):
         return None
     breakdown = score_article(raw, now)
@@ -68,6 +73,7 @@ def build_report(
 
     sections = {}
     for title, category in SECTION_CATEGORIES.items():
+        food_section = category == "餐饮动态"
         sections[title] = select_section(
             pools[category],
             sent_ids,
@@ -76,6 +82,8 @@ def build_report(
             target=3,
             max_count=5,
             expansion_score=60,
+            lookback_hours=168 if food_section else 72,
+            empty_label="本周精选" if food_section else "近期精选",
         )
 
     markdown = render_report(date_text, weekday, sections, budget)
@@ -110,6 +118,15 @@ def collect_configured_sources(config_path: str | Path):
             use_entry_source=True,
         )
         articles.extend(keep_platform_articles(fetched))
+        health.append(asdict(status))
+    for source in config.get("food_ka_rss", []):
+        fetched, status = fetch_rss(
+            source["name"],
+            source["url"],
+            forced_category="餐饮动态",
+            use_entry_source=True,
+        )
+        articles.extend(keep_ka_brand_articles(fetched))
         health.append(asdict(status))
     return articles, health
 

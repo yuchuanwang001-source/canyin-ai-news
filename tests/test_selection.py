@@ -27,13 +27,13 @@ def test_incremental_items_win_and_history_is_not_repeated():
     )
 
     assert [entry["id"] for entry in selected] == ["new", "补充"]
-    assert selected[1]["freshness_label"] == "补充阅读"
+    assert selected[1]["freshness_label"] == "补充阅读｜7月4日"
 
 
 def test_zero_incremental_items_become_recent_selection():
     selected = select_section([item("recent", 30)], set(), START, END, 3)
 
-    assert selected[0]["freshness_label"] == "近期精选"
+    assert selected[0]["freshness_label"] == "近期精选｜7月4日"
 
 
 def test_three_low_scoring_qualified_items_are_still_selected():
@@ -69,3 +69,16 @@ def test_same_source_is_limited_to_two_entries():
     selected = select_section(candidates, set(), START, END)
 
     assert sum(entry["source"] == "同一来源" for entry in selected) == 2
+
+
+def test_food_section_can_use_seven_day_ka_fallback_with_real_date():
+    selected = select_section(
+        [item("ka-case", 120, score=70)],
+        set(),
+        START,
+        END,
+        lookback_hours=168,
+        empty_label="本周精选",
+    )
+
+    assert selected[0]["freshness_label"].startswith("本周精选｜")

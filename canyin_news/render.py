@@ -12,6 +12,8 @@ def _entry(item: dict, summary_limit: int, index: int) -> str:
     )
     number = f"{index}\N{VARIATION SELECTOR-16}\N{COMBINING ENCLOSING KEYCAP}"
     body = f'**{number} [{item["title"]}]({item["url"]})**{label}\n'
+    if item.get("zh_note"):
+        body += f'{item["zh_note"]}\n'
     if summary:
         body += f"{summary}\n"
     return body + f'来源：{item["source"]}\n\n'

@@ -46,3 +46,20 @@ def test_entries_keep_familiar_numbered_layout():
     assert "**1️⃣ [新品一]" in text
     assert "**2️⃣ [新品二]" in text
     assert "补充阅读｜7月4日" in text
+
+
+def test_english_ai_item_displays_chinese_note():
+    sections = {
+        "🤖 AI行业资讯": [{
+            "title": "Google DeepMind announces a research partnership",
+            "url": "https://example.com/ai",
+            "summary": "",
+            "source": "Google DeepMind",
+            "freshness_label": "",
+            "zh_note": "中文注释：Google DeepMind 宣布开展新的研究合作。",
+        }]
+    }
+
+    text = render_report("2026.07.05", "星期日", sections)
+
+    assert "中文注释：Google DeepMind 宣布开展新的研究合作。" in text

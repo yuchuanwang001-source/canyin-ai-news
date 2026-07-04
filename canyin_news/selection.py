@@ -34,6 +34,8 @@ def select_section(
     target=3,
     max_count=5,
     expansion_score=60,
+    lookback_hours=72,
+    empty_label="近期精选",
 ):
     usable = [
         item.copy()
@@ -60,7 +62,7 @@ def select_section(
         (
             item
             for item in usable
-            if end - timedelta(hours=72) <= item["published_at"] <= start
+            if end - timedelta(hours=lookback_hours) <= item["published_at"] <= start
         ),
         key=lambda item: (item.get("score", 0), item["published_at"]),
         reverse=True,
@@ -70,9 +72,10 @@ def select_section(
         label = "补充阅读"
     else:
         limit = min(target, 3)
-        label = "近期精选"
+        label = empty_label
     before = len(chosen)
     _append_diverse(chosen, recent, limit)
     for item in chosen[before:]:
-        item["freshness_label"] = label
+        published = item["published_at"]
+        item["freshness_label"] = f"{label}｜{published.month}月{published.day}日"
     return chosen

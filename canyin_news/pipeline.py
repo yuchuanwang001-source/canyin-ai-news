@@ -91,15 +91,23 @@ def build_report(
             empty_label="本周精选" if food_section else "近期精选",
         )
 
-    markdown = render_report(date_text, weekday, sections, budget)
     selected = [item for items in sections.values() for item in items]
     new_count = sum(not item.get("freshness_label") for item in selected)
+    supplement_count = len(selected) - new_count
+    markdown = render_report(
+        date_text,
+        weekday,
+        sections,
+        new_count=new_count,
+        supplement_count=supplement_count,
+        budget=budget,
+    )
     return ReportBuildResult(
         markdown=markdown,
         sections=sections,
         score_details=score_details,
         new_count=new_count,
-        supplement_count=len(selected) - new_count,
+        supplement_count=supplement_count,
         selected_ids=[item["id"] for item in selected],
     )
 
@@ -199,29 +207,54 @@ def prepare_production_bundle(
     now=None,
 ):
     current = now or datetime.now(BJ)
+    business_date = current.strftime("%Y-%m-%d")
+    existing_delivery = False
+    state_file = Path(state_path)
+    bundle_file = Path(bundle_path)
+    if state_file.exists():
+        state_data = json.loads(state_file.read_text(encoding="utf-8"))
+        if "business_date" in state_data:
+            if state_data["business_date"] == business_date:
+                if not bundle_file.exists():
+                    raise RuntimeError(
+                        "same-day report bundle is missing; refusing automatic send"
+                    )
+                state = ReportState(
+                    state_data["business_date"], state_data.get("groups", {})
+                )
+                existing_delivery = True
+        elif state_data != {"version": 1, "days": {}}:
+            raise RuntimeError("unrecognized report state; refusing automatic send")
     result = prepare_dry_run(
         articles_path=articles_path,
         preview_path=preview_path,
         health_path=health_path,
         now=current,
     )
-    content_hash = hashlib.sha256(result.markdown.encode("utf-8")).hexdigest()[:20]
-    state = ReportState.empty(current.strftime("%Y-%m-%d"))
+    if existing_delivery:
+        bundle = json.loads(bundle_file.read_text(encoding="utf-8"))
+        content_hash = hashlib.sha256(
+            bundle["markdown"].encode("utf-8")
+        ).hexdigest()[:20]
+        state.expire_leases(current)
+    else:
+        state = ReportState.empty(business_date)
+        bundle = {
+            "title": f"餐饮AI情报站 · {current.strftime('%Y.%m.%d')}",
+            "markdown": result.markdown,
+            "selected_ids": result.selected_ids,
+        }
+        content_hash = hashlib.sha256(result.markdown.encode("utf-8")).hexdigest()[:20]
     for group in group_names:
-        state.reserve(group, content_hash, current)
+        status = state.groups.get(group, {}).get("status")
+        if status in {None, "failed"}:
+            state.reserve(group, content_hash, current)
     _write_state(state_path, state)
-    Path(bundle_path).write_text(
-        json.dumps(
-            {
-                "title": f"餐饮AI情报站 · {current.strftime('%Y.%m.%d')}",
-                "markdown": result.markdown,
-                "selected_ids": result.selected_ids,
-            },
-            ensure_ascii=False,
-            indent=2,
-        ),
-        encoding="utf-8",
-    )
+    if not existing_delivery:
+        bundle_file.write_text(
+            json.dumps(bundle, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
     return result
 
 
@@ -249,23 +282,66 @@ def send_production_bundle(
             title=bundle["title"],
             **kwargs,
         )
-        history_file = Path(history_path)
-        if history_file.exists():
-            history = json.loads(history_file.read_text(encoding="utf-8"))
-        else:
-            history = {"version": 1, "articles": {}}
-        for article_id in bundle.get("selected_ids", []):
-            history.setdefault("articles", {})[article_id] = {
-                "sent_at": current.isoformat(),
-                "business_date": state.business_date,
-            }
-        history_file.write_text(
-            json.dumps(history, ensure_ascii=False, indent=2),
-            encoding="utf-8",
-        )
     finally:
+        if any(
+            state.groups.get(group, {}).get("status") == "sent"
+            for group in groups
+        ):
+            history_file = Path(history_path)
+            if history_file.exists():
+                history = json.loads(history_file.read_text(encoding="utf-8"))
+            else:
+                history = {"version": 1, "articles": {}}
+            for article_id in bundle.get("selected_ids", []):
+                history.setdefault("articles", {}).setdefault(
+                    article_id,
+                    {
+                        "sent_at": current.isoformat(),
+                        "business_date": state.business_date,
+                    },
+                )
+            history_file.write_text(
+                json.dumps(history, ensure_ascii=False, indent=2),
+                encoding="utf-8",
+            )
         _write_state(state_path, state)
     return state
+
+
+def watchdog_status(state_path="report_state.json", now=None) -> int:
+    current = now or datetime.now(BJ)
+    path = Path(state_path)
+    if not path.exists():
+        print("watchdog: report state is missing")
+        return 1
+    state = _read_state(path)
+    expected_date = current.strftime("%Y-%m-%d")
+    statuses = {
+        group: state.groups.get(group, {}).get("status", "missing")
+        for group in ("group_1", "group_2")
+    }
+    healthy = (
+        state.business_date == expected_date
+        and all(status == "sent" for status in statuses.values())
+    )
+    print(
+        f"watchdog: business_date={state.business_date}, "
+        f"group_1={statuses['group_1']}, group_2={statuses['group_2']}"
+    )
+    return 0 if healthy else 1
+
+
+def _production_groups(parser):
+    groups = {
+        "group_1": os.environ.get("DINGTALK_TOKEN"),
+        "group_2": os.environ.get("DINGTALK_TOKEN2"),
+    }
+    missing = [group for group, token in groups.items() if not token]
+    if missing:
+        parser.error(
+            "production requires DINGTALK_TOKEN and DINGTALK_TOKEN2"
+        )
+    return groups
 
 
 def main(argv=None) -> int:
@@ -280,26 +356,19 @@ def main(argv=None) -> int:
     send = subparsers.add_parser("send")
     send.add_argument("--bundle", default="report_bundle.json")
     send.add_argument("--state", default="report_state.json")
+    watchdog = subparsers.add_parser("watchdog")
+    watchdog.add_argument("--state", default="report_state.json")
     args = parser.parse_args(argv)
     if args.command == "prepare":
         if args.production:
-            group_names = [
-                name
-                for name, env_name in (
-                    ("group_1", "DINGTALK_TOKEN"),
-                    ("group_2", "DINGTALK_TOKEN2"),
-                )
-                if os.environ.get(env_name)
-            ]
-            if not group_names:
-                parser.error("production requires at least one DINGTALK_TOKEN")
+            groups = _production_groups(parser)
             result = prepare_production_bundle(
                 articles_path=args.articles,
                 bundle_path="report_bundle.json",
                 state_path="report_state.json",
                 preview_path=args.output,
                 health_path="source_health.json",
-                group_names=group_names,
+                group_names=list(groups),
             )
         else:
             result = prepare_dry_run(
@@ -312,21 +381,14 @@ def main(argv=None) -> int:
             f"supplement={result.supplement_count}, output={args.output}"
         )
     elif args.command == "send":
-        groups = {
-            name: token
-            for name, token in (
-                ("group_1", os.environ.get("DINGTALK_TOKEN")),
-                ("group_2", os.environ.get("DINGTALK_TOKEN2")),
-            )
-            if token
-        }
-        if not groups:
-            parser.error("send requires at least one DINGTALK_TOKEN")
+        groups = _production_groups(parser)
         send_production_bundle(
             bundle_path=args.bundle,
             state_path=args.state,
             groups=groups,
         )
+    elif args.command == "watchdog":
+        return watchdog_status(args.state)
     return 0
 
 

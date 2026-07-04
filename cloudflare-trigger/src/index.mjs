@@ -1,5 +1,6 @@
 export function modeForCron(cron) {
   if (cron === "20 1 * * *") return "production";
+  if (cron === "5 2 * * *") return "watchdog";
   throw new Error(`Unsupported cron: ${cron}`);
 }
 

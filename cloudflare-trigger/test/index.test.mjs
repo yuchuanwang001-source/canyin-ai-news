@@ -8,6 +8,10 @@ test("09:20 cron maps to production workflow", () => {
   assert.equal(modeForCron("20 1 * * *"), "production");
 });
 
+test("10:05 cron maps to read-only watchdog workflow", () => {
+  assert.equal(modeForCron("5 2 * * *"), "watchdog");
+});
+
 
 test("dispatch sends production input without exposing token in body", async () => {
   let request;

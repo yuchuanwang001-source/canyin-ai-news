@@ -14,10 +14,19 @@ def test_report_never_breaks_budget_or_markdown_links():
         ]
     }
 
-    text = render_report("2026.07.05", "星期日", sections, budget=500)
+    text = render_report(
+        "2026.07.05",
+        "星期日",
+        sections,
+        new_count=1,
+        supplement_count=0,
+        budget=500,
+    )
 
     assert len(text) <= 500
     assert text.count("[") == text.count("](")
+    assert "来源：红餐网" in text
+    assert "本期新增：1 条｜近期补充：0 条" in text
     assert text.endswith("数据更新时间：2026.07.05")
 
 
@@ -63,3 +72,37 @@ def test_english_ai_item_displays_chinese_note():
     text = render_report("2026.07.05", "星期日", sections)
 
     assert "中文注释：Google DeepMind 宣布开展新的研究合作。" in text
+
+
+def test_footer_lists_unique_sources_and_counts():
+    sections = {
+        "🍔 餐饮动态": [
+            {
+                "title": "新品一",
+                "url": "https://example.com/1",
+                "summary": "摘要一",
+                "source": "红餐网",
+                "freshness_label": "",
+            }
+        ],
+        "🤖 AI行业资讯": [
+            {
+                "title": "模型更新",
+                "url": "https://example.com/2",
+                "summary": "摘要二",
+                "source": "OpenAI",
+                "freshness_label": "近期精选｜7月4日",
+            }
+        ],
+    }
+
+    text = render_report(
+        "2026.07.05",
+        "星期日",
+        sections,
+        new_count=1,
+        supplement_count=1,
+    )
+
+    assert "来源：红餐网、OpenAI" in text
+    assert "本期新增：1 条｜近期补充：1 条" in text

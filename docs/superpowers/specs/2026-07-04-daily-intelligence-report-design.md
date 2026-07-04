@@ -41,6 +41,7 @@ Cloudflare 10:05 ───► 触发状态检查 ───────► 超时
 
 - Cloudflare Worker Cron 每天北京时间 09:20 触发，为多源采集和质量校验预留时间。
 - Worker 只调用 GitHub `workflow_dispatch`，不采集、不生成内容、不接触钉钉 Token。
+- Worker 仅由 Cron 触发，设置 `workers_dev: false`，不开放公开 HTTP 入口。
 - GitHub 凭据使用最小权限的细粒度 Token，保存为 Cloudflare Secret，不进入代码、日志或交接文档。
 - 信息源并行采集；单来源请求默认在 8—12 秒内超时。
 - 主采集设置北京时间 09:32 的软截止时间。达到截止时间后停止等待非关键来源，使用已通过校验的数据继续生成日报。

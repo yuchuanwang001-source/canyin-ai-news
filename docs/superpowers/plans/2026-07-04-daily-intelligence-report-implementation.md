@@ -1040,6 +1040,9 @@ git commit -m "ci: unify daily report workflow"
 
 ### Task 13：实现 Cloudflare 免费触发器
 
+部署约束：该 Worker 仅承担 Cron 调度，`wrangler.jsonc` 必须设置
+`"workers_dev": false`，避免为纯定时任务注册无用的公开子域名。
+
 **Files:**
 - Create: `cloudflare-trigger/src/index.mjs`
 - Create: `cloudflare-trigger/test/index.test.mjs`

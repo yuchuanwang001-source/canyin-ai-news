@@ -1,0 +1,24 @@
+{
+  "ai_rss": [
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml"
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "name": "NVIDIA",
+      "url": "https://blogs.nvidia.com/feed/"
+    },
+    {
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/feed/"
+    }
+  ]
+}

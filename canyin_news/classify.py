@@ -35,7 +35,21 @@ AI_SOURCES = (
     "NVIDIA",
     "Microsoft Research",
 )
-AI_EVENTS = ("AI", "模型", "大模型", "智能体", "Agent", "人工智能")
+AI_EVENTS = (
+    "AI",
+    "模型",
+    "大模型",
+    "智能体",
+    "Agent",
+    "人工智能",
+    "OpenAI",
+    "Anthropic",
+    "Claude",
+    "GPT",
+    "Gemini",
+    "LLM",
+    "Midjourney",
+)
 FOOD_SOURCES = (
     "红餐网",
     "餐饮老板内参",

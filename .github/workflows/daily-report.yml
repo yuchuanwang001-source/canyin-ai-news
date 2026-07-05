@@ -1,8 +1,6 @@
 name: 每日餐饮AI日报
 
 on:
-  schedule:
-    - cron: "47 1 * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -40,25 +38,25 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'dry-run'
         run: python -m canyin_news.pipeline prepare --dry-run
       - name: 生成生产发送包和租约
-        if: github.event_name == 'schedule' || inputs.mode == 'production'
+        if: inputs.mode == 'production'
         env:
           DINGTALK_TOKEN: ${{ secrets.DINGTALK_TOKEN }}
           DINGTALK_TOKEN2: ${{ secrets.DINGTALK_TOKEN2 }}
         run: python -m canyin_news.pipeline prepare --production
       - name: 发送前持久化租约
-        if: github.event_name == 'schedule' || inputs.mode == 'production'
+        if: inputs.mode == 'production'
         run: >-
           bash .github/scripts/persist-report-state.sh
           "chore: reserve daily report send"
           articles.json report_state.json report_bundle.json
       - name: 逐群发送
-        if: github.event_name == 'schedule' || inputs.mode == 'production'
+        if: inputs.mode == 'production'
         env:
           DINGTALK_TOKEN: ${{ secrets.DINGTALK_TOKEN }}
           DINGTALK_TOKEN2: ${{ secrets.DINGTALK_TOKEN2 }}
         run: python -m canyin_news.pipeline send
       - name: 保存逐群发送结果
-        if: always() && (github.event_name == 'schedule' || inputs.mode == 'production')
+        if: always() && inputs.mode == 'production'
         run: >-
           bash .github/scripts/persist-report-state.sh
           "chore: record daily report result"

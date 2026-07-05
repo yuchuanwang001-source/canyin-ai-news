@@ -8,8 +8,10 @@ WORKFLOW = Path(".github/workflows/daily-report.yml")
 
 def test_workflow_has_fallback_and_read_only_watchdog_modes():
     workflow = yaml.safe_load(WORKFLOW.read_text(encoding="utf-8"))
-    options = workflow[True]["workflow_dispatch"]["inputs"]["mode"]["options"]
+    triggers = workflow[True]
+    options = triggers["workflow_dispatch"]["inputs"]["mode"]["options"]
 
+    assert "schedule" not in triggers
     assert options == ["dry-run", "production", "watchdog"]
     text = WORKFLOW.read_text(encoding="utf-8")
     assert "python -m canyin_news.pipeline watchdog" in text
@@ -21,3 +23,4 @@ def test_workflow_persists_bundle_and_retries_safe_pushes():
 
     assert "report_bundle.json" in text
     assert ".github/scripts/persist-report-state.sh" in text
+    assert "github.event_name == 'schedule'" not in text

@@ -1,4 +1,15 @@
 {
-  "version": 1,
-  "days": {}
+  "business_date": "2026-07-05",
+  "groups": {
+    "group_1": {
+      "status": "sending",
+      "content_hash": "2d4d34fc0038385d46b5",
+      "lease_expires_at": "2026-07-05T14:05:21.702204+08:00"
+    },
+    "group_2": {
+      "status": "sending",
+      "content_hash": "2d4d34fc0038385d46b5",
+      "lease_expires_at": "2026-07-05T14:05:21.702204+08:00"
+    }
+  }
 }

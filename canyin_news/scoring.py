@@ -100,6 +100,8 @@ def score_article(article: dict, now: datetime) -> ScoreBreakdown:
     source = article.get("source", "")
     if "官方" in source or source in OFFICIAL_SOURCES:
         authority = 15
+    elif "AIHOT精选" in article.get("tags", []):
+        authority = 14
     elif source in PROFESSIONAL_SOURCES:
         authority = 12
     else:

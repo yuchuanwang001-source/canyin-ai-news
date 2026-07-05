@@ -11,6 +11,14 @@ PLATFORM_EVENTS = (
     "上线",
     "合作",
     "补贴",
+    "助力金",
+    "扶持",
+    "商户",
+    "参保",
+    "增长",
+    "发布",
+    "调整",
+    "内测",
     "佣金",
     "规则",
     "流量",
@@ -46,6 +54,29 @@ FOOD_EVENTS = (
     "供应链",
     "会员",
 )
+FOOD_CONTEXT = (
+    "餐饮",
+    "餐厅",
+    "外卖",
+    "食品",
+    "饮品",
+    "咖啡",
+    "茶饮",
+    "奶茶",
+    "火锅",
+    "烘焙",
+    "快餐",
+    "肯德基",
+    "麦当劳",
+    "瑞幸",
+    "库迪",
+    "蜜雪冰城",
+    "星巴克",
+    "喜茶",
+    "奈雪",
+    "霸王茶姬",
+    "海底捞",
+)
 
 
 def classify_article(title: str, summary: str, source: str) -> str | None:
@@ -58,6 +89,9 @@ def classify_article(title: str, summary: str, source: str) -> str | None:
         return "平台动态"
     if source in AI_SOURCES or any(word in text for word in AI_EVENTS):
         return "AI行业资讯"
-    if source in FOOD_SOURCES or any(word in text for word in FOOD_EVENTS):
+    if source in FOOD_SOURCES or (
+        any(word in text for word in FOOD_CONTEXT)
+        and any(word in text for word in FOOD_EVENTS)
+    ):
         return "餐饮动态"
     return None

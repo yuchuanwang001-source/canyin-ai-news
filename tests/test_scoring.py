@@ -63,3 +63,28 @@ def test_official_high_impact_event_outranks_generic_commentary():
     )
 
     assert important.total > generic.total
+
+
+def test_aihot_selected_item_gets_curated_source_priority():
+    curated = score_article(
+        article(
+            title="新模型能力正式发布",
+            summary="模型能力更新",
+            source="海外技术媒体",
+            category="AI行业资讯",
+            tags=["AIHOT精选"],
+        ),
+        NOW,
+    )
+    generic = score_article(
+        article(
+            title="新模型能力正式发布",
+            summary="模型能力更新",
+            source="海外技术媒体",
+            category="AI行业资讯",
+            tags=[],
+        ),
+        NOW,
+    )
+
+    assert curated.authority > generic.authority

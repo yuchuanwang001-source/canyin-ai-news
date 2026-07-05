@@ -16,8 +16,10 @@ from canyin_news.sources.legacy import load_legacy_articles
 from canyin_news.sources.platform import keep_platform_articles
 from canyin_news.sources.food_brands import keep_ka_brand_articles
 from canyin_news.sources.rss import fetch_rss
+from canyin_news.sources.aihot import fetch_aihot_selected
 from canyin_news.timeutils import BJ
 from canyin_news.dingtalk import send_reserved_to_groups
+from canyin_news.dedupe import event_fingerprint
 from canyin_news.state import ReportState
 
 
@@ -47,6 +49,7 @@ def _candidate(article: Article, now: datetime) -> tuple[dict, dict] | None:
     )
     raw = asdict(article)
     raw["category"] = category
+    raw["event_id"] = event_fingerprint(article.title)
     raw["zh_note"] = chinese_note_for_english_title(
         article.title, article.source
     )
@@ -116,6 +119,15 @@ def collect_configured_sources(config_path: str | Path):
     config = json.loads(Path(config_path).read_text(encoding="utf-8"))
     articles = []
     health = []
+    aihot = config.get("aihot")
+    if aihot:
+        fetched, status = fetch_aihot_selected(
+            url=aihot["url"],
+            mode=aihot.get("mode", "selected"),
+            take=aihot.get("take", 50),
+        )
+        articles.extend(fetched)
+        health.append(asdict(status))
     for source in config.get("ai_rss", []):
         fetched, status = fetch_rss(source["name"], source["url"])
         for article in fetched:

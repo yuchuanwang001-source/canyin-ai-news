@@ -125,6 +125,7 @@ def collect_configured_sources(config_path: str | Path):
             url=aihot["url"],
             mode=aihot.get("mode", "selected"),
             take=aihot.get("take", 50),
+            fallback_url=aihot.get("rss_fallback"),
         )
         articles.extend(fetched)
         health.append(asdict(status))

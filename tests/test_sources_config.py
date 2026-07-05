@@ -9,3 +9,4 @@ def test_aihot_selected_api_is_the_first_ai_source():
 
     assert config["aihot"]["mode"] == "selected"
     assert config["aihot"]["take"] == 50
+    assert config["aihot"]["rss_fallback"] == "https://aihot.tech/feed.xml"

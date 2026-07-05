@@ -2,7 +2,8 @@
   "aihot": {
     "url": "https://aihot.virxact.com/api/public/items",
     "mode": "selected",
-    "take": 50
+    "take": 50,
+    "rss_fallback": "https://aihot.tech/feed.xml"
   },
   "platform_rss": [
     {

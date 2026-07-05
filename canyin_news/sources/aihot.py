@@ -3,9 +3,11 @@ from time import monotonic
 
 import requests
 
+from canyin_news.classify import classify_article
 from canyin_news.dedupe import article_fingerprint, canonicalize_url
 from canyin_news.models import Article
 from canyin_news.sources.base import SourceHealth
+from canyin_news.sources.rss import fetch_rss
 from canyin_news.timeutils import BJ, parse_published_at
 
 
@@ -14,6 +16,7 @@ def fetch_aihot_selected(
     url: str = "https://aihot.virxact.com/api/public/items",
     mode: str = "selected",
     take: int = 50,
+    fallback_url: str | None = None,
     now: datetime | None = None,
     timeout: tuple[int, int] = (3, 10),
 ) -> tuple[list[Article], SourceHealth]:
@@ -71,6 +74,33 @@ def fetch_aihot_selected(
             ),
         )
     except Exception as exc:
+        if fallback_url:
+            articles, health = fetch_rss(
+                "AIHOT精选",
+                fallback_url,
+                timeout=timeout,
+                forced_category="AI行业资讯",
+            )
+            if health.ok:
+                articles = [
+                    article
+                    for article in articles
+                    if classify_article(
+                        article.title, article.summary, article.source
+                    )
+                    == "AI行业资讯"
+                ]
+                for article in articles:
+                    article.tags = ["AIHOT精选"]
+                health.article_count = len(articles)
+                health.valid_date_ratio = (
+                    sum(item.published_at is not None for item in articles)
+                    / len(articles)
+                    if articles
+                    else 0.0
+                )
+                health.error = f"primary unavailable; RSS fallback active: {exc}"
+                return articles, health
         elapsed_ms = round((monotonic() - started) * 1000)
         return [], SourceHealth(
             source="AIHOT精选",

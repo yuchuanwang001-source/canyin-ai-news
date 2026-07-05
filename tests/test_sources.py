@@ -125,3 +125,39 @@ def test_aihot_fetches_only_recent_selected_items_with_original_sources():
     assert result[0].source == "Anthropic Newsroom"
     assert result[0].category == "AI行业资讯"
     assert result[0].tags == ["AIHOT精选"]
+
+
+@responses.activate
+def test_aihot_uses_curated_rss_when_primary_api_is_unavailable():
+    responses.get(
+        "https://aihot.virxact.com/api/public/items",
+        status=503,
+    )
+    responses.get(
+        "https://aihot.tech/feed.xml",
+        body="""<?xml version="1.0"?>
+        <rss version="2.0"><channel><title>AI Hot</title>
+        <link>https://aihot.tech</link><description>Curated</description>
+        <item><title>Anthropic releases a new Claude model</title>
+        <link>https://example.com/claude</link>
+        <description>New AI model</description>
+        <pubDate>Sat, 04 Jul 2026 18:00:05 GMT</pubDate></item>
+        <item><title>Verizon changes its watch service</title>
+        <link>https://example.com/watch</link>
+        <description>Telecom update</description>
+        <pubDate>Sat, 04 Jul 2026 17:00:05 GMT</pubDate></item>
+        </channel></rss>""",
+        status=200,
+        content_type="application/rss+xml",
+    )
+
+    result, health = fetch_aihot_selected(
+        fallback_url="https://aihot.tech/feed.xml"
+    )
+
+    assert health.ok
+    assert "fallback" in health.error
+    assert [item.title for item in result] == [
+        "Anthropic releases a new Claude model"
+    ]
+    assert result[0].tags == ["AIHOT精选"]

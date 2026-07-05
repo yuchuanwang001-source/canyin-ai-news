@@ -8,6 +8,10 @@ test("09:20 cron maps to production workflow", () => {
   assert.equal(modeForCron("20 1 * * *"), "production");
 });
 
+test("09:47 fallback cron also maps to production workflow", () => {
+  assert.equal(modeForCron("47 1 * * *"), "production");
+});
+
 test("10:05 cron maps to read-only watchdog workflow", () => {
   assert.equal(modeForCron("5 2 * * *"), "watchdog");
 });

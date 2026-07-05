@@ -1,4 +1,9 @@
 {
+  "aihot": {
+    "url": "https://aihot.virxact.com/api/public/items",
+    "mode": "selected",
+    "take": 50
+  },
   "platform_rss": [
     {
       "name": "平台新闻搜索",

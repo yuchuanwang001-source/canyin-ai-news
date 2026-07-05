@@ -1,6 +1,8 @@
 import responses
+from datetime import datetime, timedelta, timezone
 
 from canyin_news.models import DateConfidence
+from canyin_news.sources.aihot import fetch_aihot_selected
 from canyin_news.sources.rss import fetch_rss
 from canyin_news.sources.platform import keep_platform_articles
 from canyin_news.sources.food_brands import keep_ka_brand_articles
@@ -90,3 +92,36 @@ def test_ka_filter_requires_brand_and_business_action():
     })()
 
     assert keep_ka_brand_articles([matching, unrelated]) == [matching]
+
+
+@responses.activate
+def test_aihot_fetches_only_recent_selected_items_with_original_sources():
+    responses.get(
+        "https://aihot.virxact.com/api/public/items",
+        json={
+            "items": [
+                {
+                    "id": "cm9abc456def789ghi012jkl3",
+                    "title": "新模型发布",
+                    "url": "https://example.com/model",
+                    "source": "Anthropic Newsroom",
+                    "publishedAt": "2026-07-05T01:00:00.000Z",
+                    "summary": "模型能力更新",
+                    "category": "ai-models",
+                }
+            ]
+        },
+        status=200,
+    )
+    now = datetime(2026, 7, 5, 9, 20, tzinfo=timezone(timedelta(hours=8)))
+
+    result, health = fetch_aihot_selected(now=now)
+
+    request = responses.calls[0].request
+    assert "mode=selected" in request.url
+    assert "take=50" in request.url
+    assert "since=" in request.url
+    assert health.ok
+    assert result[0].source == "Anthropic Newsroom"
+    assert result[0].category == "AI行业资讯"
+    assert result[0].tags == ["AIHOT精选"]

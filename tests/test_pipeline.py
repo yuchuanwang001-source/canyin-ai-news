@@ -48,6 +48,29 @@ def test_build_report_uses_three_sections_and_skips_sent_articles():
     assert result.new_count == 3
 
 
+def test_build_report_deduplicates_same_event_across_sources():
+    articles = [
+        make_article(
+            "platform-1",
+            "抖音生活服务餐饮火锅行业峰会交易增长80%",
+            "红餐网",
+            "平台动态",
+            2,
+        ),
+        make_article(
+            "platform-2",
+            "抖音生活服务餐饮火锅行业峰会交易增长80%",
+            "中国新闻网",
+            "平台动态",
+            3,
+        ),
+    ]
+
+    result = build_report(articles, set(), START, END, "2026.07.05", "星期日")
+
+    assert len(result.sections["🛵 平台动态"]) == 1
+
+
 def test_dry_run_writes_preview_without_sending(tmp_path, monkeypatch):
     articles_path = tmp_path / "articles.json"
     articles_path.write_text('{"articles":[]}', encoding="utf-8")

@@ -38,3 +38,8 @@ def article_fingerprint(title: str, source: str) -> str:
     normalized = re.sub(r"[\W_]+", "", title, flags=re.UNICODE).lower()
     payload = f"{source.strip().lower()}|{normalized}"
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()[:20]
+
+
+def event_fingerprint(title: str) -> str:
+    normalized = re.sub(r"[\W_]+", "", title, flags=re.UNICODE).lower()
+    return hashlib.sha256(normalized.encode("utf-8")).hexdigest()[:20]

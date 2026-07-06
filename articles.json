@@ -1,7 +1,39 @@
 {
-  "updated": "2026-07-06T09:20:42.538700+08:00",
-  "articleCount": 415,
+  "updated": "2026-07-06T09:47:42.427861+08:00",
+  "articleCount": 417,
   "articles": [
+    {
+      "id": "58c38d3e4fda",
+      "title": "前有老乡鸡，后有巴比，为啥这届餐饮老板爱装土？",
+      "url": "https://mp.weixin.qq.com/s/0ZsPe-nyHx4ziar1Lo7Dlw",
+      "source": "餐企老板内参",
+      "time": "2026-07-06T09:47:42.427861+08:00",
+      "summary": "",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 65,
+      "reason": "[R] 餐饮老板内参出品，深度分析餐饮产业，做这行不看这个会错过很多",
+      "date": "7月6日",
+      "dateSort": "2026-07-06",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "15bbe2508c23",
+      "title": "三轮变两轮，才能上王兴的牌桌",
+      "url": "https://mp.weixin.qq.com/s/Z_SuhrItuWQk12L6X3v_NA",
+      "source": "淘宝闪购本地生活",
+      "time": "2026-07-06T09:47:42.427861+08:00",
+      "summary": "",
+      "image": "",
+      "category": "平台政策",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 淘宝闪购官方动态，跟你的日常运营工作直接相关",
+      "date": "7月6日",
+      "dateSort": "2026-07-06",
+      "timeDisplay": "09:47"
+    },
     {
       "id": "667e606036a7",
       "title": "一兆瓦养活6万智能体，英伟达GB300碾压前代20倍",

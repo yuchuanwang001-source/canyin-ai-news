@@ -1,7 +1,45 @@
 {
-  "updated": "2026-07-07T09:20:49.278998+08:00",
-  "articleCount": 435,
+  "updated": "2026-07-07T09:47:38.579656+08:00",
+  "articleCount": 437,
   "articles": [
+    {
+      "id": "dc1264f8905c",
+      "title": "即时零售与AI协同的新双11，品牌向新经营应该这样做丨阿里妈妈×沈帅波",
+      "url": "https://mp.weixin.qq.com/s/MvJpvvBsE0X_l_9Ne0gSXg",
+      "source": "淘宝闪购商家课堂",
+      "time": "2026-07-07T09:47:38.579656+08:00",
+      "summary": "",
+      "image": "",
+      "category": "平台政策",
+      "tags": [
+        "品牌动态",
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[FD] 阿里的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "6d8d61d7e322",
+      "title": "独家！字节上线“卷王”级产品“探饭”，全功能AI饭搭子",
+      "url": "https://mp.weixin.qq.com/s/OIAqKcoo-JWckzGSk0t3dA",
+      "source": "AI餐饮行业",
+      "time": "2026-07-07T09:47:38.579656+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化",
+        "餐饮创新"
+      ],
+      "score": 60,
+      "reason": "[R] AI+餐饮交叉领域，跟你日常工作直接相关",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "09:47"
+    },
     {
       "id": "0ddccec1ac50",
       "title": "豆包千问下架“智能体”？翻译闹乌龙，Agent其实是大厂重中之重",
@@ -356,7 +394,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 45,
+      "score": 40,
       "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -375,7 +413,7 @@
         "品牌动态",
         "供应链"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "7月6日",
       "dateSort": "2026-07-06",

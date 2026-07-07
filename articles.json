@@ -1,7 +1,317 @@
 {
-  "updated": "2026-07-06T09:47:42.427861+08:00",
-  "articleCount": 417,
+  "updated": "2026-07-07T09:20:49.278998+08:00",
+  "articleCount": 435,
   "articles": [
+    {
+      "id": "0ddccec1ac50",
+      "title": "豆包千问下架“智能体”？翻译闹乌龙，Agent其实是大厂重中之重",
+      "url": "https://www.36kr.com/p/3884179708787593",
+      "source": "36氪AI",
+      "time": "2026-07-07T09:22:01+08:00",
+      "summary": "Bot退场，Agent上桌。",
+      "image": "https://img.36krcdn.com/hsossms/20260707/v2_9d301af5c1a449829a73ea4d63bb23fe@5091053@ai_oswg960347oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 70,
+      "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "09:22"
+    },
+    {
+      "id": "4c90c8315760",
+      "title": "一份内部报告显示，美国财政部开始评估AI泡沫风险",
+      "url": "https://www.36kr.com/p/3884790230692102",
+      "source": "36氪AI",
+      "time": "2026-07-07T09:21:50+08:00",
+      "summary": "“AI正在重演2000年互联网泡沫，一旦破裂，冲击将穿透整个经济体系。”",
+      "image": "https://img.36krcdn.com/hsossms/20260707/v2_b98b318f2360478c958e921d3b9ef24e@5091053@ai_oswg1011408oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "数据报告",
+      "tags": [
+        "AI/数字化",
+        "报告/数据"
+      ],
+      "score": 80,
+      "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "09:21"
+    },
+    {
+      "id": "fa22ab3aa6fc",
+      "title": "18亿广告总裁转型投资餐饮，她用2年时间拿下6家店",
+      "url": "https://mp.weixin.qq.com/s/CfaCH92PN_kgKQEFJcMebg",
+      "source": "餐饮老板内参",
+      "time": "2026-07-07T09:20:49.278998+08:00",
+      "summary": "",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [
+        "资本/投融资"
+      ],
+      "score": 65,
+      "reason": "[R] 餐饮老板内参的一线观察，接地气、有案例，适合实操参考",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "636576d2fe78",
+      "title": "阿里成立ATH，中国AI时代最重要的组织变革来了",
+      "url": "https://mp.weixin.qq.com/s/FuxrRBvCh-_AHaB4t2XwsQ",
+      "source": "阿里AI",
+      "time": "2026-07-07T09:20:49.278998+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] 阿里巴巴AI动态，大厂布局影响行业走向",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "64f8f70998e4",
+      "title": "腾讯混元首款开源混合推理MoE模型发布，性能优异，激活参数仅13B",
+      "url": "https://mp.weixin.qq.com/s/BlmQfsT5WVUzqY_I7uBiNQ",
+      "source": "腾讯AI",
+      "time": "2026-07-07T09:20:49.278998+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 腾讯AI动态，大厂AI布局值得关注",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "4dd28fabf0b0",
+      "title": "豆包大模型升级1.6版，视频模型上新",
+      "url": "https://mp.weixin.qq.com/s/TZeogITwPorPmToXU4f9iQ",
+      "source": "豆包",
+      "time": "2026-07-07T09:20:49.278998+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 60,
+      "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "736f54760b52",
+      "title": "豆包手机助手发布技术预览版",
+      "url": "https://mp.weixin.qq.com/s/deusnrynccsaIQvF6TW7uQ",
+      "source": "豆包",
+      "time": "2026-07-07T09:20:49.278998+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 豆包AI动态，国产AI大模型进展值得关注",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "54af92e7de38",
+      "title": "DeepSeek开源政策 FAQ",
+      "url": "https://mp.weixin.qq.com/s/CwoD64E5fBnpnYVEHgVWlA",
+      "source": "DeepSeek",
+      "time": "2026-07-07T09:20:49.278998+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 60,
+      "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "b121527f228a",
+      "title": "Weixin Official Accounts Platform",
+      "url": "https://mp.weixin.qq.com/s/0zJBg5hBbHLgGsoHjXADiQ",
+      "source": "智谱AI",
+      "time": "2026-07-07T09:20:49.278998+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 智谱AI动态，国产大模型重要参与者",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "79f92a1be7cd",
+      "title": "VC/PE迎开门红：全球大模型第一股来了",
+      "url": "https://mp.weixin.qq.com/s/7QHlKOmZniqc40YKvR1b4A",
+      "source": "智谱AI",
+      "time": "2026-07-07T09:20:49.278998+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "出海"
+      ],
+      "score": 60,
+      "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "2c51ebed6f9d",
+      "title": "OpenAI 的 75 封内部邮件，一堂硅谷创业课",
+      "url": "https://mp.weixin.qq.com/s/A9SsTFeU491BXtVefnr2Rg",
+      "source": "OpenAI",
+      "time": "2026-07-07T09:20:49.278998+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] OpenAI最新动态，AI技术迭代影响每一个行业",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "1caf6fa2df45",
+      "title": "国产汉堡打得越凶，这家东莞公司赚得越多",
+      "url": "https://www.canyin88.com/zixun/2026/07/06/112451.html",
+      "source": "红餐网",
+      "time": "2026-07-06T12:00:00+08:00",
+      "summary": "红餐供应链指南·2026-07-06 10:10:54来源：红餐网1380",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "供应链"
+      ],
+      "score": 55,
+      "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
+      "date": "7月6日",
+      "dateSort": "2026-07-06",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "458421e6ac79",
+      "title": "和府捞面3.0：一场关于“鲜”与“真”的品质革命",
+      "url": "https://www.canyin88.com/zixun/2026/07/06/112449.html",
+      "source": "红餐网",
+      "time": "2026-07-06T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-06 10:06:03来源：红餐网1216",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月6日",
+      "dateSort": "2026-07-06",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "a0a201b500e2",
+      "title": "亿滋中国迎来人事变动；鲟龙科技正式登陆港交所",
+      "url": "https://www.canyin88.com/zixun/2026/07/06/112450.html",
+      "source": "红餐网",
+      "time": "2026-07-06T12:00:00+08:00",
+      "summary": "红餐供应链指南·2026-07-06 09:44:34来源：红餐网1293",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "供应链"
+      ],
+      "score": 55,
+      "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
+      "date": "7月6日",
+      "dateSort": "2026-07-06",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "2fea9842dfdc",
+      "title": "开千平大店、不加盟不涨价，这家自助品牌用8年走出了一条反常路",
+      "url": "https://www.canyin88.com/zixun/2026/07/06/112448.html",
+      "source": "红餐网",
+      "time": "2026-07-06T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-06 09:41:38来源：红餐网1388",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态"
+      ],
+      "score": 55,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "7月6日",
+      "dateSort": "2026-07-06",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "18915e11937b",
+      "title": "小咖咖啡宣布完成 3.4 亿元融资；逮虾记产业融合示范基地落户江苏如东",
+      "url": "https://www.canyin88.com/zixun/2026/07/06/112447.html",
+      "source": "红餐网",
+      "time": "2026-07-06T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-06 09:35:38来源：红餐网1337",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态",
+        "资本/投融资"
+      ],
+      "score": 60,
+      "reason": "[MONEY] 这家公司的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "7月6日",
+      "dateSort": "2026-07-06",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "b27de00d51dd",
+      "title": "海底捞、瑞幸、小菜园加码堂食，都在抢着做这件事！",
+      "url": "https://www.canyin88.com/zixun/2026/07/06/112446.html",
+      "source": "红餐网",
+      "time": "2026-07-06T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-06 09:21:36来源：红餐网1336",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月6日",
+      "dateSort": "2026-07-06",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "d4aab3a06a30",
+      "title": "一个号被炒到300元，牛New成了今年最难约的餐厅",
+      "url": "https://www.canyin88.com/zixun/2026/07/06/112445.html",
+      "source": "红餐网",
+      "time": "2026-07-06T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-06 08:55:18来源：红餐网934",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月6日",
+      "dateSort": "2026-07-06",
+      "timeDisplay": "12:00"
+    },
     {
       "id": "58c38d3e4fda",
       "title": "前有老乡鸡，后有巴比，为啥这届餐饮老板爱装土？",
@@ -12,7 +322,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 65,
+      "score": 40,
       "reason": "[R] 餐饮老板内参出品，深度分析餐饮产业，做这行不看这个会错过很多",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -28,7 +338,7 @@
       "image": "",
       "category": "平台政策",
       "tags": [],
-      "score": 55,
+      "score": 30,
       "reason": "[R] 淘宝闪购官方动态，跟你的日常运营工作直接相关",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -46,7 +356,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 70,
+      "score": 45,
       "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -65,7 +375,7 @@
         "品牌动态",
         "供应链"
       ],
-      "score": 75,
+      "score": 50,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -81,7 +391,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 55,
+      "score": 25,
       "reason": "[R] 阿里巴巴AI动态，大厂布局影响行业走向",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -99,7 +409,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 30,
       "reason": "[R] 阿里巴巴AI动态，大厂布局影响行业走向",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -117,7 +427,7 @@
       "tags": [
         "餐饮创新"
       ],
-      "score": 55,
+      "score": 25,
       "reason": "[R] 腾讯AI动态，大厂AI布局值得关注",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -133,7 +443,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 60,
+      "score": 30,
       "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -149,7 +459,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 60,
+      "score": 30,
       "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -167,7 +477,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 30,
       "reason": "[R] OpenAI最新动态，AI技术迭代影响每一个行业",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -186,7 +496,7 @@
         "AI/数字化",
         "出海"
       ],
-      "score": 60,
+      "score": 30,
       "reason": "[R] AI+餐饮交叉领域，跟你日常工作直接相关",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -206,8 +516,8 @@
         "AI/数字化",
         "供应链"
       ],
-      "score": 85,
-      "reason": "[HOT] 苹果最新动态，行业关注度极高，值得第一时间了解",
+      "score": 55,
+      "reason": "[MONEY] 苹果的资本运作动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月6日",
       "dateSort": "2026-07-06",
       "timeDisplay": "08:02"
@@ -226,7 +536,7 @@
         "AI/数字化",
         "资本/投融资"
       ],
-      "score": 45,
+      "score": 40,
       "reason": "[MONEY] 腾讯的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月5日",
       "dateSort": "2026-07-05",
@@ -242,7 +552,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 30,
+      "score": 25,
       "reason": "[R] 勇哥餐饮分享，实战派经验，不是纸上谈兵那种",
       "date": "7月5日",
       "dateSort": "2026-07-05",
@@ -260,7 +570,7 @@
       "tags": [
         "外卖/平台"
       ],
-      "score": 35,
+      "score": 30,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "7月5日",
       "dateSort": "2026-07-05",
@@ -278,7 +588,7 @@
       "tags": [
         "外卖/平台"
       ],
-      "score": 30,
+      "score": 25,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "7月5日",
       "dateSort": "2026-07-05",
@@ -294,7 +604,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 30,
+      "score": 25,
       "reason": "[R] 百度AI动态，AI技术先行者",
       "date": "7月5日",
       "dateSort": "2026-07-05",
@@ -310,7 +620,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 30,
+      "score": 25,
       "reason": "[R] 智谱AI动态，国产大模型重要参与者",
       "date": "7月5日",
       "dateSort": "2026-07-05",
@@ -328,7 +638,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 35,
+      "score": 30,
       "reason": "[R] OpenAI最新动态，AI技术迭代影响每一个行业",
       "date": "7月5日",
       "dateSort": "2026-07-05",
@@ -347,7 +657,7 @@
         "外卖/平台",
         "AI/数字化"
       ],
-      "score": 35,
+      "score": 30,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "7月5日",
       "dateSort": "2026-07-05",
@@ -366,7 +676,7 @@
         "AI/数字化",
         "出海"
       ],
-      "score": 35,
+      "score": 30,
       "reason": "[R] AI+餐饮交叉领域，关注技术如何落地餐饮场景",
       "date": "7月5日",
       "dateSort": "2026-07-05",

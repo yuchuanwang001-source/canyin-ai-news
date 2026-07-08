@@ -1,7 +1,187 @@
 {
-  "updated": "2026-07-07T09:47:38.579656+08:00",
-  "articleCount": 437,
+  "updated": "2026-07-08T09:20:16.471438+08:00",
+  "articleCount": 448,
   "articles": [
+    {
+      "id": "64f09b3fdecb",
+      "title": "DeepSeek API 升级，支持续写、FIM、Function Calling、JSON Output",
+      "url": "https://mp.weixin.qq.com/s/7j9chWmUBl3hNtftjbcuMQ",
+      "source": "DeepSeek",
+      "time": "2026-07-08T09:20:16.471438+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] DeepSeek动态，国产AI新锐力量",
+      "date": "7月8日",
+      "dateSort": "2026-07-08",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "5fade242c79d",
+      "title": "对话智谱 AI CEO 张鹏：AI Agent 是重要新风向，大模型竞争已步入混战后期",
+      "url": "https://mp.weixin.qq.com/s/8bYNRxGNjXYIuPqgXx7tQg",
+      "source": "智谱AI",
+      "time": "2026-07-08T09:20:16.471438+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 65,
+      "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
+      "date": "7月8日",
+      "dateSort": "2026-07-08",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "327f2cf7207f",
+      "title": "日本投资者5月份购买韩国债券规模接近历史最高水平",
+      "url": "https://36kr.com/newsflashes/3886298018263040?f=rss",
+      "source": "36氪",
+      "time": "2026-07-08T09:06:46+08:00",
+      "summary": "日本周三公布的最新国际收支数据显示，5月份日本投资者购买韩国债券的金额仍接近历史最高水平。5月份净购买金额为3507亿日元，此前4月达到创纪录的3936亿日元。该数据并未提供债券类型的细分信息。（新浪财经）",
+      "image": "",
+      "category": "数据报告",
+      "tags": [
+        "AI/数字化",
+        "资本/投融资",
+        "报告/数据"
+      ],
+      "score": 70,
+      "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
+      "date": "7月8日",
+      "dateSort": "2026-07-08",
+      "timeDisplay": "09:06"
+    },
+    {
+      "id": "83d54461cae5",
+      "title": "「德睿智药」获5200万美元B轮融资，AI设计的减肥药已进入3期临床｜36氪首发",
+      "url": "https://36kr.com/p/3885479689465858?f=rss",
+      "source": "36氪",
+      "time": "2026-07-08T08:00:00+08:00",
+      "summary": "文｜胡香赟编辑｜海若镜36 氪获悉，德睿智药近期已完成 5200 万美元B轮融资，投资方包括头部人民币和美元基金，凯乘资本为独家财务顾问。募集资金将用于AI制药引擎Molecule Arts Platform（MAP）升级迭代，完善其多智能体（Multi-Agent）协同体系与临床数据闭环（Clinical Data-in-the-Loop），以及推进自研口服GLP-1小分子MDR-001的III",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "品牌动态",
+        "AI/数字化",
+        "资本/投融资"
+      ],
+      "score": 80,
+      "reason": "[MONEY] 这家公司的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "7月8日",
+      "dateSort": "2026-07-08",
+      "timeDisplay": "08:00"
+    },
+    {
+      "id": "d9e46c07e923",
+      "title": "驰援广西横州！爷爷不泡茶首批物资送到了！",
+      "url": "https://www.canyin88.com/zixun/2026/07/07/112469.html",
+      "source": "红餐网",
+      "time": "2026-07-07T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-07 19:56:17来源：红餐网911",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "f445af558982",
+      "title": "植物肉的泡沫破裂，它的供应商还好吗？",
+      "url": "https://www.canyin88.com/zixun/2026/07/07/112459.html",
+      "source": "红餐网",
+      "time": "2026-07-07T12:00:00+08:00",
+      "summary": "红餐供应链指南·2026-07-07 10:49:17来源：红餐网1230",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "供应链"
+      ],
+      "score": 55,
+      "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "1b1bf1453aaa",
+      "title": "供应链名企 | 欧福蛋业：鸡蛋全品类供应商， 合作肯德基、好利来等",
+      "url": "https://www.canyin88.com/zixun/2026/07/07/112458.html",
+      "source": "红餐网",
+      "time": "2026-07-07T12:00:00+08:00",
+      "summary": "红餐供应链指南·2026-07-07 10:36:27来源：红餐网1240",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "供应链"
+      ],
+      "score": 55,
+      "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "360bef011d16",
+      "title": "头部商场疯抢餐饮“爆店”，背后是巨大的流量焦虑？",
+      "url": "https://www.canyin88.com/zixun/2026/07/07/112457.html",
+      "source": "红餐网",
+      "time": "2026-07-07T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-07 09:13:19来源：红餐网1717",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "66d4add409c1",
+      "title": "山姆前首席采购官张青或加盟博裕资本；瑞幸门店已超3.5万家",
+      "url": "https://www.canyin88.com/zixun/2026/07/07/112456.html",
+      "source": "红餐网",
+      "time": "2026-07-07T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-07 09:11:11来源：红餐网1321",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态",
+        "供应链",
+        "资本/投融资"
+      ],
+      "score": 55,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "c0f9e5cb9395",
+      "title": "蜜雪冰城、茉莉奶白纷纷加入！一众餐饮品牌驰援广西洪灾救援",
+      "url": "https://www.canyin88.com/kuaixun/2026/0707/112467.html",
+      "source": "红餐网",
+      "time": "2026-07-07T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-07 15:25:07来源：红餐网933",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态"
+      ],
+      "score": 55,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "7月7日",
+      "dateSort": "2026-07-07",
+      "timeDisplay": "12:00"
+    },
     {
       "id": "dc1264f8905c",
       "title": "即时零售与AI协同的新双11，品牌向新经营应该这样做丨阿里妈妈×沈帅波",
@@ -15,7 +195,7 @@
         "品牌动态",
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 35,
       "reason": "[FD] 阿里的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -34,7 +214,7 @@
         "AI/数字化",
         "餐饮创新"
       ],
-      "score": 60,
+      "score": 35,
       "reason": "[R] AI+餐饮交叉领域，跟你日常工作直接相关",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -52,7 +232,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 70,
+      "score": 45,
       "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -71,7 +251,7 @@
         "AI/数字化",
         "报告/数据"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -89,7 +269,7 @@
       "tags": [
         "资本/投融资"
       ],
-      "score": 65,
+      "score": 40,
       "reason": "[R] 餐饮老板内参的一线观察，接地气、有案例，适合实操参考",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -107,7 +287,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 35,
       "reason": "[R] 阿里巴巴AI动态，大厂布局影响行业走向",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -123,7 +303,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 55,
+      "score": 30,
       "reason": "[R] 腾讯AI动态，大厂AI布局值得关注",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -139,7 +319,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 60,
+      "score": 35,
       "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -155,7 +335,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 55,
+      "score": 30,
       "reason": "[R] 豆包AI动态，国产AI大模型进展值得关注",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -171,7 +351,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 60,
+      "score": 35,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -187,7 +367,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 55,
+      "score": 30,
       "reason": "[R] 智谱AI动态，国产大模型重要参与者",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -205,7 +385,7 @@
       "tags": [
         "出海"
       ],
-      "score": 60,
+      "score": 35,
       "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -223,7 +403,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 35,
       "reason": "[R] OpenAI最新动态，AI技术迭代影响每一个行业",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -241,7 +421,7 @@
       "tags": [
         "供应链"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -257,7 +437,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -275,7 +455,7 @@
       "tags": [
         "供应链"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -293,7 +473,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -312,7 +492,7 @@
         "品牌动态",
         "资本/投融资"
       ],
-      "score": 60,
+      "score": 55,
       "reason": "[MONEY] 这家公司的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -328,7 +508,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -344,7 +524,23 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月6日",
+      "dateSort": "2026-07-06",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "e33631bf8d8b",
+      "title": "传统纹样引争议！LV维权拷问餐饮设计版权边界",
+      "url": "https://www.canyin88.com/zixun/2026/07/06/112465.html",
+      "source": "红餐网",
+      "time": "2026-07-06T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-06 10:06:03来源：红餐网452",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -360,7 +556,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 40,
+      "score": 35,
       "reason": "[R] 餐饮老板内参出品，深度分析餐饮产业，做这行不看这个会错过很多",
       "date": "7月6日",
       "dateSort": "2026-07-06",
@@ -376,7 +572,7 @@
       "image": "",
       "category": "平台政策",
       "tags": [],
-      "score": 30,
+      "score": 25,
       "reason": "[R] 淘宝闪购官方动态，跟你的日常运营工作直接相关",
       "date": "7月6日",
       "dateSort": "2026-07-06",

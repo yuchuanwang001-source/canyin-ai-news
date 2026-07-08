@@ -1,7 +1,41 @@
 {
-  "updated": "2026-07-08T09:20:16.471438+08:00",
-  "articleCount": 448,
+  "updated": "2026-07-08T09:47:17.726767+08:00",
+  "articleCount": 450,
   "articles": [
+    {
+      "id": "7e62bdd4b37c",
+      "title": "Anthropic关于AI安全的核心观点：何时、何故、何事与如何",
+      "url": "https://mp.weixin.qq.com/s/UL0BK3s2CXVXUivhzU5ZKw",
+      "source": "Anthropic Claude",
+      "time": "2026-07-08T09:47:17.726767+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] Anthropic Claude动态，AI前沿技术跟踪",
+      "date": "7月8日",
+      "dateSort": "2026-07-08",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "f24ea38984ac",
+      "title": "A股三大指数集体高开，浪潮信息涨停",
+      "url": "https://36kr.com/newsflashes/3886318191276032?f=rss",
+      "source": "36氪",
+      "time": "2026-07-08T09:27:18+08:00",
+      "summary": "36氪获悉，A股三大指数集体高开，沪指高开0.16%，深成指高开0.29%，创业板指高开0.52%；餐饮旅游、电脑硬件、通信设备板块领涨，浪潮信息涨停，天府文旅涨超6%，锐捷网络涨超5%；教育、贵金属、工程机械跌幅居前，中公教育跌超9%，三一重工、紫金矿业跌超1%。",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 65,
+      "reason": "[R] 36氪精选，这条虽然不是直接讲餐饮，但宏观趋势会影响每个行业",
+      "date": "7月8日",
+      "dateSort": "2026-07-08",
+      "timeDisplay": "09:27"
+    },
     {
       "id": "64f09b3fdecb",
       "title": "DeepSeek API 升级，支持续写、FIM、Function Calling、JSON Output",
@@ -232,7 +266,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 45,
+      "score": 40,
       "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -251,7 +285,7 @@
         "AI/数字化",
         "报告/数据"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -269,7 +303,7 @@
       "tags": [
         "资本/投融资"
       ],
-      "score": 40,
+      "score": 35,
       "reason": "[R] 餐饮老板内参的一线观察，接地气、有案例，适合实操参考",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -287,7 +321,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 35,
+      "score": 30,
       "reason": "[R] 阿里巴巴AI动态，大厂布局影响行业走向",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -303,7 +337,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 30,
+      "score": 25,
       "reason": "[R] 腾讯AI动态，大厂AI布局值得关注",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -319,7 +353,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 35,
+      "score": 30,
       "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -335,7 +369,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 30,
+      "score": 25,
       "reason": "[R] 豆包AI动态，国产AI大模型进展值得关注",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -351,7 +385,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 35,
+      "score": 30,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -367,7 +401,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 30,
+      "score": 25,
       "reason": "[R] 智谱AI动态，国产大模型重要参与者",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -385,7 +419,7 @@
       "tags": [
         "出海"
       ],
-      "score": 35,
+      "score": 30,
       "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -403,7 +437,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 35,
+      "score": 30,
       "reason": "[R] OpenAI最新动态，AI技术迭代影响每一个行业",
       "date": "7月7日",
       "dateSort": "2026-07-07",

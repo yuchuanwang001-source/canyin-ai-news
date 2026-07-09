@@ -1,7 +1,323 @@
 {
-  "updated": "2026-07-08T09:47:17.726767+08:00",
-  "articleCount": 450,
+  "updated": "2026-07-09T09:20:37.524942+08:00",
+  "articleCount": 467,
   "articles": [
+    {
+      "id": "57cd9b787ab7",
+      "title": "供应链名品 | 安井黑虎虾滑：大颗粒虾肉， 适合涮、煎、蒸等多种吃法",
+      "url": "https://www.canyin88.com/zixun/2026/07/09/112480.html",
+      "source": "红餐网",
+      "time": "2026-07-09T12:00:00+08:00",
+      "summary": "红餐供应链指南·2026-07-09 09:14:14来源：红餐网0",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.25",
+      "category": "餐饮动态",
+      "tags": [
+        "供应链"
+      ],
+      "score": 80,
+      "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "102cf8f2d213",
+      "title": "人工智能来到“真实世界AI”阶段",
+      "url": "https://www.36kr.com/p/3886742866849796",
+      "source": "36氪AI",
+      "time": "2026-07-09T09:22:12+08:00",
+      "summary": "真实世界将成为 AI新的训练场。",
+      "image": "https://img.36krcdn.com/hsossms/20260708/v2_50cb6ad369d24aa88a12d4d8232145b2@46958@ai_oswg803738oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 80,
+      "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "09:22"
+    },
+    {
+      "id": "c1ef22945fe4",
+      "title": "8点1氪｜小米将发布澎程系列增程SUV；OpenAI首席未来学家宣布离职；张小龙辞任粉笔首席执行官、董事会主席",
+      "url": "https://www.36kr.com/p/3887648675133960",
+      "source": "36氪AI",
+      "time": "2026-07-09T09:21:17+08:00",
+      "summary": "小米汽车首款增程式SUV将归属全新独立子品牌“SKYNOMAD”，计划于2026年下半年正式发布。",
+      "image": "https://img.36krcdn.com/hsossms/20260709/v2_7520955f6fd6449db95b9e6d71906651@6100851_oswg82803oswg1053oswg495_img_jpg?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+      "category": "餐饮动态",
+      "tags": [
+        "餐饮趋势",
+        "品牌动态",
+        "AI/数字化"
+      ],
+      "score": 75,
+      "reason": "[FD] OpenAI的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "09:21"
+    },
+    {
+      "id": "794315f68cdb",
+      "title": "刚刚，小米汽车官宣新品牌澎程，剧透两大核心细节",
+      "url": "https://www.36kr.com/p/3886307082187012",
+      "source": "36氪AI",
+      "time": "2026-07-09T09:21:07+08:00",
+      "summary": "增程首车或月底首秀、8月上市，现车备货超万台。",
+      "image": "https://img.36krcdn.com/hsossms/20260708/v2_a527ba7db5d541a1b4474ef719191dc3@5091053@ai_oswg1059046oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态",
+        "餐饮创新",
+        "资本/投融资"
+      ],
+      "score": 75,
+      "reason": "[MONEY] 这家公司的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "09:21"
+    },
+    {
+      "id": "8ddc8bd82639",
+      "title": "从“等大促”到“玩循环”，今年双11，用全域快种快收打开生意新空间",
+      "url": "https://mp.weixin.qq.com/s/RSc-7pauA1v0pMeBGMoIRA",
+      "source": "淘宝闪购商家课堂",
+      "time": "2026-07-09T09:20:37.524942+08:00",
+      "summary": "",
+      "image": "",
+      "category": "平台政策",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 淘宝闪购商家课堂，运营实操干货",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "6b5761e6af29",
+      "title": "Agent成了腾讯AI最大的牌面",
+      "url": "https://mp.weixin.qq.com/s/uNU2vuT0xqNVSOj_zWUWpg",
+      "source": "腾讯AI",
+      "time": "2026-07-09T09:20:37.524942+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] 腾讯AI动态，大厂AI布局值得关注",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "2cce4c9df5aa",
+      "title": "谷歌发布新一代大模型Gemini 2.0，掀了AI圈牌桌，全力狙击OpenAI",
+      "url": "https://mp.weixin.qq.com/s/5sVZuzRIDemnc-2IFZ6Keg",
+      "source": "Google Gemini",
+      "time": "2026-07-09T09:20:37.524942+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 65,
+      "reason": "[AI] OpenAI在AI领域又有新动作，如果你关注AI怎么落地餐饮场景，这篇能给你一些启发",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "45e8954e319e",
+      "title": "阶跃星辰将发布AI智能体手机",
+      "url": "https://36kr.com/newsflashes/3887717218089736?f=rss",
+      "source": "36氪",
+      "time": "2026-07-09T09:10:27+08:00",
+      "summary": "阶跃星辰即将发布AI终端品牌、智能体系统及其首款AI智能体手机。此前，OpenAI已公开押注新一代AI终端，计划2027年上市。阶跃星辰本次抢先落地AI智能体手机，成为全球大模型厂商中率先迈出这一步的玩家。 （财联社）",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "品牌动态",
+        "AI/数字化",
+        "出海"
+      ],
+      "score": 80,
+      "reason": "[MONEY] OpenAI的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "09:10"
+    },
+    {
+      "id": "b6b6834eea0a",
+      "title": "8点1氪｜小米将发布澎程系列增程SUV；OpenAI首席未来学家宣布离职；张小龙辞任粉笔首席执行官、董事会主席",
+      "url": "https://36kr.com/p/3887648675133960?f=rss",
+      "source": "36氪",
+      "time": "2026-07-09T08:03:11+08:00",
+      "summary": "今日热点导览工信部：AI编程工具Claude Code存在安全后门隐患，危害严重字节绩效规则调整：加大半年激励，加强字节范与领导力考核沙特阿美大降价吸引亚洲买家，国际机构看空下半年油价欧盟法院驳回苹果上诉，维持App Store和iOS“看门人”认定摩根大通：投资者低估了特斯拉与SpaceX合并的潜在障碍TOP3大新闻小米汽车新产品系列命名为SKYNOMAD，雷军回复上市时间7月8日，小米汽车官方",
+      "image": "",
+      "category": "平台政策",
+      "tags": [
+        "餐饮趋势",
+        "品牌动态",
+        "AI/数字化"
+      ],
+      "score": 75,
+      "reason": "[MONEY] OpenAI的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "08:03"
+    },
+    {
+      "id": "65e12b2b3c35",
+      "title": "从跨境电商到AI大模型：一个旅欧10年90后女生的两次出海",
+      "url": "https://36kr.com/p/3886574096265481?f=rss",
+      "source": "36氪",
+      "time": "2026-07-08T17:33:33+08:00",
+      "summary": "20世纪50年代，“日本制造”对世界来说意味着低廉的价格和三流的产品。到70年代日本家电崛起，巅峰时期美国市场三成的彩电都是日本产品。80年代，丰田、本田、日产等日本汽车品牌接棒家电走向世界。再往后，日本动漫、游戏、音乐等文化娱乐产业开始向海外输出并成为支柱产业。从廉价服装到二次元，日本输出海外的核心产品在过去七十年里换了好几轮，从侧面说明一国出海的主流产品从来不是固定的，会跟着国家的产业能力变迁",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态",
+        "AI/数字化",
+        "餐饮创新"
+      ],
+      "score": 55,
+      "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
+      "date": "7月8日",
+      "dateSort": "2026-07-08",
+      "timeDisplay": "17:33"
+    },
+    {
+      "id": "66cd40fd308e",
+      "title": "地产AI进入落地战，深度智联又甩出一张牌",
+      "url": "https://36kr.com/p/3886709249241349?f=rss",
+      "source": "36氪",
+      "time": "2026-07-08T16:05:55+08:00",
+      "summary": "7月7日，易居（中国）控股有限公司董事局主席、总裁周忻再一次来到台前，给公司的AI产品站台，推出其核心战略产品“地产模数通——企业专属大模型一体机”。同时，克而瑞地产AI分析师“小瑞”正式上岗。不到两个月前，易居旗下的深度智联刚刚发布了全球首个房地产经纪人智能体“易居·小新”，用中立无佣模式替代传统中介。迹象显示，深度智联在加速AI产品落地。周忻说，地产模数通“是第一个开箱即用的硬软件结合的AI应",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化",
+        "餐饮创新",
+        "出海"
+      ],
+      "score": 50,
+      "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
+      "date": "7月8日",
+      "dateSort": "2026-07-08",
+      "timeDisplay": "16:05"
+    },
+    {
+      "id": "fec19ac38ecc",
+      "title": "氪星晚报｜德国：人工智能推动德国初创企业创纪录增长；雷军回应SkyNomad上市时间；SpaceX AI将于明日向公众开放Grok4.5",
+      "url": "https://36kr.com/p/3886678879727880?f=rss",
+      "source": "36氪",
+      "time": "2026-07-08T16:01:28+08:00",
+      "summary": "大公司：雷军回应SkyNomad上市时间36氪获悉，7月8日，小米创办人，董事长兼CEO @雷军 在个人账号官宣小米汽车新系列SkyNomad。其评论区下有网友询问车辆发布时间，雷军回复表示“快了”。必和必拓在世界最大铁矿石出口港口的工人将罢工8小时7月8日，工会表示，必和必拓集团位于西澳州Port Hedland铁矿石出口码头的工人将于7月16日举行8小时罢工。此次行动将涉及全球最大铁矿石出口港",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "餐饮趋势",
+        "品牌动态",
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[MONEY] 这家公司的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "7月8日",
+      "dateSort": "2026-07-08",
+      "timeDisplay": "16:01"
+    },
+    {
+      "id": "fbf022563bc7",
+      "title": "抢占通勤消费的流量！“雪王”在武汉地铁站内开了家复合型门店",
+      "url": "https://www.canyin88.com/zixun/2026/07/08/112479.html",
+      "source": "红餐网",
+      "time": "2026-07-08T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-08 15:33:02来源：红餐网842",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.25",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态"
+      ],
+      "score": 55,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "7月8日",
+      "dateSort": "2026-07-08",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "2909ad223927",
+      "title": "「喜茶工艺」全国首店落地广州石牌桥，以灵感工艺重塑风味",
+      "url": "https://www.canyin88.com/zixun/2026/07/08/112473.html",
+      "source": "红餐网",
+      "time": "2026-07-08T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-08 13:46:33来源：红餐网978",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.25",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月8日",
+      "dateSort": "2026-07-08",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "2ceff07e6b22",
+      "title": "蛙喔牛蛙携手淘宝闪购 将在年内落地30家品牌卫星店",
+      "url": "https://www.canyin88.com/zixun/2026/07/08/112472.html",
+      "source": "红餐网",
+      "time": "2026-07-08T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-08 13:44:01来源：红餐网918",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.25",
+      "category": "平台政策",
+      "tags": [
+        "品牌动态",
+        "外卖/平台"
+      ],
+      "score": 55,
+      "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
+      "date": "7月8日",
+      "dateSort": "2026-07-08",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "03c60ea6bb5e",
+      "title": "头部餐企集体“减负”，灵活用工为何成了标配？",
+      "url": "https://www.canyin88.com/zixun/2026/07/08/112471.html",
+      "source": "红餐网",
+      "time": "2026-07-08T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-08 09:05:43来源：红餐网1055",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.25",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月8日",
+      "dateSort": "2026-07-08",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "fcb3ef8c4f18",
+      "title": "古茗宣布完成17亿元融资；上海小南国宣布开新店计划",
+      "url": "https://www.canyin88.com/zixun/2026/07/08/112470.html",
+      "source": "红餐网",
+      "time": "2026-07-08T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-08 09:01:03来源：红餐网1332",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.25",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态",
+        "资本/投融资"
+      ],
+      "score": 60,
+      "reason": "[MONEY] 这家公司的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "7月8日",
+      "dateSort": "2026-07-08",
+      "timeDisplay": "12:00"
+    },
     {
       "id": "7e62bdd4b37c",
       "title": "Anthropic关于AI安全的核心观点：何时、何故、何事与如何",
@@ -14,7 +330,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 35,
       "reason": "[R] Anthropic Claude动态，AI前沿技术跟踪",
       "date": "7月8日",
       "dateSort": "2026-07-08",
@@ -30,7 +346,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 65,
+      "score": 40,
       "reason": "[R] 36氪精选，这条虽然不是直接讲餐饮，但宏观趋势会影响每个行业",
       "date": "7月8日",
       "dateSort": "2026-07-08",
@@ -46,7 +362,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 55,
+      "score": 25,
       "reason": "[R] DeepSeek动态，国产AI新锐力量",
       "date": "7月8日",
       "dateSort": "2026-07-08",
@@ -64,7 +380,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 65,
+      "score": 35,
       "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
       "date": "7月8日",
       "dateSort": "2026-07-08",
@@ -84,7 +400,7 @@
         "资本/投融资",
         "报告/数据"
       ],
-      "score": 70,
+      "score": 40,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "7月8日",
       "dateSort": "2026-07-08",
@@ -104,7 +420,7 @@
         "AI/数字化",
         "资本/投融资"
       ],
-      "score": 80,
+      "score": 50,
       "reason": "[MONEY] 这家公司的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月8日",
       "dateSort": "2026-07-08",
@@ -120,7 +436,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -138,7 +454,7 @@
       "tags": [
         "供应链"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -156,7 +472,7 @@
       "tags": [
         "供应链"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -172,7 +488,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.22",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -192,7 +508,7 @@
         "供应链",
         "资本/投融资"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -210,7 +526,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -229,7 +545,7 @@
         "品牌动态",
         "AI/数字化"
       ],
-      "score": 35,
+      "score": 30,
       "reason": "[FD] 阿里的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月7日",
       "dateSort": "2026-07-07",
@@ -248,7 +564,7 @@
         "AI/数字化",
         "餐饮创新"
       ],
-      "score": 35,
+      "score": 30,
       "reason": "[R] AI+餐饮交叉领域，跟你日常工作直接相关",
       "date": "7月7日",
       "dateSort": "2026-07-07",

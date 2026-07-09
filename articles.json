@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-09T09:20:37.524942+08:00",
-  "articleCount": 467,
+  "updated": "2026-07-09T09:47:39.279229+08:00",
+  "articleCount": 474,
   "articles": [
     {
       "id": "57cd9b787ab7",
@@ -19,6 +19,126 @@
       "date": "7月9日",
       "dateSort": "2026-07-09",
       "timeDisplay": "12:00"
+    },
+    {
+      "id": "1eb08ea1876b",
+      "title": "快餐、烘焙之后，商超巨头们又看上了这门生意",
+      "url": "https://www.canyin88.com/zixun/2026/07/09/112483.html",
+      "source": "红餐网",
+      "time": "2026-07-09T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-09 09:26:23来源：红餐网46",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.25",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 80,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "5228906497c9",
+      "title": "一场洪水，冲垮了茶饮品牌的“茉莉花基地”",
+      "url": "https://www.canyin88.com/zixun/2026/07/09/112482.html",
+      "source": "红餐网",
+      "time": "2026-07-09T12:00:00+08:00",
+      "summary": "红餐供应链指南·2026-07-09 09:22:10来源：红餐网40",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.25",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态",
+        "供应链"
+      ],
+      "score": 80,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "9c1b487d0a51",
+      "title": "美国三明治Jersey Mike's申请上市；喜茶工坊店正式开业",
+      "url": "https://www.canyin88.com/zixun/2026/07/09/112481.html",
+      "source": "红餐网",
+      "time": "2026-07-09T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-09 09:20:24来源：红餐网40",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.25",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态",
+        "资本/投融资"
+      ],
+      "score": 85,
+      "reason": "[HOT] 今日重磅消息，行业关注度最高，建议优先阅读",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "1f0a05b6e9c0",
+      "title": "月入10万？大锅卤菜，正在收割谁的梦",
+      "url": "https://mp.weixin.qq.com/s/PWxduTfS64M4qYKQFVHRmw",
+      "source": "餐饮老板内参",
+      "time": "2026-07-09T09:47:39.279229+08:00",
+      "summary": "",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 65,
+      "reason": "[R] 餐饮老板内参的一线观察，接地气、有案例，适合实操参考",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "0a7f4021f4d1",
+      "title": "字节跳动开源 AIBrix：专为 vLLM 打造的可扩展、高性价比控制面",
+      "url": "https://mp.weixin.qq.com/s/DSU3jRDCYSakW6eVp0x8mA",
+      "source": "字节AI",
+      "time": "2026-07-09T09:47:39.279229+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] 字节跳动AI动态，技术驱动型大厂动向",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "5ca9dc35d9f0",
+      "title": "国家统计局：6月全国居民消费价格同比上涨1.0%",
+      "url": "https://36kr.com/newsflashes/3887738930772744?f=rss",
+      "source": "36氪",
+      "time": "2026-07-09T09:32:33+08:00",
+      "summary": "36氪获悉，据国家统计局，2026年6月份，全国居民消费价格同比上涨1.0%。其中，城市上涨1.0%，农村上涨0.8%；食品价格下降1.6%，非食品价格上涨1.5%；消费品价格上涨1.1%，服务价格上涨0.8%。1—6月平均，全国居民消费价格比上年同期上涨1.0%。6月份，全国居民消费价格环比下降0.3%。其中，城市下降0.4%，农村下降0.3%；食品价格下降0.4%，非食品价格下降0.3%；消费",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 65,
+      "reason": "[R] 36氪精选，这条虽然不是直接讲餐饮，但宏观趋势会影响每个行业",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "09:32"
+    },
+    {
+      "id": "b9796b6869b4",
+      "title": "A股三大指数集体高开，浪潮信息涨超6%",
+      "url": "https://36kr.com/newsflashes/3887733202221576?f=rss",
+      "source": "36氪",
+      "time": "2026-07-09T09:26:43+08:00",
+      "summary": "36氪获悉，A股三大指数集体高开，沪指高开0.17%，深成指高开0.66%，创业板指高开1.22%；电脑硬件、通信设备、半导体板块领涨，特发信息涨超7%，浪潮信息涨超6%，沐曦股份涨超5%；贵金属、餐饮旅游、教育板块跌幅居前，招金黄金跌超6%，大连圣亚跌超3%，中公教育跌超2%。",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 65,
+      "reason": "[R] 36氪精选，这条虽然不是直接讲餐饮，但宏观趋势会影响每个行业",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "09:26"
     },
     {
       "id": "102cf8f2d213",
@@ -330,7 +450,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 35,
+      "score": 30,
       "reason": "[R] Anthropic Claude动态，AI前沿技术跟踪",
       "date": "7月8日",
       "dateSort": "2026-07-08",
@@ -346,7 +466,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 40,
+      "score": 35,
       "reason": "[R] 36氪精选，这条虽然不是直接讲餐饮，但宏观趋势会影响每个行业",
       "date": "7月8日",
       "dateSort": "2026-07-08",

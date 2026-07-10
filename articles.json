@@ -1,7 +1,62 @@
 {
-  "updated": "2026-07-09T09:47:39.279229+08:00",
-  "articleCount": 474,
+  "updated": "2026-07-10T09:20:37.258463+08:00",
+  "articleCount": 481,
   "articles": [
+    {
+      "id": "dc1e0791c6da",
+      "title": "独家｜美团上线商圈功能，外卖供给侧再推新品",
+      "url": "https://mp.weixin.qq.com/s/w3TeM2v3NZuTBzA3rMNewg",
+      "source": "美团餐饮观察",
+      "time": "2026-07-10T09:20:37.258463+08:00",
+      "summary": "",
+      "image": "",
+      "category": "平台政策",
+      "tags": [
+        "外卖/平台",
+        "餐饮创新"
+      ],
+      "score": 55,
+      "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
+      "date": "7月10日",
+      "dateSort": "2026-07-10",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "eb78664aca4b",
+      "title": "要发力了：腾讯AI组织架构调整",
+      "url": "https://mp.weixin.qq.com/s/220aPHy6x6e7dmTc73UsCA",
+      "source": "腾讯AI",
+      "time": "2026-07-10T09:20:37.258463+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] 腾讯AI动态，大厂AI布局值得关注",
+      "date": "7月10日",
+      "dateSort": "2026-07-10",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "e350bc920451",
+      "title": "社区发布 | 深度求索开源国内首个 MoE 大模型，技术报告、模型权重同时发布",
+      "url": "https://mp.weixin.qq.com/s/UQMFW_xltMGw8zLhVN8gEA",
+      "source": "DeepSeek",
+      "time": "2026-07-10T09:20:37.258463+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "报告/数据"
+      ],
+      "score": 65,
+      "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
+      "date": "7月10日",
+      "dateSort": "2026-07-10",
+      "timeDisplay": "09:20"
+    },
     {
       "id": "57cd9b787ab7",
       "title": "供应链名品 | 安井黑虎虾滑：大颗粒虾肉， 适合涮、煎、蒸等多种吃法",
@@ -14,7 +69,7 @@
       "tags": [
         "供应链"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
       "date": "7月9日",
       "dateSort": "2026-07-09",
@@ -30,7 +85,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.25",
       "category": "餐饮动态",
       "tags": [],
-      "score": 80,
+      "score": 55,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月9日",
       "dateSort": "2026-07-09",
@@ -49,7 +104,7 @@
         "品牌动态",
         "供应链"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月9日",
       "dateSort": "2026-07-09",
@@ -68,8 +123,78 @@
         "品牌动态",
         "资本/投融资"
       ],
-      "score": 85,
-      "reason": "[HOT] 今日重磅消息，行业关注度最高，建议优先阅读",
+      "score": 60,
+      "reason": "[MONEY] 这家公司的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "4ea6f523801b",
+      "title": "混果汁HUNJUICE开出首家零售概念店，持续加码“超级食材”赛道",
+      "url": "https://www.canyin88.com/zixun/2026/07/09/112494.html",
+      "source": "红餐网",
+      "time": "2026-07-09T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-09 18:14:26来源：红餐网986",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [
+        "餐饮趋势",
+        "供应链"
+      ],
+      "score": 55,
+      "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "845f5f647020",
+      "title": "自己DIY的奶茶更甜？喜茶推出“茶饮DIY”新玩法，彻底拿捏年轻人",
+      "url": "https://www.canyin88.com/zixun/2026/07/09/112492.html",
+      "source": "红餐网",
+      "time": "2026-07-09T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-09 16:21:09来源：红餐网1221",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "3bc3175a98c2",
+      "title": "人均28元，称重自选！老娘舅在杭州开了家明档现炒餐厅",
+      "url": "https://www.canyin88.com/zixun/2026/07/09/112484.html",
+      "source": "红餐网",
+      "time": "2026-07-09T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-09 11:12:28来源：红餐网1132",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月9日",
+      "dateSort": "2026-07-09",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "7c63d17d7fd3",
+      "title": "老乡鸡港股招股书失效，第五次冲刺上市失败",
+      "url": "https://www.canyin88.com/kuaixun/2026/0709/112493.html",
+      "source": "红餐网",
+      "time": "2026-07-09T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-09 17:55:17来源：红餐网1136",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态",
+        "资本/投融资"
+      ],
+      "score": 60,
+      "reason": "[MONEY] 这家公司的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月9日",
       "dateSort": "2026-07-09",
       "timeDisplay": "12:00"
@@ -84,7 +209,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 65,
+      "score": 40,
       "reason": "[R] 餐饮老板内参的一线观察，接地气、有案例，适合实操参考",
       "date": "7月9日",
       "dateSort": "2026-07-09",
@@ -102,7 +227,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 35,
       "reason": "[R] 字节跳动AI动态，技术驱动型大厂动向",
       "date": "7月9日",
       "dateSort": "2026-07-09",
@@ -118,7 +243,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 65,
+      "score": 40,
       "reason": "[R] 36氪精选，这条虽然不是直接讲餐饮，但宏观趋势会影响每个行业",
       "date": "7月9日",
       "dateSort": "2026-07-09",
@@ -134,7 +259,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 65,
+      "score": 40,
       "reason": "[R] 36氪精选，这条虽然不是直接讲餐饮，但宏观趋势会影响每个行业",
       "date": "7月9日",
       "dateSort": "2026-07-09",
@@ -152,7 +277,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
       "date": "7月9日",
       "dateSort": "2026-07-09",
@@ -172,7 +297,7 @@
         "品牌动态",
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 50,
       "reason": "[FD] OpenAI的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月9日",
       "dateSort": "2026-07-09",
@@ -192,7 +317,7 @@
         "餐饮创新",
         "资本/投融资"
       ],
-      "score": 75,
+      "score": 50,
       "reason": "[MONEY] 这家公司的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月9日",
       "dateSort": "2026-07-09",
@@ -208,7 +333,7 @@
       "image": "",
       "category": "平台政策",
       "tags": [],
-      "score": 55,
+      "score": 30,
       "reason": "[R] 淘宝闪购商家课堂，运营实操干货",
       "date": "7月9日",
       "dateSort": "2026-07-09",
@@ -226,7 +351,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 35,
       "reason": "[R] 腾讯AI动态，大厂AI布局值得关注",
       "date": "7月9日",
       "dateSort": "2026-07-09",
@@ -244,7 +369,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 65,
+      "score": 40,
       "reason": "[AI] OpenAI在AI领域又有新动作，如果你关注AI怎么落地餐饮场景，这篇能给你一些启发",
       "date": "7月9日",
       "dateSort": "2026-07-09",
@@ -264,7 +389,7 @@
         "AI/数字化",
         "出海"
       ],
-      "score": 80,
+      "score": 50,
       "reason": "[MONEY] OpenAI的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月9日",
       "dateSort": "2026-07-09",
@@ -284,7 +409,7 @@
         "品牌动态",
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 45,
       "reason": "[MONEY] OpenAI的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月9日",
       "dateSort": "2026-07-09",
@@ -304,7 +429,7 @@
         "AI/数字化",
         "餐饮创新"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
       "date": "7月8日",
       "dateSort": "2026-07-08",
@@ -324,7 +449,7 @@
         "餐饮创新",
         "出海"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
       "date": "7月8日",
       "dateSort": "2026-07-08",
@@ -344,7 +469,7 @@
         "品牌动态",
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 55,
       "reason": "[MONEY] 这家公司的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月8日",
       "dateSort": "2026-07-08",
@@ -362,7 +487,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月8日",
       "dateSort": "2026-07-08",
@@ -378,7 +503,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.25",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月8日",
       "dateSort": "2026-07-08",
@@ -397,7 +522,7 @@
         "品牌动态",
         "外卖/平台"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "7月8日",
       "dateSort": "2026-07-08",
@@ -413,7 +538,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.25",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月8日",
       "dateSort": "2026-07-08",
@@ -432,7 +557,7 @@
         "品牌动态",
         "资本/投融资"
       ],
-      "score": 60,
+      "score": 55,
       "reason": "[MONEY] 这家公司的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月8日",
       "dateSort": "2026-07-08",

@@ -1,17 +1,15 @@
 {
-  "business_date": "2026-07-11",
+  "business_date": "2026-07-12",
   "groups": {
     "group_1": {
-      "status": "sent",
-      "content_hash": "074a7ce5d8488f435b40",
-      "lease_expires_at": "2026-07-11T09:37:40.371293+08:00",
-      "sent_at": "2026-07-11T09:22:47.268130+08:00"
+      "status": "sending",
+      "content_hash": "f859eea3935dc8cb1706",
+      "lease_expires_at": "2026-07-12T09:37:58.579357+08:00"
     },
     "group_2": {
-      "status": "sent",
-      "content_hash": "074a7ce5d8488f435b40",
-      "lease_expires_at": "2026-07-11T09:37:40.371293+08:00",
-      "sent_at": "2026-07-11T09:22:47.268130+08:00"
+      "status": "sending",
+      "content_hash": "f859eea3935dc8cb1706",
+      "lease_expires_at": "2026-07-12T09:37:58.579357+08:00"
     }
   }
 }

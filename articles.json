@@ -1,7 +1,83 @@
 {
-  "updated": "2026-07-11T09:47:24.037198+08:00",
-  "articleCount": 501,
+  "updated": "2026-07-12T09:20:47.806570+08:00",
+  "articleCount": 505,
   "articles": [
+    {
+      "id": "dafd389e7468",
+      "title": "9点1氪丨“国产存储第一股”长鑫科技公布承销团阵容；SK海力士登陆美股，上市首日大涨近13%；OpenAI推出ChatGPT智能体",
+      "url": "https://www.36kr.com/p/3890553690192384",
+      "source": "36氪AI",
+      "time": "2026-07-12T09:21:15+08:00",
+      "summary": "国产存储第一股长鑫科技7月16日开启IPO发行。",
+      "image": "https://img.36krcdn.com/hsossms/20260711/v2_2ff7343663ae4421bbf013b218bc3ac0@5892437_oswg81625oswg1053oswg495_img_jpg?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+      "category": "AI动态",
+      "tags": [
+        "品牌动态",
+        "AI/数字化",
+        "资本/投融资"
+      ],
+      "score": 85,
+      "reason": "[HOT] OpenAI最新动态，行业关注度极高，值得第一时间了解",
+      "date": "7月12日",
+      "dateSort": "2026-07-12",
+      "timeDisplay": "09:21"
+    },
+    {
+      "id": "90cfbd6c82a9",
+      "title": "V4 发布前的 DeepSeek：特质、组织和梁文锋的独特目标",
+      "url": "https://mp.weixin.qq.com/s/bYZrKp48Y7EpsU8_vd6TcQ",
+      "source": "DeepSeek",
+      "time": "2026-07-12T09:20:47.806570+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] DeepSeek动态，国产AI新锐力量",
+      "date": "7月12日",
+      "dateSort": "2026-07-12",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "96ec7d06fd1c",
+      "title": "智谱CEO唐杰发内部信：“GLM 时刻”和万亿俱乐部之后，什么是更重要的事",
+      "url": "https://36kr.com/newsflashes/3891162734689031?f=rss",
+      "source": "36氪",
+      "time": "2026-07-11T19:35:25+08:00",
+      "summary": "36氪独家获悉，7月11日，智谱创始人唐杰，在智谱发布了主题为《巨浪已来》的内部信。其中提到，智谱将不追求短期的应用变现，而是直指AGI的下一个高地：长程任务能力、完全自治的智能体系统、自我进化、极致安全治理。过去半年来，智谱收获了创立以来的高光时刻：市值较半年前上市初期涨了10倍，并在2026年 6月，跻身“万亿港元俱乐部”。",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "品牌动态",
+        "AI/数字化",
+        "资本/投融资"
+      ],
+      "score": 45,
+      "reason": "[MONEY] 这家公司的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "7月11日",
+      "dateSort": "2026-07-11",
+      "timeDisplay": "19:35"
+    },
+    {
+      "id": "bd65e6bb9937",
+      "title": "多家A股公司预计业绩大增，存储、锂矿、有色等头部企业表现亮眼",
+      "url": "https://36kr.com/newsflashes/3891019931925001?f=rss",
+      "source": "36氪",
+      "time": "2026-07-11T17:22:02+08:00",
+      "summary": "7月10日晚间，多家A股公司发布2026年半年度业绩预告，存储、锂电上游资源、有色等多个赛道头部企业集体交出亮眼成绩单，部分公司上半年净利润实现10倍以上增长，行业景气度大幅提升。从行业层面来看，受人工智能相关需求增长影响，互联网数据中心等领域对企业级存储产品的需求持续增加，存储芯片行业保持高景气度，相关产品价格较上年同期稳步上涨，业内企业普遍实现高增长。锂电行业自2025年下半年以来持续修复基本",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "餐饮趋势",
+        "AI/数字化",
+        "餐饮创新"
+      ],
+      "score": 55,
+      "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
+      "date": "7月11日",
+      "dateSort": "2026-07-11",
+      "timeDisplay": "17:22"
+    },
     {
       "id": "63cbb4f1d816",
       "title": "外卖史上最激昂24小时：2亿「天量」订单的诞生｜深氪",
@@ -14,7 +90,7 @@
       "tags": [
         "外卖/平台"
       ],
-      "score": 55,
+      "score": 30,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "7月11日",
       "dateSort": "2026-07-11",
@@ -30,7 +106,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 60,
+      "score": 35,
       "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
       "date": "7月11日",
       "dateSort": "2026-07-11",
@@ -48,7 +124,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 65,
+      "score": 40,
       "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
       "date": "7月11日",
       "dateSort": "2026-07-11",
@@ -68,7 +144,7 @@
         "AI/数字化",
         "营销/运营"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[MONEY] OpenAI的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月11日",
       "dateSort": "2026-07-11",
@@ -86,7 +162,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 70,
+      "score": 45,
       "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
       "date": "7月11日",
       "dateSort": "2026-07-11",
@@ -105,7 +181,7 @@
         "AI/数字化",
         "出海"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
       "date": "7月11日",
       "dateSort": "2026-07-11",
@@ -124,7 +200,7 @@
         "AI/数字化",
         "出海"
       ],
-      "score": 75,
+      "score": 50,
       "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
       "date": "7月11日",
       "dateSort": "2026-07-11",
@@ -144,7 +220,7 @@
         "餐饮创新",
         "出海"
       ],
-      "score": 65,
+      "score": 35,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "7月11日",
       "dateSort": "2026-07-11",
@@ -164,7 +240,7 @@
         "营销/运营",
         "资本/投融资"
       ],
-      "score": 60,
+      "score": 55,
       "reason": "[MONEY] 这家公司的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月10日",
       "dateSort": "2026-07-10",
@@ -180,7 +256,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月10日",
       "dateSort": "2026-07-10",
@@ -198,7 +274,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 60,
+      "score": 55,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月10日",
       "dateSort": "2026-07-10",
@@ -217,7 +293,7 @@
         "餐饮趋势",
         "报告/数据"
       ],
-      "score": 60,
+      "score": 55,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "7月10日",
       "dateSort": "2026-07-10",
@@ -233,7 +309,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月10日",
       "dateSort": "2026-07-10",
@@ -249,7 +325,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月10日",
       "dateSort": "2026-07-10",
@@ -265,7 +341,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月10日",
       "dateSort": "2026-07-10",
@@ -281,7 +357,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月10日",
       "dateSort": "2026-07-10",
@@ -297,7 +373,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月10日",
       "dateSort": "2026-07-10",
@@ -313,7 +389,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 35,
+      "score": 30,
       "reason": "[R] 窄门餐眼数据洞察，用数据说话的硬内容",
       "date": "7月10日",
       "dateSort": "2026-07-10",
@@ -329,7 +405,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 30,
+      "score": 25,
       "reason": "[R] DeepSeek动态，国产AI新锐力量",
       "date": "7月10日",
       "dateSort": "2026-07-10",
@@ -348,7 +424,7 @@
         "AI/数字化",
         "资本/投融资"
       ],
-      "score": 40,
+      "score": 35,
       "reason": "[R] Anthropic Claude动态，AI前沿技术跟踪",
       "date": "7月10日",
       "dateSort": "2026-07-10",

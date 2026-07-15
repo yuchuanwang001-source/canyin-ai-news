@@ -330,17 +330,18 @@ def watchdog_status(state_path="report_state.json", now=None) -> int:
     state = _read_state(path)
     expected_date = current.strftime("%Y-%m-%d")
     statuses = {
-        group: state.groups.get(group, {}).get("status", "missing")
-        for group in ("group_1", "group_2")
+        group: details.get("status", "missing")
+        for group, details in state.groups.items()
     }
     healthy = (
         state.business_date == expected_date
+        and bool(statuses)
         and all(status == "sent" for status in statuses.values())
     )
-    print(
-        f"watchdog: business_date={state.business_date}, "
-        f"group_1={statuses['group_1']}, group_2={statuses['group_2']}"
-    )
+    group_status = ", ".join(
+        f"{group}={status}" for group, status in statuses.items()
+    ) or "no_groups"
+    print(f"watchdog: business_date={state.business_date}, {group_status}")
     return 0 if healthy else 1
 
 
@@ -349,11 +350,9 @@ def _production_groups(parser):
         "group_1": os.environ.get("DINGTALK_TOKEN"),
         "group_2": os.environ.get("DINGTALK_TOKEN2"),
     }
-    missing = [group for group, token in groups.items() if not token]
-    if missing:
-        parser.error(
-            "production requires DINGTALK_TOKEN and DINGTALK_TOKEN2"
-        )
+    groups = {group: token for group, token in groups.items() if token}
+    if not groups:
+        parser.error("production requires at least one DINGTALK token")
     return groups
 
 

@@ -351,23 +351,34 @@ def test_same_day_state_without_bundle_fails_closed(tmp_path, monkeypatch):
     assert saved["groups"]["group_1"]["status"] == "sent"
 
 
-def test_production_requires_both_group_tokens(monkeypatch):
+def test_production_accepts_single_group_token(monkeypatch):
     monkeypatch.setenv("DINGTALK_TOKEN", "token-1")
     monkeypatch.delenv("DINGTALK_TOKEN2", raising=False)
 
-    from canyin_news.pipeline import main
+    from argparse import ArgumentParser
+    from canyin_news.pipeline import _production_groups
+
+    assert _production_groups(ArgumentParser()) == {"group_1": "token-1"}
+
+
+def test_production_requires_at_least_one_group_token(monkeypatch):
+    monkeypatch.delenv("DINGTALK_TOKEN", raising=False)
+    monkeypatch.delenv("DINGTALK_TOKEN2", raising=False)
+
+    from argparse import ArgumentParser
+    from canyin_news.pipeline import _production_groups
 
     with pytest.raises(SystemExit) as exc:
-        main(["prepare", "--production"])
+        _production_groups(ArgumentParser())
 
     assert exc.value.code == 2
 
 
-def test_watchdog_is_read_only_and_requires_both_groups_sent(tmp_path):
+def test_watchdog_is_read_only_and_checks_only_configured_groups(tmp_path):
     state = tmp_path / "state.json"
     state.write_text(
         '{"business_date":"2026-07-05","groups":'
-        '{"group_1":{"status":"sent"},"group_2":{"status":"sent"}}}',
+        '{"group_1":{"status":"sent"}}}',
         encoding="utf-8",
     )
     before = state.read_bytes()
@@ -377,7 +388,7 @@ def test_watchdog_is_read_only_and_requires_both_groups_sent(tmp_path):
 
     state.write_text(
         '{"business_date":"2026-07-05","groups":'
-        '{"group_1":{"status":"sent"},"group_2":{"status":"failed"}}}',
+        '{"group_1":{"status":"failed"}}}',
         encoding="utf-8",
     )
     assert watchdog_status(state, END) == 1

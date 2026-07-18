@@ -1,7 +1,112 @@
 {
-  "updated": "2026-07-18T09:20:47.969853+08:00",
-  "articleCount": 600,
+  "updated": "2026-07-18T09:47:46.783812+08:00",
+  "articleCount": 606,
   "articles": [
+    {
+      "id": "b947e0f765c7",
+      "title": "“补贴大战”退潮，餐饮老板的机会在哪里？",
+      "url": "https://mp.weixin.qq.com/s/c_727Ei3Q68raZoIRxHMbw",
+      "source": "美团餐饮观察",
+      "time": "2026-07-18T09:47:46.783812+08:00",
+      "summary": "",
+      "image": "",
+      "category": "平台政策",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 美团官方餐饮观察，平台风向早知道",
+      "date": "7月18日",
+      "dateSort": "2026-07-18",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "05268f6b0100",
+      "title": "字节跳动成立新部门Flow，发力AI应用层 | 智涌独家",
+      "url": "https://mp.weixin.qq.com/s/1Sk_el6oDyx0IJ95GRTU-A",
+      "source": "字节AI",
+      "time": "2026-07-18T09:47:46.783812+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] 字节跳动AI动态，技术驱动型大厂动向",
+      "date": "7月18日",
+      "dateSort": "2026-07-18",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "301081d40ca5",
+      "title": "百度真急了，大模型进入“开源盛世”",
+      "url": "https://mp.weixin.qq.com/s/qEewQlf5Y1d1It0wB2KCqA",
+      "source": "百度AI",
+      "time": "2026-07-18T09:47:46.783812+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 60,
+      "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
+      "date": "7月18日",
+      "dateSort": "2026-07-18",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "79db1aa0bf45",
+      "title": "OpenAI最强代码模型GPT-5.2-Codex上线",
+      "url": "https://mp.weixin.qq.com/s/dkOTZYIj5bmIdVQYfgvEeQ",
+      "source": "OpenAI",
+      "time": "2026-07-18T09:47:46.783812+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] OpenAI最新动态，AI技术迭代影响每一个行业",
+      "date": "7月18日",
+      "dateSort": "2026-07-18",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "632e3110e118",
+      "title": "霍尔木兹海峡船舶通过量降至三周来最低点",
+      "url": "https://36kr.com/newsflashes/3900457912993411?f=rss",
+      "source": "36氪",
+      "time": "2026-07-18T09:45:50+08:00",
+      "summary": "国际市场服务机构克普勒公司17日发布的数据显示，霍尔木兹海峡船舶通行活动16日继续走弱，经确认当天通过该海峡的船舶数量降至8艘，为近三周以来最低水平。",
+      "image": "",
+      "category": "数据报告",
+      "tags": [
+        "AI/数字化",
+        "报告/数据"
+      ],
+      "score": 70,
+      "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
+      "date": "7月18日",
+      "dateSort": "2026-07-18",
+      "timeDisplay": "09:45"
+    },
+    {
+      "id": "61085e81a5e7",
+      "title": "壁仞科技推出NPO光互连、分布式解耦架构超节点方案，最大实现1024卡",
+      "url": "https://36kr.com/newsflashes/3900457432680067?f=rss",
+      "source": "36氪",
+      "time": "2026-07-18T09:30:22+08:00",
+      "summary": "7月17日-20日，2026世界人工智能大会（WAIC）在上海召开。壁仞科技正式推出下一代NPO光互连、分布式解耦架构超节点方案，支持单个超节点1024卡Scale-up扩展。",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 75,
+      "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
+      "date": "7月18日",
+      "dateSort": "2026-07-18",
+      "timeDisplay": "09:30"
+    },
     {
       "id": "e70f33e1664b",
       "title": "2026最受投资人关注人工智能/具身智能企业50揭晓",
@@ -401,7 +506,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
       "date": "7月17日",
       "dateSort": "2026-07-17",
@@ -420,7 +525,7 @@
         "餐饮趋势",
         "AI/数字化"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
       "date": "7月17日",
       "dateSort": "2026-07-17",
@@ -438,7 +543,7 @@
       "tags": [
         "资本/投融资"
       ],
-      "score": 40,
+      "score": 35,
       "reason": "[R] 餐饮老板内参出品，深度分析餐饮产业，做这行不看这个会错过很多",
       "date": "7月17日",
       "dateSort": "2026-07-17",

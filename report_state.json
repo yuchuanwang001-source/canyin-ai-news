@@ -1,11 +1,10 @@
 {
-  "business_date": "2026-07-18",
+  "business_date": "2026-07-19",
   "groups": {
     "group_1": {
-      "status": "sent",
-      "content_hash": "a31aef85a8e547b325b9",
-      "lease_expires_at": "2026-07-18T09:38:12.068950+08:00",
-      "sent_at": "2026-07-18T09:23:17.758810+08:00"
+      "status": "sending",
+      "content_hash": "1953dbc7337afc61d251",
+      "lease_expires_at": "2026-07-19T09:37:03.573699+08:00"
     }
   }
 }

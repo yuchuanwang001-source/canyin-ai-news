@@ -1,7 +1,279 @@
 {
-  "updated": "2026-07-20T09:47:15.612589+08:00",
-  "articleCount": 630,
+  "updated": "2026-07-21T09:47:15.968885+08:00",
+  "articleCount": 649,
   "articles": [
+    {
+      "id": "7f5a9439311c",
+      "title": "万店之后，幸运咖想撕掉“低价”标签",
+      "url": "https://www.canyin88.com/zixun/2026/07/21/112607.html",
+      "source": "红餐网",
+      "time": "2026-07-21T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-21 09:00:55来源：红餐网57",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 80,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月21日",
+      "dateSort": "2026-07-21",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "80d989b65af4",
+      "title": "222亿的“伤口”，广西农业还要痛多久？",
+      "url": "https://www.canyin88.com/zixun/2026/07/21/112606.html",
+      "source": "红餐网",
+      "time": "2026-07-21T12:00:00+08:00",
+      "summary": "红餐供应链指南·2026-07-21 08:58:15来源：红餐网54",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [
+        "供应链"
+      ],
+      "score": 80,
+      "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
+      "date": "7月21日",
+      "dateSort": "2026-07-21",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "d75b00c209d1",
+      "title": "袁记云饺完成港股上市备案；全聚德创建162周年庆活动在京举行",
+      "url": "https://www.canyin88.com/zixun/2026/07/21/112605.html",
+      "source": "红餐网",
+      "time": "2026-07-21T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-21 08:56:34来源：红餐网70",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态",
+        "资本/投融资"
+      ],
+      "score": 85,
+      "reason": "[HOT] 今日重磅消息，行业关注度最高，建议优先阅读",
+      "date": "7月21日",
+      "dateSort": "2026-07-21",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "4983b5d25817",
+      "title": "习酒，盯上了超2000家餐厅",
+      "url": "https://www.canyin88.com/zixun/2026/07/21/112604.html",
+      "source": "红餐网",
+      "time": "2026-07-21T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-21 08:44:40来源：红餐网58",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 80,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月21日",
+      "dateSort": "2026-07-21",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "bd88ac26dcc5",
+      "title": "《中国餐饮发展报告2026》正式开启预售！",
+      "url": "https://www.canyin88.com/zixun/2026/07/21/112603.html",
+      "source": "红餐网",
+      "time": "2026-07-21T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-21 08:37:37来源：红餐网82",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [
+        "餐饮趋势",
+        "报告/数据"
+      ],
+      "score": 85,
+      "reason": "[HOT] 今日重磅消息，行业关注度最高，建议优先阅读",
+      "date": "7月21日",
+      "dateSort": "2026-07-21",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "a36e2df18a09",
+      "title": "2026年7月食材采购行情：国内牛肉价格下滑，蔬菜价格维持季节性低位",
+      "url": "https://www.canyin88.com/zixun/2026/07/21/112602.html",
+      "source": "红餐网",
+      "time": "2026-07-21T12:00:00+08:00",
+      "summary": "红餐智库·2026-07-21 08:35:05来源：红餐网76",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [
+        "供应链"
+      ],
+      "score": 80,
+      "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
+      "date": "7月21日",
+      "dateSort": "2026-07-21",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "a3aa2ed1b61e",
+      "title": "朱松纯：中国AI产业，不要被“马斯克信仰”带偏",
+      "url": "https://www.36kr.com/p/3904621311756161",
+      "source": "36氪AI",
+      "time": "2026-07-21T09:47:58+08:00",
+      "summary": "过去几年，WAIC的中心舞台属于大模型、Scaling Law和“大力出奇迹”的信仰。北京通用人工智能研究院院长朱松纯则是这套叙事最坚定、也最持久的批评者之一。",
+      "image": "https://img.36krcdn.com/hsossms/20260721/v2_ce8b5106531a475d9b4cee2a10259f1d@5091053@ai_oswg839432oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 85,
+      "reason": "[HOT] 今日重磅消息，行业关注度最高，建议优先阅读",
+      "date": "7月21日",
+      "dateSort": "2026-07-21",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "86b3f66d848c",
+      "title": "WAIC 2026终极盘点：15大核心趋势，看透AI下半场",
+      "url": "https://www.36kr.com/p/3904188372485763",
+      "source": "36氪AI",
+      "time": "2026-07-21T09:47:44+08:00",
+      "summary": "告别大模型参数比拼，迈向智能体商业化落地。",
+      "image": "https://img.36krcdn.com/hsossms/20260721/v2_f55059c42f6e40c3a2357ce0e9f00a2a@000000@ai_oswg339537oswg1536oswg722_img_000~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "AI动态",
+      "tags": [
+        "餐饮趋势",
+        "AI/数字化"
+      ],
+      "score": 85,
+      "reason": "[HOT] 今日重磅消息，行业关注度最高，建议优先阅读",
+      "date": "7月21日",
+      "dateSort": "2026-07-21",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "0c2073485f11",
+      "title": "资本爱面，但资本不爱味千拉面",
+      "url": "https://mp.weixin.qq.com/s/ZiW_gkd88KB5wex3Ie8U7Q",
+      "source": "餐企老板内参",
+      "time": "2026-07-21T09:47:15.968885+08:00",
+      "summary": "",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [
+        "资本/投融资"
+      ],
+      "score": 65,
+      "reason": "[R] 餐饮老板内参出品，深度分析餐饮产业，做这行不看这个会错过很多",
+      "date": "7月21日",
+      "dateSort": "2026-07-21",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "d23df6f34b45",
+      "title": "阿里通义千问，通向企业",
+      "url": "https://mp.weixin.qq.com/s/L3FCVJVbMdKdeP6m8B9Lmg",
+      "source": "阿里AI",
+      "time": "2026-07-21T09:47:15.968885+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 阿里巴巴AI动态，大厂布局影响行业走向",
+      "date": "7月21日",
+      "dateSort": "2026-07-21",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "7d100f9fc3dd",
+      "title": "豆包大模型2.0发布，Pro版全面对标GPT 5.2",
+      "url": "https://mp.weixin.qq.com/s/rH30pL7KU6jJmiXqzwjNOQ",
+      "source": "豆包",
+      "time": "2026-07-21T09:47:15.968885+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 60,
+      "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
+      "date": "7月21日",
+      "dateSort": "2026-07-21",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "4ec0089c678d",
+      "title": "央行公开市场开展2530亿元7天期逆回购操作",
+      "url": "https://36kr.com/newsflashes/3904717425198722?f=rss",
+      "source": "36氪",
+      "time": "2026-07-21T09:23:58+08:00",
+      "summary": "36氪获悉，央行公开市场开展2530亿元7天期逆回购操作，操作利率1.40%。Wind数据显示，今日2365亿元逆回购到期。",
+      "image": "",
+      "category": "数据报告",
+      "tags": [
+        "AI/数字化",
+        "报告/数据"
+      ],
+      "score": 70,
+      "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
+      "date": "7月21日",
+      "dateSort": "2026-07-21",
+      "timeDisplay": "09:23"
+    },
+    {
+      "id": "92d70ae6b86b",
+      "title": "「月泉仿生」获数亿元融资，仿生拉压体灵巧手万台量产、订单过亿｜36氪首发",
+      "url": "https://36kr.com/p/3899174356387718?f=rss",
+      "source": "36氪",
+      "time": "2026-07-21T08:00:00+08:00",
+      "summary": "文｜胡香赟编辑｜海若镜36氪独家获悉，近日，月泉仿生已完成数亿元Pre-A+轮融资。本轮融资由长发基金、华控基金、华夏基金、国力民生、星科创投基金等联合投资，老股东中关村启航投资跟投。据介绍，本轮募集资金将用于月泉仿生团队建设、核心产品技术研发及产能提升，以及强化全栈自研能力、打造完整技术体系，推动超仿生神经骨骼肌肉机器人研发,  打造“大脑-身体-环境”一体化的仿生具身智能体系。当前，人形机器人",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "品牌动态",
+        "AI/数字化",
+        "餐饮创新"
+      ],
+      "score": 70,
+      "reason": "[MONEY] 这家公司的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "7月21日",
+      "dateSort": "2026-07-21",
+      "timeDisplay": "08:00"
+    },
+    {
+      "id": "e47c028a3779",
+      "title": "氪星晚报｜SpaceX将“星舰”第13次试飞推迟至7月23日；马斯克称特斯拉FSD会模仿驾驶风格；我国人形机器人整机产品超全球半数",
+      "url": "https://36kr.com/p/3903710346790535?f=rss",
+      "source": "36氪",
+      "time": "2026-07-20T18:22:28+08:00",
+      "summary": "大公司：摩根士丹利成为华尔街AI债务交易头号银行摩根士丹利已崛起为华尔街构建人工智能（AI）繁荣背后融资架构的主导力量，设计了新的债务和股权融资模式，为数据中心的大规模建设输送数百亿美元资金。据业内高管称，自去年以来，该行已成为主导顾问，牵头了规模最大、最具创新性的AI基础设施融资交易。三星电子晶圆代工正评估将美国泰勒厂的初期生产规模扩大至原计划的2倍据报道，三星电子晶圆代工正评估将美国泰勒厂的初",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "品牌动态",
+        "AI/数字化",
+        "餐饮创新"
+      ],
+      "score": 60,
+      "reason": "[MONEY] 这家公司的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "7月20日",
+      "dateSort": "2026-07-20",
+      "timeDisplay": "18:22"
+    },
+    {
+      "id": "e50e00adcb52",
+      "title": "WAIC上，AI开始接管人类的欲望",
+      "url": "https://36kr.com/p/3903687507904387?f=rss",
+      "source": "36氪",
+      "time": "2026-07-20T18:06:08+08:00",
+      "summary": "24.8万的仿生人形机器人，“比彩礼都贵！”撰文 | 刘思洁编辑 | 张薇在2026年的世界人工智能大会（WAIC）上，大模型、算力与机器人占据着核心展区的宏大叙事。但在场馆地下一层的创新展区里，AI正在撕开含蓄的面具，向下接管人类最隐秘的本能：情欲、控制欲、对失去的遗憾、对孤独的恐惧，以及对未来的迷茫困惑。一只套着塑料壳的蛋形玩偶摆在桌子上，和人交互到一定亲密度后，它会“破壳而出”，一个毛茸茸的",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "餐饮趋势",
+        "AI/数字化",
+        "餐饮创新"
+      ],
+      "score": 55,
+      "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
+      "date": "7月20日",
+      "dateSort": "2026-07-20",
+      "timeDisplay": "18:06"
+    },
     {
       "id": "9ae77a12421c",
       "title": "同店销售猛涨！太二的“鲜活爆改”还在继续",
@@ -12,7 +284,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 80,
+      "score": 55,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月20日",
       "dateSort": "2026-07-20",
@@ -30,7 +302,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月20日",
       "dateSort": "2026-07-20",
@@ -46,7 +318,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 80,
+      "score": 55,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月20日",
       "dateSort": "2026-07-20",
@@ -62,7 +334,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 80,
+      "score": 55,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月20日",
       "dateSort": "2026-07-20",
@@ -80,7 +352,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月20日",
       "dateSort": "2026-07-20",
@@ -99,8 +371,76 @@
         "品牌动态",
         "资本/投融资"
       ],
-      "score": 90,
-      "reason": "[HOT] 今日重磅消息，行业关注度最高，建议优先阅读",
+      "score": 65,
+      "reason": "[MONEY] 这家公司的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "7月20日",
+      "dateSort": "2026-07-20",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "d814bb6a1b38",
+      "title": "餐饮价值战怎么打？华鼎用长期主义作答",
+      "url": "https://www.canyin88.com/zixun/2026/07/20/112601.html",
+      "source": "红餐网",
+      "time": "2026-07-20T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-20 15:02:24来源：红餐网1110",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月20日",
+      "dateSort": "2026-07-20",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "6af4e05d1da9",
+      "title": "全网热度破17亿，一批主打“清淡养生”的粥底火锅品牌正在崛起",
+      "url": "https://www.canyin88.com/zixun/2026/07/20/112600.html",
+      "source": "红餐网",
+      "time": "2026-07-20T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-20 14:10:17来源：红餐网998",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态"
+      ],
+      "score": 55,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "7月20日",
+      "dateSort": "2026-07-20",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "30e118a0f7cf",
+      "title": "“NFC果汁”没水果，究竟还有什么是真的！",
+      "url": "https://www.canyin88.com/zixun/2026/07/20/112599.html",
+      "source": "红餐网",
+      "time": "2026-07-20T12:00:00+08:00",
+      "summary": "红餐供应链指南·2026-07-20 11:27:17来源：红餐网1254",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [
+        "供应链"
+      ],
+      "score": 55,
+      "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
+      "date": "7月20日",
+      "dateSort": "2026-07-20",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "ca15135b60bd",
+      "title": "国联水产子公司拟1.15亿元出售美国资产；大连鲜活马粪海胆在叮咚买菜卖爆了",
+      "url": "https://www.canyin88.com/zixun/2026/07/20/112598.html",
+      "source": "红餐网",
+      "time": "2026-07-20T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-20 11:23:41来源：红餐网1267",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月20日",
       "dateSort": "2026-07-20",
       "timeDisplay": "12:00"
@@ -118,7 +458,7 @@
         "AI/数字化",
         "出海"
       ],
-      "score": 70,
+      "score": 45,
       "reason": "[AI] 腾讯在AI领域又有新动作，如果你关注AI怎么落地餐饮场景，这篇能给你一些启发",
       "date": "7月20日",
       "dateSort": "2026-07-20",
@@ -136,7 +476,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 50,
       "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
       "date": "7月20日",
       "dateSort": "2026-07-20",
@@ -154,7 +494,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 50,
       "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
       "date": "7月20日",
       "dateSort": "2026-07-20",
@@ -172,7 +512,7 @@
       "tags": [
         "报告/数据"
       ],
-      "score": 60,
+      "score": 30,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "7月20日",
       "dateSort": "2026-07-20",
@@ -191,7 +531,7 @@
         "AI/数字化",
         "出海"
       ],
-      "score": 75,
+      "score": 45,
       "reason": "[AI] 腾讯在AI领域又有新动作，如果你关注AI怎么落地餐饮场景，这篇能给你一些启发",
       "date": "7月20日",
       "dateSort": "2026-07-20",
@@ -211,7 +551,7 @@
         "餐饮创新",
         "出海"
       ],
-      "score": 75,
+      "score": 45,
       "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
       "date": "7月20日",
       "dateSort": "2026-07-20",
@@ -230,7 +570,7 @@
         "AI/数字化",
         "餐饮创新"
       ],
-      "score": 65,
+      "score": 35,
       "reason": "[AI] 字节在AI领域又有新动作，如果你关注AI怎么落地餐饮场景，这篇能给你一些启发",
       "date": "7月20日",
       "dateSort": "2026-07-20",
@@ -248,7 +588,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 30,
       "reason": "[R] OpenAI最新动态，AI技术迭代影响每一个行业",
       "date": "7月20日",
       "dateSort": "2026-07-20",
@@ -267,7 +607,7 @@
         "品牌动态",
         "资本/投融资"
       ],
-      "score": 70,
+      "score": 40,
       "reason": "[MONEY] 这家公司的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月20日",
       "dateSort": "2026-07-20",
@@ -285,7 +625,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
       "date": "7月19日",
       "dateSort": "2026-07-19",
@@ -303,7 +643,7 @@
       "tags": [
         "营销/运营"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[TREND] 运营干货，会员运营和私域是你日常工作的一部分，看看别人怎么做的",
       "date": "7月19日",
       "dateSort": "2026-07-19",

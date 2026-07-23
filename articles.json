@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-23T09:20:15.110775+08:00",
-  "articleCount": 679,
+  "updated": "2026-07-23T09:47:10.505039+08:00",
+  "articleCount": 681,
   "articles": [
     {
       "id": "5bb43fd898c8",
@@ -72,6 +72,40 @@
       "date": "7月23日",
       "dateSort": "2026-07-23",
       "timeDisplay": "12:00"
+    },
+    {
+      "id": "1f629abfd293",
+      "title": "瑞幸辗压下，库迪活成了“便利店”",
+      "url": "https://mp.weixin.qq.com/s/E9p8qEZpQbmZ8lEoOYcD3Q",
+      "source": "餐饮O2O",
+      "time": "2026-07-23T09:47:10.505039+08:00",
+      "summary": "",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 60,
+      "reason": "[R] 餐饮O2O聚焦餐饮互联网，跟你的工作方向很匹配",
+      "date": "7月23日",
+      "dateSort": "2026-07-23",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "b617a664df2d",
+      "title": "刚刚，OpenAI任命新CEO！",
+      "url": "https://mp.weixin.qq.com/s/aNSz_Ba9znfaviiBwY9_Bg",
+      "source": "OpenAI",
+      "time": "2026-07-23T09:47:10.505039+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] OpenAI最新动态，AI技术迭代影响每一个行业",
+      "date": "7月23日",
+      "dateSort": "2026-07-23",
+      "timeDisplay": "09:47"
     },
     {
       "id": "fbe05fd99aad",
@@ -360,7 +394,7 @@
         "AI/数字化",
         "出海"
       ],
-      "score": 45,
+      "score": 40,
       "reason": "[MONEY] 这家公司的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月22日",
       "dateSort": "2026-07-22",
@@ -379,7 +413,7 @@
         "餐饮趋势",
         "AI/数字化"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
       "date": "7月22日",
       "dateSort": "2026-07-22",
@@ -399,7 +433,7 @@
         "外卖/平台",
         "出海"
       ],
-      "score": 45,
+      "score": 40,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "7月22日",
       "dateSort": "2026-07-22",
@@ -415,7 +449,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 30,
+      "score": 25,
       "reason": "[R] 腾讯AI动态，大厂AI布局值得关注",
       "date": "7月22日",
       "dateSort": "2026-07-22",
@@ -431,7 +465,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 35,
+      "score": 30,
       "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
       "date": "7月22日",
       "dateSort": "2026-07-22",
@@ -447,7 +481,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 30,
+      "score": 25,
       "reason": "[R] DeepSeek动态，国产AI新锐力量",
       "date": "7月22日",
       "dateSort": "2026-07-22",

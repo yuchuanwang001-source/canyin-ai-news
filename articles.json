@@ -1,7 +1,78 @@
 {
-  "updated": "2026-07-24T09:20:11.015684+08:00",
-  "articleCount": 695,
+  "updated": "2026-07-24T09:47:10.470697+08:00",
+  "articleCount": 699,
   "articles": [
+    {
+      "id": "a132d874a713",
+      "title": "中国饭店协会发布上半年餐饮报告；上海警方公布百余家餐饮店“中招”盗开发票案",
+      "url": "https://www.canyin88.com/zixun/2026/07/24/112652.html",
+      "source": "红餐网",
+      "time": "2026-07-24T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-24 09:36:39来源：红餐网0",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [
+        "报告/数据"
+      ],
+      "score": 85,
+      "reason": "[HOT] 今日重磅消息，行业关注度最高，建议优先阅读",
+      "date": "7月24日",
+      "dateSort": "2026-07-24",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "6c9d78b40e19",
+      "title": "阿里吴泳铭：AI“捕猎者”",
+      "url": "https://mp.weixin.qq.com/s/9P1ai8R71Y26LYL7F6j9Gw",
+      "source": "阿里AI",
+      "time": "2026-07-24T09:47:10.470697+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] 阿里巴巴AI动态，大厂布局影响行业走向",
+      "date": "7月24日",
+      "dateSort": "2026-07-24",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "05358ea236c1",
+      "title": "DeepSeek-V3 正式发布",
+      "url": "https://mp.weixin.qq.com/s/iFZOQsUNkpkXPDvOkE99wQ",
+      "source": "DeepSeek",
+      "time": "2026-07-24T09:47:10.470697+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] DeepSeek动态，国产AI新锐力量",
+      "date": "7月24日",
+      "dateSort": "2026-07-24",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "74210ffcbc73",
+      "title": "央行公开市场开展890亿元7天期逆回购操作",
+      "url": "https://36kr.com/newsflashes/3908968381256832?f=rss",
+      "source": "36氪",
+      "time": "2026-07-24T09:28:15+08:00",
+      "summary": "36氪获悉，央行公开市场开展890亿元7天期逆回购操作，操作利率1.40%。Wind数据显示，今日4505亿元逆回购到期。",
+      "image": "",
+      "category": "数据报告",
+      "tags": [
+        "AI/数字化",
+        "报告/数据"
+      ],
+      "score": 70,
+      "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
+      "date": "7月24日",
+      "dateSort": "2026-07-24",
+      "timeDisplay": "09:28"
+    },
     {
       "id": "2c4201167733",
       "title": "为什么现在游戏对AI更重要了",
@@ -370,7 +441,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[AI] 阿里在AI领域又有新动作，如果你关注AI怎么落地餐饮场景，这篇能给你一些启发",
       "date": "7月23日",
       "dateSort": "2026-07-23",
@@ -386,7 +457,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 40,
+      "score": 35,
       "reason": "[R] 餐饮老板内参的一线观察，接地气、有案例，适合实操参考",
       "date": "7月23日",
       "dateSort": "2026-07-23",
@@ -402,7 +473,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 30,
+      "score": 25,
       "reason": "[R] 阿里巴巴AI动态，大厂布局影响行业走向",
       "date": "7月23日",
       "dateSort": "2026-07-23",
@@ -421,7 +492,7 @@
         "AI/数字化",
         "出海"
       ],
-      "score": 35,
+      "score": 30,
       "reason": "[R] 阿里巴巴AI动态，大厂布局影响行业走向",
       "date": "7月23日",
       "dateSort": "2026-07-23",

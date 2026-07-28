@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-28T09:21:13.742275+08:00",
-  "articleCount": 772,
+  "updated": "2026-07-28T09:48:16.807464+08:00",
+  "articleCount": 776,
   "articles": [
     {
       "id": "90aef0218974",
@@ -19,6 +19,82 @@
       "date": "7月28日",
       "dateSort": "2026-07-28",
       "timeDisplay": "12:00"
+    },
+    {
+      "id": "a17de686274c",
+      "title": "罗森10块钱的饼干杯，暴露了茶咖赛道尴尬的真相",
+      "url": "https://www.canyin88.com/zixun/2026/07/28/112691.html",
+      "source": "红餐网",
+      "time": "2026-07-28T12:00:00+08:00",
+      "summary": "红餐供应链指南·2026-07-28 09:22:18来源：红餐网38",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [
+        "餐饮趋势",
+        "供应链"
+      ],
+      "score": 80,
+      "reason": "[CHAIN] 供应链动态，成本控制是餐饮运营的核心命题，这条信息值得关注",
+      "date": "7月28日",
+      "dateSort": "2026-07-28",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "1c46a828911c",
+      "title": "茉莉奶白联名蜡笔小新推新品；DQ将打造全球首个“零改造全自主”机器人餐厅",
+      "url": "https://www.canyin88.com/zixun/2026/07/28/112690.html",
+      "source": "红餐网",
+      "time": "2026-07-28T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-28 09:19:53来源：红餐网28",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [
+        "AI/数字化",
+        "餐饮创新",
+        "出海"
+      ],
+      "score": 80,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月28日",
+      "dateSort": "2026-07-28",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "923ea103da45",
+      "title": "DeepSeek创始人专访：中国的AI不可能永远跟随，需要有人站到技术的前沿",
+      "url": "https://mp.weixin.qq.com/s/X9nOY1Uj9l7-8PWgqsWKdA",
+      "source": "DeepSeek",
+      "time": "2026-07-28T09:48:16.807464+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] DeepSeek动态，国产AI新锐力量",
+      "date": "7月28日",
+      "dateSort": "2026-07-28",
+      "timeDisplay": "09:48"
+    },
+    {
+      "id": "78396654628c",
+      "title": "LVMH 2026上半年实现营收386.44亿欧元",
+      "url": "https://36kr.com/newsflashes/3914639341720706?f=rss",
+      "source": "36氪",
+      "time": "2026-07-28T09:37:03+08:00",
+      "summary": "法国奢侈品巨头路威酩轩（LVMH）当地时间7月27日发布2026财年上半年业绩报告显示，上半年实现总营收386.44亿欧元（有机增长2%），经常性业务利润达86.91亿欧元，营业利润率维持在22.5%的高位，净利润为56.97亿欧元，自由现金流同比增长2%至41.00亿欧元。（界面）",
+      "image": "",
+      "category": "数据报告",
+      "tags": [
+        "餐饮趋势",
+        "报告/数据"
+      ],
+      "score": 75,
+      "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
+      "date": "7月28日",
+      "dateSort": "2026-07-28",
+      "timeDisplay": "09:37"
     },
     {
       "id": "a74b9fbf04c9",
@@ -491,7 +567,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 30,
+      "score": 25,
       "reason": "[R] 阿里巴巴AI动态，大厂布局影响行业走向",
       "date": "7月27日",
       "dateSort": "2026-07-27",
@@ -511,7 +587,7 @@
         "AI/数字化",
         "报告/数据"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
       "date": "7月27日",
       "dateSort": "2026-07-27",
@@ -531,7 +607,7 @@
         "AI/数字化",
         "报告/数据"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "7月27日",
       "dateSort": "2026-07-27",
@@ -551,7 +627,7 @@
         "AI/数字化",
         "资本/投融资"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[MONEY] 这家公司的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月27日",
       "dateSort": "2026-07-27",

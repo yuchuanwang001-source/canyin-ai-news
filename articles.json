@@ -1,7 +1,285 @@
 {
-  "updated": "2026-07-31T09:47:35.069785+08:00",
-  "articleCount": 832,
+  "updated": "2026-08-01T09:20:38.035455+08:00",
+  "articleCount": 848,
   "articles": [
+    {
+      "id": "9e80e1f6eeb7",
+      "title": "当爱马仕CEO开始关心中国猪肉价格",
+      "url": "https://www.36kr.com/p/3918896884848514",
+      "source": "36氪AI",
+      "time": "2026-08-01T09:21:09+08:00",
+      "summary": "没有一场普遍复苏，奢侈品市场正在进入品牌能力的分化期。",
+      "image": "https://img.36krcdn.com/hsossms/20260731/v2_4174d828451e4430839ab558b4398850@000000_oswg60643oswg1272oswg541_img_000?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+      "category": "餐饮动态",
+      "tags": [
+        "品牌动态"
+      ],
+      "score": 70,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "8月1日",
+      "dateSort": "2026-08-01",
+      "timeDisplay": "09:21"
+    },
+    {
+      "id": "2ab87de68773",
+      "title": "餐饮业绝境求生丨晚点周末",
+      "url": "https://mp.weixin.qq.com/s/hWHvOXh2cp4YKmZPL30RYA",
+      "source": "美团餐饮观察",
+      "time": "2026-08-01T09:20:38.035455+08:00",
+      "summary": "",
+      "image": "",
+      "category": "平台政策",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 美团官方餐饮观察，平台风向早知道",
+      "date": "8月1日",
+      "dateSort": "2026-08-01",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "deacc4492807",
+      "title": "1万亿次、10亿人、10亿张，科技给生活带来多少改变？",
+      "url": "https://mp.weixin.qq.com/s/pt1gcQJFXFn4gBZhgf8DxA",
+      "source": "阿里AI",
+      "time": "2026-08-01T09:20:38.035455+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 阿里巴巴AI动态，大厂布局影响行业走向",
+      "date": "8月1日",
+      "dateSort": "2026-08-01",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "b8c0215c7955",
+      "title": "百度AI，“惊险一跃”",
+      "url": "https://mp.weixin.qq.com/s/guKlJ9TYPE4eqaqQ1j0_qA",
+      "source": "百度AI",
+      "time": "2026-08-01T09:20:38.035455+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] 百度AI动态，AI技术先行者",
+      "date": "8月1日",
+      "dateSort": "2026-08-01",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "650ffbee1374",
+      "title": "Google I/O 2024：开启新一代的 I/O",
+      "url": "https://mp.weixin.qq.com/s/aMPFWhkEYrovt5bw_gK5mg",
+      "source": "Google Gemini",
+      "time": "2026-08-01T09:20:38.035455+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] Google Gemini动态，全球AI竞赛最新进展",
+      "date": "8月1日",
+      "dateSort": "2026-08-01",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "e30db17c048f",
+      "title": "国务院国资委：深化央企“人工智能+”专项行动，因企制宜培育新兴产业和未来产业",
+      "url": "https://36kr.com/newsflashes/3919556554305154?f=rss",
+      "source": "36氪",
+      "time": "2026-07-31T20:59:06+08:00",
+      "summary": "36氪获悉，7月31日，国务院国资委党委召开扩大会议。会议强调，要指导中央企业主动对接和带头落实好国家政策，抓住重点、主动作为，充分发挥引领带动作用，更好助推经济持续向新向优向好发展。要锚定全年目标不动摇，切实加强现场督导调研，把中央企业生产经营情况摸清摸透，找准痛点、对症下药，夯实企业高质量发展基础。要着力推进原始创新和关键核心技术攻关，以更大力度加强基础研究，深化央企“人工智能+”专项行动，因",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "餐饮趋势",
+        "AI/数字化",
+        "餐饮创新"
+      ],
+      "score": 50,
+      "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
+      "date": "7月31日",
+      "dateSort": "2026-07-31",
+      "timeDisplay": "20:59"
+    },
+    {
+      "id": "96cc7ee1e2ca",
+      "title": "氪星晚报 ｜Prada集团上半年营收增长16%，Miu Miu增速显著放缓；浪潮数据发布自研AI数据操作系统",
+      "url": "https://36kr.com/p/3919378312670857?f=rss",
+      "source": "36氪",
+      "time": "2026-07-31T18:01:34+08:00",
+      "summary": "大公司：途牛：8月中上旬或将迎新一轮客流高峰36氪获悉，进入8月后，学生假期仍有充足余量，亲子游、避暑游、海滨海岛游等需求持续释放，预计将在8月中上旬迎来新一轮客流高峰。途牛截至目前最新预订数据显示，暑期后半程，上海、北京、成都、三亚、广州、南京、贵阳、杭州、重庆、青岛等目的地预计将成为途牛境内游用户更为热门的选择。Prada集团上半年营收增长16%，Miu Miu增速显著放缓2026年上半年，P",
+      "image": "",
+      "category": "数据报告",
+      "tags": [
+        "餐饮趋势",
+        "AI/数字化",
+        "报告/数据"
+      ],
+      "score": 55,
+      "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
+      "date": "7月31日",
+      "dateSort": "2026-07-31",
+      "timeDisplay": "18:01"
+    },
+    {
+      "id": "6c70f4bfda93",
+      "title": "开云的转折：在中国，做一个AI乐观派",
+      "url": "https://36kr.com/p/3919225763540611?f=rss",
+      "source": "36氪",
+      "time": "2026-07-31T16:58:59+08:00",
+      "summary": "作者 |谢芸子 黄绎达编辑 |张帆开云的转型初见成效。7月28日，法国开云集团Kering发布2026年上半年财报，实现营收72.2亿欧元，可比口径下同比增长1%。更关键的信号藏在第二季度——单季营收36.52亿欧元，同比增长2%。在中东局势仍不明朗、全球消费进入下行周期的情况下，开云实现三年来的首次单季度正增长。其中，核心品牌古驰Gucci第二季度的营收14.1亿欧元，同比降幅从第一季度的8%收",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [
+        "餐饮趋势",
+        "品牌动态",
+        "AI/数字化"
+      ],
+      "score": 50,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "7月31日",
+      "dateSort": "2026-07-31",
+      "timeDisplay": "16:58"
+    },
+    {
+      "id": "4191b4131d00",
+      "title": "最前线｜创客工具赛道升温，国内首个Maker Tool行业联盟成立",
+      "url": "https://36kr.com/p/3919301778288261?f=rss",
+      "source": "36氪",
+      "time": "2026-07-31T16:40:43+08:00",
+      "summary": "文｜张子怡编辑｜袁斯来随着3D打印、激光雕刻、桌面CNC等数字化制造工具逐渐从专业领域走向消费市场，一个过去相对小众的硬件赛道正加速成长。前不久，全球支付平台PingPong联合产业链企业发起国内首个Maker Tool（创客工具）行业联盟，并发布《创客经济新纪元：Maker Tool行业全景解析白皮书》，希望通过产业协同、渠道和资金服务，推动中国创客工具品牌拓展海外市场。Maker Tool通常",
+      "image": "",
+      "category": "数据报告",
+      "tags": [
+        "餐饮趋势",
+        "品牌动态",
+        "AI/数字化"
+      ],
+      "score": 40,
+      "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
+      "date": "7月31日",
+      "dateSort": "2026-07-31",
+      "timeDisplay": "16:40"
+    },
+    {
+      "id": "0e8a791dc958",
+      "title": "2026商业特许经营发展大会圆满落幕，包道分享连锁餐饮韧性增长之道",
+      "url": "https://www.canyin88.com/zixun/2026/07/31/112752.html",
+      "source": "红餐网",
+      "time": "2026-07-31T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-31 17:13:28来源：红餐网1064",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [
+        "餐饮趋势"
+      ],
+      "score": 65,
+      "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
+      "date": "7月31日",
+      "dateSort": "2026-07-31",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "04ece8e8a6b3",
+      "title": "茶咖内卷风向大变！开始流行拼杯子、拼吸管",
+      "url": "https://www.canyin88.com/zixun/2026/07/31/112751.html",
+      "source": "红餐网",
+      "time": "2026-07-31T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-31 17:04:51来源：红餐网980",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月31日",
+      "dateSort": "2026-07-31",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "330e1db3b236",
+      "title": "你做的菜够不够旺？这场比赛一验便知！",
+      "url": "https://www.canyin88.com/zixun/2026/07/31/112744.html",
+      "source": "红餐网",
+      "time": "2026-07-31T12:00:00+08:00",
+      "summary": "红餐编辑·2026-07-31 10:07:58来源：红餐网1312",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月31日",
+      "dateSort": "2026-07-31",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "10837003e0d1",
+      "title": "星巴克2026财年Q3净利润达10.45亿美元；泡泡玛特考虑进入欧美开烘焙店",
+      "url": "https://www.canyin88.com/zixun/2026/07/31/112743.html",
+      "source": "红餐网",
+      "time": "2026-07-31T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-31 09:47:31来源：红餐网1016",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月31日",
+      "dateSort": "2026-07-31",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "c00cba5fd684",
+      "title": "排队两小时限购2个，一个馒头把青岛地铁“烤”红了",
+      "url": "https://www.canyin88.com/zixun/2026/07/31/112742.html",
+      "source": "红餐网",
+      "time": "2026-07-31T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-31 09:35:56来源：红餐网1373",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月31日",
+      "dateSort": "2026-07-31",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "3623f168e1b8",
+      "title": "涨价的魏家凉皮，不想只当一家凉皮店了",
+      "url": "https://www.canyin88.com/zixun/2026/07/31/112741.html",
+      "source": "红餐网",
+      "time": "2026-07-31T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-31 09:15:53来源：红餐网1304",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月31日",
+      "dateSort": "2026-07-31",
+      "timeDisplay": "12:00"
+    },
+    {
+      "id": "ed7e62f52a64",
+      "title": "袁记食品二次递表，2025年GMV达66.62亿元",
+      "url": "https://www.canyin88.com/kuaixun/2026/0731/112745.html",
+      "source": "红餐网",
+      "time": "2026-07-31T12:00:00+08:00",
+      "summary": "红餐编辑部·2026-07-31 11:28:30来源：红餐网1238",
+      "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
+      "date": "7月31日",
+      "dateSort": "2026-07-31",
+      "timeDisplay": "12:00"
+    },
     {
       "id": "2032392ac5d4",
       "title": "36氪联合PureblueAI清蓝发布第二期「2026消费品牌AI推荐力名册」",
@@ -15,7 +293,7 @@
         "品牌动态",
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 50,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -33,7 +311,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 80,
+      "score": 55,
       "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -51,7 +329,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 50,
       "reason": "[AI] OpenAI在AI领域又有新动作，如果你关注AI怎么落地餐饮场景，这篇能给你一些启发",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -69,7 +347,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 70,
+      "score": 45,
       "reason": "[AI] AI Agent正在改变各行业，餐饮也不例外，提前了解趋势总没错",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -87,7 +365,7 @@
       "tags": [
         "营销/运营"
       ],
-      "score": 60,
+      "score": 30,
       "reason": "[TREND] 运营干货，会员运营和私域是你日常工作的一部分，看看别人怎么做的",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -105,7 +383,7 @@
       "tags": [
         "外卖/平台"
       ],
-      "score": 55,
+      "score": 25,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -125,7 +403,7 @@
         "餐饮创新",
         "出海"
       ],
-      "score": 70,
+      "score": 40,
       "reason": "[MONEY] 微软的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -145,7 +423,7 @@
         "品牌动态",
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 65,
       "reason": "[MONEY] OpenAI的上市动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
       "date": "7月30日",
       "dateSort": "2026-07-30",
@@ -165,7 +443,7 @@
         "AI/数字化",
         "餐饮创新"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "7月30日",
       "dateSort": "2026-07-30",
@@ -185,7 +463,7 @@
         "餐饮创新",
         "出海"
       ],
-      "score": 40,
+      "score": 35,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月30日",
       "dateSort": "2026-07-30",
@@ -201,7 +479,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月30日",
       "dateSort": "2026-07-30",
@@ -220,7 +498,7 @@
         "供应链",
         "报告/数据"
       ],
-      "score": 60,
+      "score": 55,
       "reason": "[DATA] 餐饮行业最新数据报告，如果你在做会员运营或者品牌策略，数据比感觉靠谱",
       "date": "7月30日",
       "dateSort": "2026-07-30",
@@ -238,7 +516,7 @@
       "tags": [
         "餐饮趋势"
       ],
-      "score": 60,
+      "score": 55,
       "reason": "[DATA] 餐饮行业最新数据报告，如果你在做会员运营或者品牌策略，数据比感觉靠谱",
       "date": "7月30日",
       "dateSort": "2026-07-30",
@@ -257,7 +535,7 @@
         "品牌动态",
         "供应链"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月30日",
       "dateSort": "2026-07-30",
@@ -276,7 +554,7 @@
         "餐饮趋势",
         "品牌动态"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月30日",
       "dateSort": "2026-07-30",
@@ -292,7 +570,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月30日",
       "dateSort": "2026-07-30",
@@ -311,7 +589,7 @@
         "餐饮趋势",
         "品牌动态"
       ],
-      "score": 60,
+      "score": 55,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月30日",
       "dateSort": "2026-07-30",
@@ -327,7 +605,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月30日",
       "dateSort": "2026-07-30",
@@ -346,7 +624,7 @@
         "餐饮趋势",
         "品牌动态"
       ],
-      "score": 45,
+      "score": 40,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月30日",
       "dateSort": "2026-07-30",
@@ -366,7 +644,7 @@
         "AI/数字化",
         "报告/数据"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "7月30日",
       "dateSort": "2026-07-30",

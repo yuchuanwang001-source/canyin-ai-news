@@ -1,7 +1,101 @@
 {
-  "updated": "2026-08-01T09:47:38.034604+08:00",
-  "articleCount": 848,
+  "updated": "2026-08-02T09:20:20.943919+08:00",
+  "articleCount": 853,
   "articles": [
+    {
+      "id": "a836e3da2b02",
+      "title": "如何让自己变得让人工智能永远也无法取代",
+      "url": "https://www.36kr.com/p/3889181574625798",
+      "source": "36氪AI",
+      "time": "2026-08-02T09:21:00+08:00",
+      "summary": "这5项技能将决定你的未来",
+      "image": "https://img.36krcdn.com/hsossms/20260710/v2_20321e7ccdfb46799910cd8ee3803f84@1694@ai_oswg706952oswg1053oswg495_img_png~tplv-1marlgjv7f-ai-v3:600:400:600:400:q70.jpg",
+      "category": "AI动态",
+      "tags": [
+        "餐饮趋势",
+        "AI/数字化"
+      ],
+      "score": 75,
+      "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
+      "date": "8月2日",
+      "dateSort": "2026-08-02",
+      "timeDisplay": "09:21"
+    },
+    {
+      "id": "a4943589744e",
+      "title": "AI大厂，打起了“Token 奶茶大战”",
+      "url": "https://www.36kr.com/p/3920563948852870",
+      "source": "36氪AI",
+      "time": "2026-08-02T09:20:54+08:00",
+      "summary": "模型越来越“像”，得留存者得天下",
+      "image": "https://img.36krcdn.com/hsossms/20260801/v2_c54d4aada4734354a207861006d81a88@000000_oswg57270oswg940oswg399_img_000?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+      "category": "餐饮动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 75,
+      "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
+      "date": "8月2日",
+      "dateSort": "2026-08-02",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "36bcdd8d4949",
+      "title": "2025中国餐饮连锁化发展白皮书：中国餐饮连锁化率已达23%",
+      "url": "https://mp.weixin.qq.com/s/ezqduNw4lRxtkpyytaph0Q",
+      "source": "美团餐饮观察",
+      "time": "2026-08-02T09:20:20.943919+08:00",
+      "summary": "",
+      "image": "",
+      "category": "平台政策",
+      "tags": [
+        "餐饮趋势",
+        "报告/数据"
+      ],
+      "score": 60,
+      "reason": "[DATA] 餐饮行业最新数据报告，如果你在做会员运营或者品牌策略，数据比感觉靠谱",
+      "date": "8月2日",
+      "dateSort": "2026-08-02",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "90982318df44",
+      "title": "OpenAI 时间表公开：2026-2028，打法彻底换了",
+      "url": "https://mp.weixin.qq.com/s/U4MK6HSLMwgD0sqkOH5h1g",
+      "source": "OpenAI",
+      "time": "2026-08-02T09:20:20.943919+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] OpenAI最新动态，AI技术迭代影响每一个行业",
+      "date": "8月2日",
+      "dateSort": "2026-08-02",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "ba01f2c60069",
+      "title": "印度央行：印度引资举措吸引超400亿美元外资",
+      "url": "https://36kr.com/newsflashes/3920583946186368?f=rss",
+      "source": "36氪",
+      "time": "2026-08-01T16:00:06+08:00",
+      "summary": "印度积极吸引海外资本，自6月以来已引入资金超400亿美元，充实印度央行外汇储备。当前国际原油价格走高，印度政策制定者正借此稳定卢比汇率。 印度央行周六公布的数据显示，截至7月31日，非居民外币存款吸纳资金规模达3672亿美元。叠加海外外币借款与境外商业借款流入资金，引资总额约410亿美元。印度央行行长桑杰・马尔霍特拉本周接受采访时向投资者安抚卢比前景。他表示，卢比近期走弱源于地缘冲突、美元走强以及",
+      "image": "",
+      "category": "数据报告",
+      "tags": [
+        "AI/数字化",
+        "出海",
+        "资本/投融资"
+      ],
+      "score": 50,
+      "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
+      "date": "8月1日",
+      "dateSort": "2026-08-01",
+      "timeDisplay": "16:00"
+    },
     {
       "id": "9e80e1f6eeb7",
       "title": "当爱马仕CEO开始关心中国猪肉价格",
@@ -14,7 +108,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 70,
+      "score": 45,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "8月1日",
       "dateSort": "2026-08-01",
@@ -30,7 +124,7 @@
       "image": "",
       "category": "平台政策",
       "tags": [],
-      "score": 55,
+      "score": 30,
       "reason": "[R] 美团官方餐饮观察，平台风向早知道",
       "date": "8月1日",
       "dateSort": "2026-08-01",
@@ -46,7 +140,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 55,
+      "score": 30,
       "reason": "[R] 阿里巴巴AI动态，大厂布局影响行业走向",
       "date": "8月1日",
       "dateSort": "2026-08-01",
@@ -64,7 +158,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 35,
       "reason": "[R] 百度AI动态，AI技术先行者",
       "date": "8月1日",
       "dateSort": "2026-08-01",
@@ -80,7 +174,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 55,
+      "score": 30,
       "reason": "[R] Google Gemini动态，全球AI竞赛最新进展",
       "date": "8月1日",
       "dateSort": "2026-08-01",
@@ -100,7 +194,7 @@
         "AI/数字化",
         "餐饮创新"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -120,7 +214,7 @@
         "AI/数字化",
         "报告/数据"
       ],
-      "score": 55,
+      "score": 50,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -140,7 +234,7 @@
         "品牌动态",
         "AI/数字化"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -160,7 +254,7 @@
         "品牌动态",
         "AI/数字化"
       ],
-      "score": 40,
+      "score": 35,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -178,7 +272,7 @@
       "tags": [
         "餐饮趋势"
       ],
-      "score": 65,
+      "score": 60,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -194,7 +288,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -210,7 +304,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -226,7 +320,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -242,7 +336,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -258,7 +352,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月31日",
       "dateSort": "2026-07-31",
@@ -274,7 +368,7 @@
       "image": "https://www.canyin88.com/web/pc/images/index/more-down.png?1.4.29",
       "category": "餐饮动态",
       "tags": [],
-      "score": 55,
+      "score": 50,
       "reason": "[R] 红餐网报道，作为餐饮行业头部媒体，他们的内容对了解行业风向很有帮助",
       "date": "7月31日",
       "dateSort": "2026-07-31",

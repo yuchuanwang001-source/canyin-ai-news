@@ -1,7 +1,77 @@
 {
-  "updated": "2026-08-02T09:20:20.943919+08:00",
-  "articleCount": 853,
+  "updated": "2026-08-02T09:47:33.083190+08:00",
+  "articleCount": 857,
   "articles": [
+    {
+      "id": "518b4602c8e8",
+      "title": "餐饮O2O经营模式有几种？餐饮O2O适合哪些企业？",
+      "url": "https://zhuanlan.zhihu.com/p/31317177",
+      "source": "餐饮O2O",
+      "time": "2026-08-02T09:47:33.083190+08:00",
+      "summary": "",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [],
+      "score": 60,
+      "reason": "[R] 餐饮O2O聚焦餐饮互联网，跟你的工作方向很匹配",
+      "date": "8月2日",
+      "dateSort": "2026-08-02",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "228e7ed7f278",
+      "title": "自由读— 一餐饮O2O和外卖O2O介绍",
+      "url": "https://www.bracebook.com.cn/web/freeReadAction_view.action?id=0801a56a-dc60-4a72-a956-432b2b482dc9",
+      "source": "餐饮O2O",
+      "time": "2026-08-02T09:47:33.083190+08:00",
+      "summary": "",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [
+        "外卖/平台"
+      ],
+      "score": 60,
+      "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
+      "date": "8月2日",
+      "dateSort": "2026-08-02",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "268aa1fccfe3",
+      "title": "餐饮O2O、外卖O2O、O2O订餐平台等电商资讯",
+      "url": "https://www.ebrun.com/o2o/catering",
+      "source": "餐饮O2O",
+      "time": "2026-08-02T09:47:33.083190+08:00",
+      "summary": "",
+      "image": "",
+      "category": "餐饮动态",
+      "tags": [
+        "外卖/平台"
+      ],
+      "score": 60,
+      "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
+      "date": "8月2日",
+      "dateSort": "2026-08-02",
+      "timeDisplay": "09:47"
+    },
+    {
+      "id": "0532eb10e45d",
+      "title": "AI 机器人正在「占领」餐饮界，炒菜比肩大厨，打饭比食堂阿姨还稳",
+      "url": "https://mp.weixin.qq.com/s/T_sXFlBJFCMr2WokUtCn4w",
+      "source": "人工智能餐饮",
+      "time": "2026-08-02T09:47:33.083190+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] AI+餐饮交叉领域，关注技术如何落地餐饮场景",
+      "date": "8月2日",
+      "dateSort": "2026-08-02",
+      "timeDisplay": "09:47"
+    },
     {
       "id": "a836e3da2b02",
       "title": "如何让自己变得让人工智能永远也无法取代",
@@ -108,7 +178,7 @@
       "tags": [
         "品牌动态"
       ],
-      "score": 45,
+      "score": 40,
       "reason": "[FD] 这个品牌的最新动态，关注竞品在做什么，比闭门造车强得多",
       "date": "8月1日",
       "dateSort": "2026-08-01",
@@ -124,7 +194,7 @@
       "image": "",
       "category": "平台政策",
       "tags": [],
-      "score": 30,
+      "score": 25,
       "reason": "[R] 美团官方餐饮观察，平台风向早知道",
       "date": "8月1日",
       "dateSort": "2026-08-01",
@@ -140,7 +210,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 30,
+      "score": 25,
       "reason": "[R] 阿里巴巴AI动态，大厂布局影响行业走向",
       "date": "8月1日",
       "dateSort": "2026-08-01",
@@ -158,7 +228,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 35,
+      "score": 30,
       "reason": "[R] 百度AI动态，AI技术先行者",
       "date": "8月1日",
       "dateSort": "2026-08-01",
@@ -174,7 +244,7 @@
       "image": "",
       "category": "AI动态",
       "tags": [],
-      "score": 30,
+      "score": 25,
       "reason": "[R] Google Gemini动态，全球AI竞赛最新进展",
       "date": "8月1日",
       "dateSort": "2026-08-01",

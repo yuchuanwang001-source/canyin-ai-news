@@ -1,7 +1,95 @@
 {
-  "updated": "2026-08-02T09:47:33.083190+08:00",
-  "articleCount": 857,
+  "updated": "2026-08-03T09:20:24.654436+08:00",
+  "articleCount": 862,
   "articles": [
+    {
+      "id": "3eb1c3b11e3a",
+      "title": "大众点评，不能再吃独食了",
+      "url": "https://mp.weixin.qq.com/s/2Nqlc7GbA-1a_WVb2KRBQg",
+      "source": "美团餐饮观察",
+      "time": "2026-08-03T09:20:24.654436+08:00",
+      "summary": "",
+      "image": "",
+      "category": "平台政策",
+      "tags": [],
+      "score": 55,
+      "reason": "[R] 美团官方餐饮观察，平台风向早知道",
+      "date": "8月3日",
+      "dateSort": "2026-08-03",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "e071f87a3f59",
+      "title": "太争气了！百度的底气，李彦宏的决心：3万卡国产自研集群；一口气九个重磅发布，全方位支持MCP，百度在大模型应用时代的出招与押注",
+      "url": "https://mp.weixin.qq.com/s/fEEQ0PwoFIgWIQki00H-Cg",
+      "source": "百度AI",
+      "time": "2026-08-03T09:20:24.654436+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [],
+      "score": 60,
+      "reason": "[AI] 大模型又迭代了，虽然看起来是技术新闻，但AI对餐饮运营的影响比你想象的要快",
+      "date": "8月3日",
+      "dateSort": "2026-08-03",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "6c2b3dd9278a",
+      "title": "【全程回顾】OpenAI 首届开发者大会",
+      "url": "https://mp.weixin.qq.com/s/cjcqzVZ0JCGaZSoEbvETpQ",
+      "source": "OpenAI",
+      "time": "2026-08-03T09:20:24.654436+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] OpenAI最新动态，AI技术迭代影响每一个行业",
+      "date": "8月3日",
+      "dateSort": "2026-08-03",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "b6c17652a5d9",
+      "title": "OpenAI一夜干翻语音助手！GPT-4o模型强到恐怖，ChatGPT学会看屏幕，现实版Her来了",
+      "url": "https://mp.weixin.qq.com/s/ugdh4qqlByDsgXIONb8nLg",
+      "source": "OpenAI",
+      "time": "2026-08-03T09:20:24.654436+08:00",
+      "summary": "",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "AI/数字化"
+      ],
+      "score": 60,
+      "reason": "[R] OpenAI最新动态，AI技术迭代影响每一个行业",
+      "date": "8月3日",
+      "dateSort": "2026-08-03",
+      "timeDisplay": "09:20"
+    },
+    {
+      "id": "c353354e3a5c",
+      "title": "让Agent在协作中自进化，清华00后博士获千万元融资 | 36氪首发",
+      "url": "https://36kr.com/p/3919025939246727?f=rss",
+      "source": "36氪",
+      "time": "2026-08-03T08:10:16+08:00",
+      "summary": "文 | 赵京娜访谈 编辑 | 海若镜36氪获悉，近日奇点逃逸完成千万级种子轮融资，由星连资本与水木创投联合领投，奇绩创坛跟投。其正在研发AI原生团队协作操作系统Nexus，让人、Agent、任务、知识和工具基于同一份组织状态持续协作，并让系统从每一次协作中有证据地变强。奇点逃逸创始人兼CEO薛传奕，本科、博士阶段均在清华大学就读，研究方向覆盖强化学习与多智能体，曾以第一作者身份在NeurIPS、C",
+      "image": "",
+      "category": "AI动态",
+      "tags": [
+        "品牌动态",
+        "AI/数字化",
+        "资本/投融资"
+      ],
+      "score": 75,
+      "reason": "[MONEY] 这家公司的融资动态，如果你是餐饮从业者或者关注行业资本流向，这信息值得留意",
+      "date": "8月3日",
+      "dateSort": "2026-08-03",
+      "timeDisplay": "08:10"
+    },
     {
       "id": "518b4602c8e8",
       "title": "餐饮O2O经营模式有几种？餐饮O2O适合哪些企业？",
@@ -12,7 +100,7 @@
       "image": "",
       "category": "餐饮动态",
       "tags": [],
-      "score": 60,
+      "score": 35,
       "reason": "[R] 餐饮O2O聚焦餐饮互联网，跟你的工作方向很匹配",
       "date": "8月2日",
       "dateSort": "2026-08-02",
@@ -30,7 +118,7 @@
       "tags": [
         "外卖/平台"
       ],
-      "score": 60,
+      "score": 35,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "8月2日",
       "dateSort": "2026-08-02",
@@ -48,7 +136,7 @@
       "tags": [
         "外卖/平台"
       ],
-      "score": 60,
+      "score": 35,
       "reason": "[POLICY] 平台规则有变化，直接影响到你帮品牌做运营的实际操作，建议仔细看看",
       "date": "8月2日",
       "dateSort": "2026-08-02",
@@ -66,7 +154,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 35,
       "reason": "[R] AI+餐饮交叉领域，关注技术如何落地餐饮场景",
       "date": "8月2日",
       "dateSort": "2026-08-02",
@@ -85,7 +173,7 @@
         "餐饮趋势",
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 50,
       "reason": "[AI] AI行业新动向，对于正在用AI做餐饮运营的你，保持信息同步很重要",
       "date": "8月2日",
       "dateSort": "2026-08-02",
@@ -103,7 +191,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 75,
+      "score": 50,
       "reason": "[R] 36氪AI频道推荐，科技和餐饮的交叉点越来越多，保持关注",
       "date": "8月2日",
       "dateSort": "2026-08-02",
@@ -122,7 +210,7 @@
         "餐饮趋势",
         "报告/数据"
       ],
-      "score": 60,
+      "score": 30,
       "reason": "[DATA] 餐饮行业最新数据报告，如果你在做会员运营或者品牌策略，数据比感觉靠谱",
       "date": "8月2日",
       "dateSort": "2026-08-02",
@@ -140,7 +228,7 @@
       "tags": [
         "AI/数字化"
       ],
-      "score": 60,
+      "score": 30,
       "reason": "[R] OpenAI最新动态，AI技术迭代影响每一个行业",
       "date": "8月2日",
       "dateSort": "2026-08-02",
@@ -160,7 +248,7 @@
         "出海",
         "资本/投融资"
       ],
-      "score": 50,
+      "score": 45,
       "reason": "[DATA] 行业报告出炉，做运营离不开数据支撑，这篇值得存下来慢慢看",
       "date": "8月1日",
       "dateSort": "2026-08-01",
